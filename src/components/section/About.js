@@ -14,6 +14,12 @@ const About = () => {
                 <p className="lead about-text">
                     {about.paragraph}  
                 </p>
+                <p className="lead ">⦿ Senior Mobile App Developer at CloudMedx New York | New Jersey | US.</p>
+                <p className="lead ">⦿ Senior Flutter Developer at TransData Lahore.</p>
+                <p className="lead ">⦿ Ex Senior Flutter Developer at Absolute Solutions Lahore & US & KSA.</p>
+                <p className="lead ">⦿ Ex Senior Flutter Developer at AllianceTech Pvt. Ltd Lahore & UK. </p>
+                <p className="lead ">⦿ Ex Flutter Developer Red Code at Technologies Lahore.</p>
+
             </div>
             </div>
             <div id="Skills"> 
