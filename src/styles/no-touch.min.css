@@ -111,7 +111,10 @@ button:focus {
 }
 .about-text {
   width: 100%;
-  padding: 2%;
+  padding: 1% 0;
+  line-height: 1.8;
+  text-align: justify;
+  font-size: 1.1rem;
 }
 .red-line {
   color: var(--primary-color);
@@ -119,10 +122,11 @@ button:focus {
 }
 .About-title-box {
   box-sizing: border-box;
-  width: 50%;
+  width: 100%;
+  max-width: 400px;
   padding-bottom: 5px;
   border-bottom: solid 2px var(--primary-color);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .skill__square {
   display: inline;
@@ -344,11 +348,21 @@ textarea:focus {
 }
 .gtp {
   position: fixed;
-  left: 92%;
-  height: 150px;
-  top: 82%;
+  right: 2%;
+  bottom: 2%;
+  width: 80px;
+  height: 80px;
   z-index: 1002;
-  cursor: crosshair;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(2, 86, 155, 0.4);
+  transition: all 0.3s ease;
+  object-fit: cover;
+  border: 3px solid var(--primary-color);
+}
+.gtp:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 30px rgba(2, 86, 155, 0.6);
 }
 .see {
   background-color: var(--primary-color);
@@ -434,7 +448,8 @@ input:checked + .slider:before {
 .line-1 {
   position: relative;
   top: 12%;
-  width: 12em;
+  width: fit-content;
+  max-width: 90%;
   margin: 0 auto;
   border-right: 2px solid rgba(25, 25, 25, 0.75);
   font-size: 180%;
@@ -443,10 +458,11 @@ input:checked + .slider:before {
   overflow: hidden;
   transform: translateY(-50%);
   font-family: "Anonymous Pro", monospace !important;
+  padding-right: 2px;
 }
 .anim-typewriter {
-  animation: typewriter 4s steps(27) 1s 1 normal both,
-    blinkTextCursor 0.5s steps(27) infinite normal;
+  animation: typewriter 4s steps(100) 1s 1 normal both,
+    blinkTextCursor 0.5s steps(100) infinite normal;
 }
 .parallax {
   background-image: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -456,7 +472,7 @@ input:checked + .slider:before {
     width: 0;
   }
   to {
-    width: 15em;
+    width: 100%;
   }
 }
 @keyframes blinkTextCursor {

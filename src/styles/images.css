@@ -1,43 +1,79 @@
 
 /* Add your profile image here */
 .Photo{
-    background-image: url('https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('https://avatars.githubusercontent.com/u/36890044?v=4');
 }
 /* Projects Photo */
 .project1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+one');
-    cursor: none;    
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    cursor: pointer;    
 }
 .project2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+two');
-    cursor: none;
+    background-image: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    cursor: pointer;
 }
 .project3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+three');
-    cursor: none;
+    background-image: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    cursor: pointer;
 }
 .project4{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+four');
-    cursor: none;
+    background-image: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    cursor: pointer;
 }
 .project5{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+five');
-    cursor: none;
+    background-image: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    cursor: pointer;
 }
 .project6{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
-    cursor: none;
+    background-image: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+    cursor: pointer;
+}
+.project7{
+    background-image: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    cursor: pointer;
+}
+.project8{
+    background-image: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    cursor: pointer;
+}
+.project9{
+    background-image: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    cursor: pointer;
+}
+.project10{
+    background-image: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+    cursor: pointer;
+}
+.project11{
+    background-image: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+    cursor: pointer;
+}
+.project12{
+    background-image: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
+    cursor: pointer;
 }
 /* Miscelaneous Activities photo */
 .misc1{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
-    cursor: none;
+    background-image: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+    cursor: pointer;
 }
 .misc2{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
-    cursor: none;
+    background-image: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    cursor: pointer;
 }
 .misc3{
-    background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
-    cursor: none;
+    background-image: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);
+    cursor: pointer;
+}
+.misc4{
+    background-image: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+    cursor: pointer;
+}
+.misc5{
+    background-image: linear-gradient(135deg, #fab1a0 0%, #e17055 100%);
+    cursor: pointer;
+}
+.misc6{
+    background-image: linear-gradient(135deg, #81ecec 0%, #00b894 100%);
+    cursor: pointer;
 }

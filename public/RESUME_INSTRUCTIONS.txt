@@ -1,0 +1,16 @@
+RESUME FILE INSTRUCTIONS
+========================
+
+To add your resume to the portfolio:
+
+1. Place your resume PDF file in this folder (public/)
+2. Name it: Shafqat_Nadeem_Resume.pdf
+3. Delete this instruction file
+
+The resume download link is already configured in the "Get in Touch" section.
+When visitors click the download icon, it will download your resume PDF.
+
+Current configuration:
+- File path: /Shafqat_Nadeem_Resume.pdf
+- Configured in: src/profile.js (social.resume field)
+- Download icon location: Contact section, below social media icons
