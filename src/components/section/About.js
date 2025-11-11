@@ -22,7 +22,7 @@ const About = () => {
                     </div>
 
                     <div className="experience-section" style={{ marginTop: '3rem' }}>
-                        <h2 className="pp-head" style={{ marginBottom: '2rem', fontSize: '2rem' }}>
+                        <h2 className="red-line" style={{ marginBottom: '2rem', fontSize: '2rem' }}>
                             {t('about.experience.title')}
                         </h2>
                         <div className="experience-timeline">

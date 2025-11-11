@@ -2,8 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="https://avatars.githubusercontent.com/u/36890044?v=4" type="image/png" />
-    <link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/36890044?v=4" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#02569B" />
     <meta name="description" content="Shafqat Nadeem - Experienced Senior Flutter Engineer with 6+ years of expertise in Flutter, Dart, Android, iOS, and Web development.">
@@ -14,15 +12,31 @@
     <meta name="og:type" content="Portfolio Website">
     <meta name="og:locale" content="en_US">
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/36890044?v=4">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>💙</text></svg>">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="./Bootstrap5.css">
     <script src="https://kit.fontawesome.com/9b271ff51f.js" crossorigin="anonymous"></script>
-    <title>Shafqat Nadeem ..:: Flutter Developer ::..</title>
+    <title>Shafqat Nadeem ..:: Senior Flutter Engineer ::..</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
+  <script>
+    // Animated scrolling title
+    const titleText = "Shafqat Nadeem ..:: Senior Flutter Engineer ::.. ";
+    let titlePosition = 0;
+    
+    function scrollTitle() {
+      document.title = titleText.substring(titlePosition) + titleText.substring(0, titlePosition);
+      titlePosition++;
+      if (titlePosition > titleText.length) {
+        titlePosition = 0;
+      }
+    }
+    
+    setInterval(scrollTitle, 300);
+  </script>
   <script>
 	const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
 	if(darkPref.matches && localStorage.getItem('mode') !== "Light")

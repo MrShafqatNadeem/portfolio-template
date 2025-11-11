@@ -7,21 +7,21 @@ const animation = {
   // if true, animation plays only once when element comes on screen
   once: false,
 };
-// Change your display name on tha landing display
+// Change your display name on the landing display
 const header = {
   name: "Shafqat Nadeem",
-  title: "Experienced Senior Flutter Engineer | Mobile, Android, iOS & Web Development | 6+ Years | 30+ Apps Deployed"
+  title: "Senior Flutter Engineer | Mobile, Android, iOS & Web Development | 6+ Years | 30+ Apps Deployed"
 };
 const background = {
   // Options: Snow or Particle
   type: "Snow",
 };
-// Write a para about yourself here
+// Write a paragraph about yourself here
 // To update your image, go to './styles/images.css'
 const section2title = "Professional Summary";
 const about = {
   paragraph:
-    "Experienced Senior Flutter Engineer with 6+ years of expertise in Flutter, Dart, Android, iOS, and Web development. Proficient in Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs, and GraphQL APIs. Solid knowledge of Python, Node.js, MySQL, and ELK Stack (Elastic Search). Familiar with Robotic Process Automation (RPA) and Selenium.\n\nDeveloped over 30 mobile applications, helping businesses and startups scale successfully. Strong background in CI/CD, CodeMagic, Agile development, and DevOps practices.\n\nBachelor of Science in Computer Science from University of Sargodha, Lahore Campus (2015-2019)."
+    "Senior Flutter Engineer with 6+ years of expertise in Flutter, Dart, Android, iOS, and Web development. Proficient in Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs, and GraphQL APIs. Solid knowledge of Python, Node.js, MySQL, and ELK Stack (Elasticsearch). Familiar with Robotic Process Automation (RPA) and Selenium.\n\nDeveloped over 30 mobile applications, helping businesses and startups scale successfully. Strong background in CI/CD, CodeMagic, Agile development, and DevOps practices.\n\nBachelor of Science in Computer Science from University of Sargodha, Lahore Campus (2015-2019)."
 };
 
 // Professional Experience with LinkedIn-style data

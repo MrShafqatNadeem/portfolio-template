@@ -48,6 +48,15 @@
     border-radius: 2px;
 }
 
+/* Red line without the underline bar */
+.red-line-no-bar {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+}
+
 .pp-head, .git-head {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
     -webkit-background-clip: text;
@@ -723,6 +732,22 @@
     color: #ccc;
 }
 
+.dark-mode .hire-cta h3 {
+    color: #f0f0f0;
+}
+
+.dark-mode .hire-subtitle,
+.dark-mode .services-title,
+.dark-mode .pricing-title,
+.dark-mode .service-card h4 {
+    color: var(--hover-color);
+}
+
+.dark-mode .pricing-header h4,
+.dark-mode .pricing-rate {
+    color: var(--hover-color);
+}
+
 .dark-mode .pricing-card {
     background: rgba(30, 30, 30, 0.9);
     border-color: rgba(2, 86, 155, 0.3);
@@ -997,5 +1022,900 @@
     .experience-company {
         font-size: 0.95rem;
     }
+}
+
+/* Modern Contact Section - Shadcn Inspired */
+.contact-section-modern {
+    padding: 80px 0;
+    background: linear-gradient(135deg, rgba(2, 86, 155, 0.02) 0%, rgba(1, 117, 194, 0.04) 100%);
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-header {
+    margin-bottom: 60px;
+}
+
+.contact-header .red-line {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.contact-subtitle {
+    font-size: 1.1rem;
+    color: #64748b;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: stretch;
+}
+
+@media (max-width: 991px) {
+    .contact-content {
+        flex-direction: column;
+    }
+}
+
+.contact-form-col,
+.contact-info-col {
+    flex: 1;
+}
+
+.contact-form-col {
+    flex: 1.4;
+}
+
+.contact-info-col {
+    flex: 1;
+}
+
+.modern-card {
+    background: white;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.modern-card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transform: translateY(-4px);
+}
+
+.modern-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-row-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+@media (max-width: 768px) {
+    .form-row-group {
+        grid-template-columns: 1fr;
+    }
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 4px;
+}
+
+.modern-input,
+.modern-textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    background: white;
+    font-family: inherit;
+}
+
+.modern-input:focus,
+.modern-textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(2, 86, 155, 0.1);
+}
+
+.modern-textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.modern-submit-btn {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 32px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 4px 15px rgba(2, 86, 155, 0.3);
+}
+
+.modern-submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(2, 86, 155, 0.4);
+}
+
+.modern-submit-btn:active {
+    transform: translateY(0);
+}
+
+.contact-info-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.info-description {
+    font-size: 1rem;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.social-links-modern {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.social-link-modern {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    text-decoration: none;
+    color: #475569;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.social-link-modern:hover {
+    background: white;
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(2, 86, 155, 0.1);
+}
+
+.social-link-modern i {
+    font-size: 1.25rem;
+    width: 24px;
+    text-align: center;
+}
+
+.social-link-modern.linkedin:hover { border-color: #0077b5; color: #0077b5; }
+.social-link-modern.github:hover { border-color: #333; color: #333; }
+.social-link-modern.twitter:hover { border-color: #1da1f2; color: #1da1f2; }
+.social-link-modern.instagram:hover { border-color: #e1306c; color: #e1306c; }
+.social-link-modern.facebook:hover { border-color: #1877f2; color: #1877f2; }
+
+.resume-download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px 24px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(2, 86, 155, 0.3);
+    margin-top: 8px;
+}
+
+.resume-download-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(2, 86, 155, 0.4);
+    color: white;
+}
+
+/* Dark Mode Support for Contact Section */
+.dark-mode .contact-section-modern {
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.95) 0%, rgba(30, 30, 30, 0.98) 100%);
+}
+
+.dark-mode .contact-subtitle {
+    color: #cbd5e1;
+}
+
+.dark-mode .modern-card {
+    background: rgba(30, 30, 30, 0.95);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .form-group label {
+    color: #e2e8f0;
+}
+
+.dark-mode .modern-input,
+.dark-mode .modern-textarea {
+    background: rgba(20, 20, 20, 0.8);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
+}
+
+.dark-mode .modern-input:focus,
+.dark-mode .modern-textarea:focus {
+    border-color: var(--hover-color);
+    background: rgba(20, 20, 20, 0.9);
+}
+
+.dark-mode .modern-input::placeholder,
+.dark-mode .modern-textarea::placeholder {
+    color: #8b95a1;
+}
+
+.dark-mode .social-link-modern {
+    background: rgba(20, 20, 20, 0.8);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+}
+
+.dark-mode .social-link-modern:hover {
+    background: rgba(30, 30, 30, 0.9);
+}
+
+.dark-mode .social-link-modern.github:hover {
+    border-color: #e6edf3;
+    color: #e6edf3;
+}
+
+@media (max-width: 992px) {
+    .contact-form-col,
+    .contact-info-col {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-header .red-line {
+        font-size: 2rem;
+    }
+    
+    .modern-card {
+        padding: 24px 20px;
+    }
+    
+    .contact-section-modern {
+        padding: 60px 0;
+    }
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #25d366 0%, #20ba5a 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.4);
+    cursor: pointer;
+    z-index: 999;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0) rotate(-180deg);
+}
+
+.whatsapp-float.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) rotate(0deg);
+}
+
+.whatsapp-float.at-bottom {
+    bottom: 120px;
+    width: 80px;
+    height: 80px;
+    transform: scale(1.2) rotate(360deg);
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 8px 35px rgba(37, 211, 102, 0.5);
+}
+
+.whatsapp-float.at-bottom:hover {
+    transform: scale(1.3) rotate(365deg);
+}
+
+.whatsapp-float:active {
+    transform: scale(0.95) rotate(0deg);
+}
+
+.whatsapp-icon-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp-float i {
+    font-size: 32px;
+    color: white;
+    animation: pulse 2s infinite;
+    transition: font-size 0.3s ease;
+}
+
+.whatsapp-float.at-bottom i {
+    font-size: 42px;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.whatsapp-float::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(37, 211, 102, 0.3);
+    animation: ripple 2s infinite;
+}
+
+@keyframes ripple {
+    0% {
+        width: 100%;
+        height: 100%;
+        opacity: 0.8;
+    }
+    100% {
+        width: 200%;
+        height: 200%;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .whatsapp-float {
+        width: 56px;
+        height: 56px;
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .whatsapp-float.at-bottom {
+        bottom: 100px;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .whatsapp-float i {
+        font-size: 28px;
+    }
+    
+    .whatsapp-float.at-bottom i {
+        font-size: 36px;
+    }
+}
+
+/* Additional Dark Mode Fixes for Text Visibility */
+.dark-mode .project-title {
+    color: var(--hover-color);
+}
+
+.dark-mode .project-info {
+    background: rgba(30, 30, 30, 0.6);
+    color: #e0e0e0;
+}
+
+.dark-mode .about-text,
+.dark-mode .lead {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .info-title,
+.dark-mode .info-description {
+    color: #e0e0e0;
+}
+
+.dark-mode p,
+.dark-mode span,
+.dark-mode .third,
+.dark-mode .parallax {
+    color: #d0d0d0;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+    color: #f0f0f0;
+}
+
+/* Ensure skill icons and SVGs are visible in dark mode */
+.dark-mode .skill__square svg,
+.dark-mode .skill__square i {
+    color: #f0f0f0;
+}
+
+/* Ensure all links are visible in dark mode */
+.dark-mode a {
+    color: #60a5fa;
+}
+
+.dark-mode a:hover {
+    color: #93c5fd;
+}
+
+/* Fix typewriter cursor in dark mode */
+.dark-mode .line-1 {
+    border-right-color: rgba(255, 255, 255, 0.75);
+}
+
+/* Profile Image Hide at Bottom */
+.gtp.hidden-at-bottom {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+}
+
+/* WhatsApp at Bottom Styling */
+.whatsapp-float.at-bottom {
+    bottom: 120px;
+    width: 80px;
+    height: 80px;
+    transform: scale(1) rotate(0deg);
+}
+
+.whatsapp-float.at-bottom:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.whatsapp-float.at-bottom i {
+    font-size: 42px;
+}
+
+/* Hide profile image when at bottom */
+.gtp.hidden-at-bottom {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: scale(0.8);
+}
+
+/* ========================================
+   COMPREHENSIVE DARK MODE IMPLEMENTATION
+   ======================================== */
+
+/* BASE DARK MODE STYLES */
+.dark-mode,
+.dark-mode body {
+    background-color: #0a0a0a !important;
+    color: #e0e0e0 !important;
+}
+
+/* 1. HEADER SECTION */
+.dark-mode .Header {
+    background: #0a0a0a !important;
+}
+
+.dark-mode .Header h1 {
+    color: #ffffff !important;
+}
+
+.dark-mode .Header p {
+    color: #d0d0d0 !important;
+}
+
+.dark-mode .line-1 {
+    border-right-color: rgba(255, 255, 255, 0.75) !important;
+    color: #d0d0d0 !important;
+}
+
+/* 2. ABOUT SECTION */
+.dark-mode .effect2 {
+    background: linear-gradient(135deg, rgba(20, 20, 20, 0.95) 0%, rgba(15, 15, 15, 0.98) 100%) !important;
+    border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5) !important;
+}
+
+.dark-mode .effect2:after,
+.dark-mode .effect2:before {
+    background: rgba(0, 0, 0, 0.8) !important;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.8) !important;
+}
+
+.dark-mode .About-title-box {
+    border-color: var(--hover-color);
+}
+
+.dark-mode .about-text,
+.dark-mode .lead {
+    color: #d0d0d0 !important;
+}
+
+.dark-mode .about-text p {
+    color: #d0d0d0 !important;
+}
+
+/* 3. SKILLS SECTION */
+.dark-mode .skills {
+    background: transparent !important;
+}
+
+.dark-mode #Skills {
+    background: transparent !important;
+}
+
+.dark-mode .skill__square i {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .skill__square svg {
+    color: #e0e0e0 !important;
+    fill: #e0e0e0 !important;
+}
+
+.dark-mode .skill__square h6 {
+    color: #d0d0d0 !important;
+}
+
+.dark-mode .skill__square i:hover,
+.dark-mode .skill__square svg:hover {
+    color: var(--primary-color) !important;
+    fill: var(--primary-color) !important;
+}
+
+/* 4. EXPERIENCE SECTION */
+.dark-mode .experience-section {
+    background: transparent !important;
+}
+
+.dark-mode .red-line {
+    color: var(--hover-color) !important;
+}
+
+/* 5. PROJECTS/WORKS SECTION */
+.dark-mode .third {
+    background: linear-gradient(135deg, rgba(15, 15, 15, 0.9) 0%, rgba(10, 10, 10, 0.95) 100%) !important;
+}
+
+.dark-mode .pp-head,
+.dark-mode .git-head {
+    color: var(--hover-color) !important;
+}
+
+.dark-mode .project-card {
+    background: rgba(20, 20, 20, 0.95) !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5) !important;
+}
+
+.dark-mode .project-card:hover {
+    background: rgba(30, 30, 30, 0.98) !important;
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 12px 40px rgba(2, 86, 155, 0.3) !important;
+}
+
+.dark-mode .project-info {
+    background: rgba(15, 15, 15, 0.8) !important;
+    color: #d0d0d0 !important;
+}
+
+.dark-mode .project-card h2,
+.dark-mode .project-card h3 {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .screenshot-container-wrapper {
+    background: #1a1a1a !important;
+}
+
+/* Dark mode fixes for badges and icons */
+.dark-mode .skill-chip {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(2, 86, 155, 0.4) !important;
+}
+
+.dark-mode .skill-chip:hover {
+    box-shadow: 0 4px 12px rgba(2, 86, 155, 0.6) !important;
+}
+
+.dark-mode .downloads-badge {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 3px 10px rgba(40, 167, 69, 0.5) !important;
+}
+
+.dark-mode .downloads-badge i {
+    color: #ffffff !important;
+}
+
+.dark-mode .category-badge {
+    background: linear-gradient(135deg, #6c757d 0%, #495057 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(108, 117, 125, 0.4) !important;
+}
+
+.dark-mode .category-badge i {
+    color: #ffffff !important;
+}
+
+.dark-mode .rating-badge {
+    background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(255, 193, 7, 0.5) !important;
+}
+
+.dark-mode .rating-badge i {
+    color: #ffffff !important;
+}
+
+.dark-mode .store-link-item {
+    color: #ffffff !important;
+}
+
+.dark-mode .store-link-item i {
+    color: #ffffff !important;
+}
+
+.dark-mode .store-link-item.android {
+    background: linear-gradient(135deg, #3DDC84 0%, #2DB872 100%) !important;
+    color: #ffffff !important;
+}
+
+.dark-mode .store-link-item.ios {
+    background: linear-gradient(135deg, #007AFF 0%, #0051D5 100%) !important;
+    color: #ffffff !important;
+}
+
+.dark-mode .store-link-item.generic {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: #ffffff !important;
+}
+
+/* 6. HIRE SECTION */
+.dark-mode .hire-section {
+    background: linear-gradient(135deg, rgba(10, 10, 10, 0.95) 0%, rgba(15, 15, 15, 0.98) 100%) !important;
+}
+
+.dark-mode .hire-section::before {
+    background: radial-gradient(circle at 20% 50%, rgba(2, 86, 155, 0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(1, 117, 194, 0.15) 0%, transparent 50%) !important;
+}
+
+.dark-mode .service-card {
+    background: rgba(20, 20, 20, 0.8) !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important;
+}
+
+.dark-mode .service-card:hover {
+    background: rgba(30, 30, 30, 0.9) !important;
+}
+
+.dark-mode .service-card h4,
+.dark-mode .service-card p {
+    color: #d0d0d0 !important;
+}
+
+/* 7. CONTACT SECTION */
+.dark-mode .contact-section-modern {
+    background: linear-gradient(135deg, rgba(10, 10, 10, 0.95) 0%, rgba(15, 15, 15, 0.98) 100%) !important;
+}
+
+.dark-mode .parallax {
+    background: linear-gradient(135deg, rgba(10, 10, 10, 0.9) 0%, rgba(15, 15, 15, 0.95) 100%) !important;
+}
+
+.dark-mode .git-form {
+    background-color: rgba(20, 20, 20, 0.95) !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
+}
+
+.dark-mode .git-head-div {
+    border-bottom-color: rgba(255, 255, 255, 0.2) !important;
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .half form input,
+.dark-mode .half form textarea {
+    background-color: rgba(30, 30, 30, 0.9) !important;
+    color: #e0e0e0 !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.dark-mode .half form input:focus,
+.dark-mode .half form textarea:focus {
+    border-color: var(--primary-color) !important;
+}
+
+.dark-mode .half form input::placeholder,
+.dark-mode .half form textarea::placeholder {
+    color: #888 !important;
+}
+
+.dark-mode .half p {
+    color: #d0d0d0 !important;
+}
+
+.dark-mode .Copy {
+    color: #ffffff !important;
+}
+
+.dark-mode .info-description {
+    color: #d0d0d0 !important;
+}
+
+/* 8. BUTTONS */
+.dark-mode .see,
+.dark-mode .see-more-btn,
+.dark-mode .hire-button,
+.dark-mode .modern-submit-btn,
+.dark-mode .select-package-btn {
+    color: #ffffff !important;
+}
+
+.dark-mode .half form button {
+    background-color: var(--primary-color) !important;
+    color: #ffffff !important;
+}
+
+.dark-mode .half form button:hover {
+    background-color: var(--hover-color) !important;
+}
+
+/* 9. LINKS AND ICONS */
+.dark-mode .git-cont .fab,
+.dark-mode .git-cont .fas {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .git-cont .fab:hover {
+    color: var(--primary-color) !important;
+}
+
+.dark-mode .git-cont .fas:hover {
+    color: var(--primary-color) !important;
+}
+
+.dark-mode a {
+    color: #60a5fa !important;
+}
+
+.dark-mode a:hover {
+    color: #93c5fd !important;
+}
+
+/* 10. NAVBAR */
+.dark-mode .navbar {
+    background-color: rgba(10, 10, 10, 0.95) !important;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.8) !important;
+}
+
+.dark-mode .nav-link {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .is-current {
+    color: var(--primary-color) !important;
+}
+
+/* 11. DARK MODE TOGGLE SLIDER */
+.dark-mode .slider {
+    background-color: #fff !important;
+}
+
+.dark-mode input:checked + .slider {
+    background-color: var(--primary-color) !important;
+}
+
+.dark-mode input:checked + .slider:before {
+    background-color: #fff !important;
+}
+
+/* 12. PROGRESS BARS */
+.dark-mode .progress {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.dark-mode .progress-bar {
+    background-color: var(--primary-color) !important;
+}
+
+/* 13. ALL HEADINGS */
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6 {
+    color: #f0f0f0 !important;
+}
+
+/* 14. ALL PARAGRAPHS AND TEXT */
+.dark-mode p,
+.dark-mode span,
+.dark-mode div {
+    color: #d0d0d0;
+}
+
+/* 15. PROFILE IMAGE BUTTON */
+.dark-mode .gtp {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 4px 20px rgba(2, 86, 155, 0.6) !important;
+}
+
+.dark-mode .gtp:hover {
+    box-shadow: 0 6px 30px rgba(2, 86, 155, 0.8) !important;
+}
+
+/* 16. WHATSAPP BUTTON */
+.dark-mode .whatsapp-float {
+    box-shadow: 0 6px 25px rgba(37, 211, 102, 0.6) !important;
+}
+
+/* 17. ENSURE TEXT READABILITY */
+.dark-mode .red-line-no-bar,
+.dark-mode .pp-text,
+.dark-mode .mobile_app_developer {
+    color: var(--hover-color) !important;
 }
 

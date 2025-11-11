@@ -2,12 +2,12 @@
     "header": {
         "name": "Shafqat Nadeem",
         "greeting": "Jag är",
-        "title": "Erfaren Senior Flutter-ingenjör | Mobil, Android, iOS & Webbutveckling | 6+ År | 30+ Appar Distribuerade",
+        "title": "Senior Flutter-ingenjör | Mobil, Android, iOS & Webbutveckling | 6+ År | 30+ Appar Distribuerade",
         "button": "Se Portfölj"
     },
     "about": {
         "title": "Professionell Sammanfattning",
-        "paragraph": "Erfaren Senior Flutter-ingenjör med över 6 års expertis inom Flutter, Dart, Android, iOS och webbutveckling. Kunnig i Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST API:er och GraphQL API:er. Gedigen kunskap om Python, Node.js, MySQL och ELK Stack (Elastic Search). Bekant med robotprocessautomatisering (RPA) och Selenium.\n\nUtvecklat över 30 mobilapplikationer och hjälpt företag och startups att växa framgångsrikt. Stark bakgrund inom CI/CD, CodeMagic, Agil utveckling och DevOps-praktiker.\n\nBachelor of Science i datavetenskap från University of Sargodha, Lahore Campus (2015-2019).",
+        "paragraph": "Senior Flutter-ingenjör med över 6 års expertis inom Flutter, Dart, Android, iOS och webbutveckling. Kunnig i Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST API:er och GraphQL API:er. Gedigen kunskap om Python, Node.js, MySQL och ELK Stack (Elasticsearch). Bekant med robotprocessautomatisering (RPA) och Selenium.\n\nUtvecklat över 30 mobilapplikationer och hjälpt företag och startups att växa framgångsrikt. Stark bakgrund inom CI/CD, CodeMagic, Agil utveckling och DevOps-praktiker.\n\nBachelor of Science i datavetenskap från University of Sargodha, Lahore Campus (2015-2019).",
         "experience": {
             "title": "Professionell Erfarenhet"
         }

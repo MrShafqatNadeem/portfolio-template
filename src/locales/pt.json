@@ -2,12 +2,12 @@
     "header": {
         "name": "Shafqat Nadeem",
         "greeting": "Eu sou",
-        "title": "Engenheiro Flutter Sênior Experiente | Desenvolvimento Mobile, Android, iOS e Web | 6+ Anos | 30+ Apps Implantados",
+        "title": "Engenheiro Flutter Sênior | Desenvolvimento Mobile, Android, iOS e Web | 6+ Anos | 30+ Apps Implantados",
         "button": "Ver Portfólio"
     },
     "about": {
         "title": "Resumo Profissional",
-        "paragraph": "Engenheiro Flutter Senior experiente com mais de 6 anos de expertise em Flutter, Dart, Android, iOS e desenvolvimento Web. Proficiente em Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs e GraphQL APIs. Sólido conhecimento em Python, Node.js, MySQL e ELK Stack (Elastic Search). Familiarizado com Automação Robótica de Processos (RPA) e Selenium.\n\nDesenvolvi mais de 30 aplicações móveis, ajudando empresas e startups a crescer com sucesso. Forte experiência em CI/CD, CodeMagic, desenvolvimento Ágil e práticas DevOps.\n\nBacharelado em Ciência da Computação pela Universidade de Sargodha, Campus Lahore (2015-2019).",
+        "paragraph": "Engenheiro Flutter Sênior com mais de 6 anos de expertise em Flutter, Dart, Android, iOS e desenvolvimento Web. Proficiente em Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs e GraphQL APIs. Sólido conhecimento em Python, Node.js, MySQL e ELK Stack (Elasticsearch). Familiarizado com Automação Robótica de Processos (RPA) e Selenium.\n\nDesenvolvi mais de 30 aplicações móveis, ajudando empresas e startups a crescer com sucesso. Forte experiência em CI/CD, CodeMagic, desenvolvimento Ágil e práticas DevOps.\n\nBacharelado em Ciência da Computação pela Universidade de Sargodha, Campus Lahore (2015-2019).",
         "experience": {
             "title": "Experiência Profissional"
         }

@@ -12,7 +12,7 @@ const Works = () => {
         <div data-aos="zoom-in-up" data-aos-once="true" className="third">
             <>
                 <div className="pp-head-line mx-auto text-center">
-                    <h1 id="Projects" className="red-line pp-head">{t('works.title')}</h1>
+                    <h1 id="Projects" className="red-line-no-bar">{t('works.title')}</h1>
                 </div>
             </>
             <div className="row">

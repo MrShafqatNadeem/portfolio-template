@@ -7,7 +7,7 @@ body {
   background-color: #fff;
 }
 html.dark-mode {
-  background-color: #000;
+  background-color: #0a0a0a;
 }
 button:focus {
   outline: 1px solid #777 !important;
@@ -54,39 +54,24 @@ button:focus {
 .progress-block h2 {
   font-size: x-large;
 }
+/* Dark Mode Base Styles */
 .dark-mode {
-  filter: invert(1) hue-rotate(180deg);
-  -webkit-filter: invert(1) hue-rotate(180deg);
-  -moz-filter: invert(1) hue-rotate(180deg);
+  background-color: #0a0a0a;
+  color: #e0e0e0;
 }
-.inverse-dark {
-  filter: invert(1) hue-rotate(180deg);
-  -webkit-filter: invert(1) hue-rotate(180deg);
-  -moz-filter: invert(1) hue-rotate(180deg);
+.dark-mode body {
+  background-color: #0a0a0a;
+  color: #e0e0e0;
 }
-/* Keep parallax background in original colors */
-.dark-mode .parallax {
-  filter: invert(1) hue-rotate(180deg) !important;
-  -webkit-filter: invert(1) hue-rotate(180deg) !important;
-  -moz-filter: invert(1) hue-rotate(180deg) !important;
-}
-/* Keep all images in their original form - immune to dark mode */
+/* Keep images in their original form */
 .dark-mode img {
-  filter: invert(1) hue-rotate(180deg) !important;
-  -webkit-filter: invert(1) hue-rotate(180deg) !important;
-  -moz-filter: invert(1) hue-rotate(180deg) !important;
+  filter: none !important;
 }
-/* Keep project card background images in original form */
 .dark-mode .img-pro {
-  filter: invert(1) hue-rotate(180deg) !important;
-  -webkit-filter: invert(1) hue-rotate(180deg) !important;
-  -moz-filter: invert(1) hue-rotate(180deg) !important;
+  filter: none !important;
 }
-/* Keep profile photo in original form */
 .dark-mode .Photo {
-  filter: invert(1) hue-rotate(180deg) !important;
-  -webkit-filter: invert(1) hue-rotate(180deg) !important;
-  -moz-filter: invert(1) hue-rotate(180deg) !important;
+  filter: none !important;
 }
 .effect2 {
   position: relative;
@@ -133,6 +118,9 @@ button:focus {
 .Photo.inverse-dark {
   background-color: #000;
 }
+.dark-mode .Photo {
+  background-color: transparent;
+}
 .about-text {
   width: 100%;
   padding: 1% 0;
@@ -140,17 +128,25 @@ button:focus {
   text-align: justify;
   font-size: 1.1rem;
 }
+.dark-mode .about-text {
+  color: #d0d0d0;
+}
 .red-line {
   color: var(--primary-color);
   font-weight: 500;
+}
+.dark-mode .red-line {
+  color: var(--hover-color);
 }
 .About-title-box {
   box-sizing: border-box;
   width: 100%;
   max-width: 400px;
   padding-bottom: 5px;
-  border-bottom: solid 2px var(--primary-color);
   margin-bottom: 20px;
+}
+.dark-mode .About-title-box {
+  border-color: var(--hover-color);
 }
 .skill__square {
   display: inline;
@@ -185,17 +181,32 @@ button:focus {
   padding: 3%;
   justify-content: center;
 }
+.dark-mode .third {
+  background: linear-gradient(135deg, rgba(15, 15, 15, 0.9) 0%, rgba(10, 10, 10, 0.95) 100%);
+}
 .project-card {
   padding: 15px;
   margin-top: 15px;
   box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
   border: 0.5px solid #eee;
 }
+.dark-mode .project-card {
+  background: rgba(20, 20, 20, 0.95);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+.dark-mode .project-card:hover {
+  background: rgba(30, 30, 30, 0.98);
+  border-color: var(--primary-color);
+}
 .project-card h2 {
   color: var(--primary-color);
   margin-top: 10px;
   margin-left: 3%;
   font-weight: 500;
+}
+.dark-mode .project-card h2 {
+  color: var(--hover-color);
 }
 .project-card h2:hover {
   color: var(--hover-color);
@@ -250,6 +261,9 @@ button:focus {
   justify-content: center;
   align-items: center;
 }
+.dark-mode .parallax {
+  background: linear-gradient(135deg, rgba(10, 10, 10, 0.9) 0%, rgba(15, 15, 15, 0.95) 100%);
+}
 .git-form {
   width: 1160px;
   box-sizing: border-box;
@@ -257,6 +271,9 @@ button:focus {
   margin: 3rem 3rem 0 3rem;
   background-color: #fff;
   max-height: 80vh;
+}
+.dark-mode .git-form {
+  background-color: rgba(20, 20, 20, 0.95);
 }
 .git-head-div {
   box-sizing: border-box;
@@ -267,6 +284,10 @@ button:focus {
   color: #000;
   font-weight: 500;
   text-align: center;
+}
+.dark-mode .git-head-div {
+  border-bottom-color: rgba(255, 255, 255, 0.3);
+  color: #e0e0e0;
 }
 .git-cont {
   display: inline-block;
@@ -285,6 +306,12 @@ textarea {
   box-shadow: none;
   border: 1px solid #777;
 }
+.dark-mode .half form input,
+.dark-mode textarea {
+  background-color: rgba(30, 30, 30, 0.9);
+  color: #e0e0e0;
+  border-color: rgba(255, 255, 255, 0.2);
+}
 .half form textarea {
   padding-bottom: 45px;
 }
@@ -294,6 +321,14 @@ textarea:focus {
   outline: 0;
   box-shadow: none;
   border: 1px solid var(--primary-color);
+}
+.dark-mode .half form input:focus,
+.dark-mode textarea:focus {
+  border-color: var(--primary-color);
+}
+.dark-mode .half form input::placeholder,
+.dark-mode textarea::placeholder {
+  color: #888;
 }
 .half form button {
   padding: 10px 15px;
@@ -317,6 +352,9 @@ textarea:focus {
   padding: 3rem 1rem 0 1rem;
   text-align: center;
 }
+.dark-mode .half p {
+  color: #d0d0d0;
+}
 .inline-button {
   display: inline;
   vertical-align: middle;
@@ -333,6 +371,9 @@ textarea:focus {
   color: var(--primary-color);
   transition: 0.5;
 }
+.dark-mode .git-cont .fab {
+  color: var(--hover-color);
+}
 .git-cont .fab:hover {
   color: var(--hover-color);
 }
@@ -346,6 +387,12 @@ textarea:focus {
   color: #000;
   transition: 0.5;
 }
+.dark-mode .git-cont .fas {
+  color: #e0e0e0;
+}
+.dark-mode .git-cont .fas:hover {
+  color: var(--primary-color);
+}
 .navbar {
   width: 100%;
   position: fixed;
@@ -353,8 +400,15 @@ textarea:focus {
   top: 0;
   box-shadow: 0 8px 6px -6px #646464;
 }
+.dark-mode .navbar {
+  background-color: rgba(10, 10, 10, 0.95);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.8);
+}
 .nav-link {
   color: #000 !important;
+}
+.dark-mode .nav-link {
+  color: #e0e0e0 !important;
 }
 .is-current {
   color: var(--primary-color);
@@ -362,10 +416,17 @@ textarea:focus {
   text-decoration-style: solid 3px;
   text-decoration-color: var(--primary-color);
 }
+.dark-mode .is-current {
+  color: var(--hover-color);
+  text-decoration-color: var(--hover-color);
+}
 .Copy {
   color: #fff !important;
   font-weight: 500;
   padding-top: 2%;
+}
+.dark-mode .Copy {
+  color: #ffffff !important;
 }
 .project-name {
   text-decoration: none;
@@ -463,11 +524,54 @@ input:checked + .slider:before {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
+/* Dark mode toggle visibility */
+.dark-mode .slider {
+  background-color: #555 !important;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+.dark-mode input:checked + .slider {
+  background-color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color);
+}
+.dark-mode .slider:before {
+  background-color: #fff !important;
+}
+.dark-mode input:focus + .slider {
+  box-shadow: 0 0 5px var(--primary-color);
+}
 .slider.round {
   border-radius: 34px;
 }
 .slider.round:before {
   border-radius: 50%;
+}
+/* Dark mode toggle icons */
+.slider-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  transition: all 0.4s;
+  z-index: 2;
+  pointer-events: none;
+}
+.sun-icon {
+  left: 9px;
+  color: #f39c12;
+  opacity: 1;
+}
+.moon-icon {
+  left: 9px;
+  color: #2c3e50;
+  opacity: 0;
+}
+input:checked ~ .slider .sun-icon {
+  opacity: 0;
+  left: 35px;
+}
+input:checked ~ .slider .moon-icon {
+  opacity: 1;
+  left: 35px;
 }
 .line-1 {
   position: relative;

@@ -2,12 +2,12 @@
     "header": {
         "name": "Shafqat Nadeem",
         "greeting": "Jeg er",
-        "title": "Erfaren Senior Flutter-ingeniør | Mobil, Android, iOS & Webutvikling | 6+ År | 30+ Apper Distribuert",
+        "title": "Senior Flutter-ingeniør | Mobil, Android, iOS & Webutvikling | 6+ År | 30+ Apper Distribuert",
         "button": "Se Portefølje"
     },
     "about": {
         "title": "Profesjonelt Sammendrag",
-        "paragraph": "Erfaren Senior Flutter-ingeniør med over 6 års ekspertise innen Flutter, Dart, Android, iOS og webutvikling. Dyktig i Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST API-er og GraphQL API-er. Solid kunnskap om Python, Node.js, MySQL og ELK Stack (Elastic Search). Kjent med Robotprosessautomatisering (RPA) og Selenium.\n\nUtviklet over 30 mobilapplikasjoner, og hjulpet bedrifter og oppstartsbedrifter med å skalere vellykket. Sterk bakgrunn i CI/CD, CodeMagic, smidig utvikling og DevOps-praksis.\n\nBachelor of Science i informatikk fra University of Sargodha, Lahore Campus (2015-2019).",
+        "paragraph": "Senior Flutter-ingeniør med over 6 års ekspertise innen Flutter, Dart, Android, iOS og webutvikling. Dyktig i Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST API-er og GraphQL API-er. Solid kunnskap om Python, Node.js, MySQL og ELK Stack (Elasticsearch). Kjent med Robotprosessautomatisering (RPA) og Selenium.\n\nUtviklet over 30 mobilapplikasjoner, og hjulpet bedrifter og oppstartsbedrifter med å skalere vellykket. Sterk bakgrunn i CI/CD, CodeMagic, smidig utvikling og DevOps-praksis.\n\nBachelor of Science i informatikk fra University of Sargodha, Lahore Campus (2015-2019).",
         "experience": {
             "title": "Profesjonell Erfaring"
         }

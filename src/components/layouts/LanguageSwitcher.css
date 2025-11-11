@@ -38,11 +38,6 @@
     line-height: 1;
 }
 
-/* Prevent flag emojis from being inverted in dark mode */
-.dark-mode .flag {
-    filter: invert(1) hue-rotate(180deg);
-}
-
 .language-code {
     font-weight: 700;
 }
