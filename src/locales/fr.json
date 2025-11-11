@@ -7,15 +7,9 @@
     },
     "about": {
         "title": "Résumé Professionnel",
-        "paragraph": "Ingénieur Flutter Senior expérimenté avec plus de 6 ans d'expertise en Flutter, Dart, Android, iOS et développement Web. Compétent en Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs et GraphQL APIs. Solides connaissances en Python, Node.js, MySQL et ELK Stack (Elastic Search). Familier avec l'automatisation des processus robotiques (RPA) et Selenium.\n\nDéveloppé plus de 30 applications mobiles, aidant les entreprises et startups à croître avec succès. Solide expérience en CI/CD, CodeMagic, développement Agile et pratiques DevOps.\n\nActuellement en poste chez WithU Group (Londres, UK - Remote) depuis février 2023. Précédemment chez CloudMedx (New York/New Jersey, US - Remote), TransData (Lahore), Absolute Solutions (Lahore, US & KSA), AllianceTech Pvt. Ltd (Lahore & UK), et Red Code Technologies (Lahore).\n\nBachelor of Science en Informatique de l'Université de Sargodha, Campus de Lahore (2015-2019).",
+        "paragraph": "Ingénieur Flutter Senior expérimenté avec plus de 6 ans d'expertise en Flutter, Dart, Android, iOS et développement Web. Compétent en Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs et GraphQL APIs. Solides connaissances en Python, Node.js, MySQL et ELK Stack (Elastic Search). Familier avec l'automatisation des processus robotiques (RPA) et Selenium.\n\nDéveloppé plus de 30 applications mobiles, aidant les entreprises et startups à croître avec succès. Solide expérience en CI/CD, CodeMagic, développement Agile et pratiques DevOps.\n\nBachelor of Science en Informatique de l'Université de Sargodha, Campus de Lahore (2015-2019).",
         "experience": {
-            "title": "Expérience Professionnelle",
-            "withu": "Ingénieur Logiciel Flutter Senior chez WithU Group — Londres, UK (Remote)",
-            "cloudmedx": "Ex-Développeur d'Applications Mobiles chez CloudMedx — New York/New Jersey, US (Remote)",
-            "transdata": "Ex-Développeur Flutter chez TransData — Lahore",
-            "absolute": "Ex-Développeur Flutter chez Absolute Solutions — Lahore, US & KSA",
-            "alliancetech": "Ex-Développeur Flutter chez AllianceTech Pvt. Ltd — Lahore & UK",
-            "redcode": "Ex-Développeur Flutter chez Red Code Technologies — Lahore"
+            "title": "Expérience Professionnelle"
         }
     },
     "works": {
@@ -41,6 +35,46 @@
             "send": "Envoyer le Message"
         },
         "copyright": "Tous Droits Réservés"
+    },
+    "hire": {
+        "title": "Construisons Quelque Chose d'Incroyable Ensemble",
+        "subtitle": "Transformez Votre Vision en Réalité",
+        "pitch": "Prêt à élever votre application mobile au niveau supérieur ? Avec plus de 6 ans d'expertise et 30+ déploiements réussis, je me spécialise dans la création de solutions évolutives au pixel près que les utilisateurs adorent et auxquelles les entreprises font confiance.",
+        "services": {
+            "title": "Ce Que J'Offre",
+            "development": {
+                "title": "Développement Full-Stack",
+                "description": "Du concept au déploiement, je construis des applications Flutter robustes pour iOS, Android et Web avec une architecture propre et les meilleures pratiques."
+            },
+            "consulting": {
+                "title": "Conseil Technique",
+                "description": "Obtenez des conseils d'experts sur l'architecture des applications, la sélection de la pile technologique et les stratégies d'optimisation pour assurer le succès de votre projet."
+            },
+            "optimization": {
+                "title": "Optimisation des Performances",
+                "description": "Transformez votre application existante avec des améliorations de performances, du refactoring de code et des implémentations d'interface utilisateur au pixel près."
+            }
+        },
+        "pricing": {
+            "title": "Modèles d'Engagement Flexibles",
+            "starter": {
+                "title": "Pack Démarrage",
+                "description": "Parfait pour les MVP et nouveaux projets. Démarrez avec des tarifs compétitifs et évoluez avec votre croissance.",
+                "rate": "À partir de $45/heure"
+            },
+            "ongoing": {
+                "title": "Projets Continus",
+                "description": "Partenariats à long terme avec support dédié et livraison continue.",
+                "rate": "$50-65/heure"
+            },
+            "enterprise": {
+                "title": "Solutions Entreprise",
+                "description": "Tarification personnalisée pour les projets à grande échelle nécessitant des ressources dédiées et une expertise en architecture.",
+                "rate": "Devis Personnalisé"
+            }
+        },
+        "cta": "Prêt à Commencer ?",
+        "ctaButton": "Engagez-Moi Maintenant"
     },
     "nav": {
         "about": "À propos",

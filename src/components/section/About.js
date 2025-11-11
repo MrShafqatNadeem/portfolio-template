@@ -1,11 +1,12 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import Skills from '../layouts/Skills'
-import { skillsBar } from '../../profile'
+import ExperienceCard from '../layouts/ExperienceCard'
+import { skillsBar, experiences } from '../../profile'
 
 const About = () => {
     const { t } = useTranslation();
-    
+
     return (
         <div id="about" className="effect2">
             <div data-aos="zoom-in-up" data-aos-once="true" className="row">
@@ -19,16 +20,16 @@ const About = () => {
                             <p key={index} style={{ marginBottom: '1.2rem' }}>{para}</p>
                         ))}
                     </div>
-                    <div className="experience-section" style={{ marginTop: '2rem' }}>
-                        <h5 style={{ color: 'var(--primary-color)', marginBottom: '1rem', fontWeight: '600' }}>
+
+                    <div className="experience-section" style={{ marginTop: '3rem' }}>
+                        <h2 className="pp-head" style={{ marginBottom: '2rem', fontSize: '2rem' }}>
                             {t('about.experience.title')}
-                        </h5>
-                        <p className="lead">⦿ {t('about.experience.withu')}</p>
-                        <p className="lead">⦿ {t('about.experience.cloudmedx')}</p>
-                        <p className="lead">⦿ {t('about.experience.transdata')}</p>
-                        <p className="lead">⦿ {t('about.experience.absolute')}</p>
-                        <p className="lead">⦿ {t('about.experience.alliancetech')}</p>
-                        <p className="lead">⦿ {t('about.experience.redcode')}</p>
+                        </h2>
+                        <div className="experience-timeline">
+                            {experiences.map((exp, index) => (
+                                <ExperienceCard key={exp.id} exp={exp} index={index} />
+                            ))}
+                        </div>
                     </div>
 
                 </div>

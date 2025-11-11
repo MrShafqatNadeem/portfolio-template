@@ -5,6 +5,57 @@
     --primary-color:  #02569B;
     --hover-color:  #0175C2;
 }
+
+/* Modern gradient backgrounds for sections */
+.effect2 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.98) 100%) !important;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.08) !important;
+    border-radius: 20px !important;
+}
+
+.dark-mode .effect2 {
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.95) 0%, rgba(20, 20, 20, 0.98) 100%) !important;
+}
+
+.third {
+    padding: 80px 0;
+    background: linear-gradient(135deg, rgba(2, 86, 155, 0.03) 0%, rgba(1, 117, 194, 0.05) 100%);
+}
+
+.parallax {
+    background: linear-gradient(135deg, rgba(2, 86, 155, 0.08) 0%, rgba(1, 117, 194, 0.12) 100%);
+}
+
+/* Enhanced section titles with gradient */
+.red-line {
+    position: relative;
+    padding-bottom: 15px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+}
+
+.red-line::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    border-radius: 2px;
+}
+
+.pp-head, .git-head {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+}
+
 .mobile_app_developer{
     padding: 10px 0px;
 }
@@ -263,6 +314,37 @@
     box-shadow: 0 4px 15px rgba(2, 86, 155, 0.4);
 }
 
+/* Enhanced Header Button */
+.see {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%) !important;
+    box-shadow: 0 6px 20px rgba(2, 86, 155, 0.4) !important;
+    transition: all 0.3s ease !important;
+    border-radius: 25px !important;
+    padding: 8px 20px !important;
+}
+
+.see:hover {
+    background: linear-gradient(135deg, var(--hover-color) 0%, var(--primary-color) 100%) !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 30px rgba(2, 86, 155, 0.5) !important;
+}
+
+/* Contact Form Button */
+.git-form button[type="submit"] {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%) !important;
+    padding: 14px 40px !important;
+    border-radius: 30px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 6px 20px rgba(2, 86, 155, 0.4) !important;
+    transition: all 0.3s ease !important;
+    border: none !important;
+}
+
+.git-form button[type="submit"]:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 30px rgba(2, 86, 155, 0.5) !important;
+}
+
 /* Screenshot Carousel Styles */
 .screenshot-container-wrapper {
     position: relative;
@@ -362,3 +444,558 @@
         height: 6px;
     }
 }
+
+/* Hire Section Styles */
+.hire-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, rgba(2, 86, 155, 0.05) 0%, rgba(1, 117, 194, 0.08) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.hire-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 50%, rgba(2, 86, 155, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(1, 117, 194, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.hire-header {
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.hire-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 15px;
+}
+
+.hire-subtitle {
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    color: var(--hover-color);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.hire-pitch {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    line-height: 1.8;
+    color: #555;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.services-grid {
+    margin: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.services-title {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.service-card {
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.4s ease;
+    margin-bottom: 30px;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+}
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 20px rgba(2, 86, 155, 0.3);
+}
+
+.service-card:hover .service-icon {
+    transform: rotate(360deg) scale(1.1);
+    box-shadow: 0 8px 30px rgba(2, 86, 155, 0.5);
+}
+
+.service-icon i {
+    font-size: 2rem;
+    color: white;
+}
+
+.service-card h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+}
+
+.pricing-section {
+    margin: 60px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-title {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 50px;
+}
+
+.pricing-card {
+    background: white;
+    border-radius: 20px;
+    padding: 40px 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    position: relative;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 50px rgba(2, 86, 155, 0.2);
+    border-color: var(--primary-color);
+}
+
+.pricing-card.selected {
+    border: 3px solid var(--primary-color);
+    background: linear-gradient(135deg, rgba(2, 86, 155, 0.05) 0%, rgba(1, 117, 194, 0.1) 100%);
+    transform: scale(1.03);
+    box-shadow: 0 15px 50px rgba(2, 86, 155, 0.3);
+}
+
+.pricing-card.featured {
+    border: 2px solid var(--primary-color);
+    transform: scale(1.05);
+}
+
+.pricing-card.featured:hover {
+    transform: scale(1.08) translateY(-10px);
+}
+
+.pricing-card.featured.selected {
+    transform: scale(1.08);
+}
+
+.select-package-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(2, 86, 155, 0.3);
+}
+
+.select-package-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(2, 86, 155, 0.4);
+}
+
+.pricing-card.selected .select-package-btn {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+}
+
+.featured-badge {
+    position: absolute;
+    top: -15px;
+    right: 30px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    box-shadow: 0 4px 15px rgba(2, 86, 155, 0.4);
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing-header h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.pricing-rate {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--hover-color);
+    margin-bottom: 10px;
+}
+
+.pricing-card p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #666;
+    text-align: center;
+}
+
+.hire-cta {
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.hire-cta h3 {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+}
+
+.hire-button {
+    padding: 18px 45px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 25px rgba(2, 86, 155, 0.3);
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hire-button:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 12px 35px rgba(2, 86, 155, 0.4);
+}
+
+.hire-button i {
+    transition: transform 0.3s ease;
+}
+
+.hire-button:hover i {
+    transform: translateX(5px);
+}
+
+/* Dark Mode Adjustments for Hire Section */
+.dark-mode .hire-section {
+    background: linear-gradient(135deg, rgba(2, 86, 155, 0.15) 0%, rgba(1, 117, 194, 0.2) 100%);
+}
+
+.dark-mode .hire-pitch,
+.dark-mode .service-card p,
+.dark-mode .pricing-card p {
+    color: #ccc;
+}
+
+.dark-mode .pricing-card {
+    background: rgba(30, 30, 30, 0.9);
+    border-color: rgba(2, 86, 155, 0.3);
+}
+
+.dark-mode .pricing-card:hover {
+    border-color: var(--primary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hire-section {
+        padding: 60px 0;
+    }
+    
+    .services-grid,
+    .pricing-section {
+        margin: 40px 0;
+    }
+    
+    .service-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .service-icon i {
+        font-size: 1.5rem;
+    }
+    
+    .pricing-card.featured {
+        transform: scale(1);
+    }
+    
+    .pricing-card.featured:hover {
+        transform: scale(1.02) translateY(-10px);
+    }
+    
+    .hire-button {
+        padding: 15px 35px;
+        font-size: 1rem;
+    }
+}
+
+/* LinkedIn-style Experience Cards */
+.experience-section {
+    margin-top: 3rem;
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.experience-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.98) 100%);
+    border: 2px solid rgba(2, 86, 155, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+.experience-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    border-color: var(--primary-color);
+    box-shadow: 0 12px 40px rgba(2, 86, 155, 0.2);
+}
+
+.experience-card:hover::before {
+    opacity: 1;
+}
+
+.experience-card-content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.experience-logo {
+    flex-shrink: 0;
+}
+
+.company-logo-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(2, 86, 155, 0.3);
+    transition: all 0.3s ease;
+}
+
+.company-logo-placeholder i {
+    font-size: 2rem;
+    color: white;
+}
+
+.company-logo-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(2, 86, 155, 0.3);
+    transition: all 0.3s ease;
+    background: white;
+    padding: 8px;
+}
+
+.experience-card:hover .company-logo-image {
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 8px 25px rgba(2, 86, 155, 0.4);
+}
+
+.experience-card:hover .company-logo-placeholder {
+    transform: rotate(5deg) scale(1.1);
+    box-shadow: 0 8px 25px rgba(2, 86, 155, 0.4);
+}
+
+.experience-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.experience-position {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--hover-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.3;
+}
+
+.experience-company {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.experience-linkedin-icon {
+    color: #0077b5;
+    transition: all 0.3s ease;
+}
+
+.experience-card:hover .experience-linkedin-icon {
+    transform: scale(1.2);
+    color: var(--primary-color);
+}
+
+.experience-location {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0 0 12px 0;
+    font-weight: 500;
+}
+
+.experience-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 0;
+}
+
+/* Dark Mode Styles for Experience Cards */
+.dark-mode .experience-card {
+    background: linear-gradient(135deg, rgba(30, 30, 30, 0.95) 0%, rgba(20, 20, 20, 0.98) 100%);
+    border-color: rgba(2, 86, 155, 0.3);
+}
+
+.dark-mode .experience-card:hover {
+    border-color: var(--hover-color);
+    box-shadow: 0 12px 40px rgba(1, 117, 194, 0.3);
+}
+
+.dark-mode .experience-company {
+    color: #e0e0e0;
+}
+
+.dark-mode .experience-location {
+    color: #aaa;
+}
+
+.dark-mode .experience-description {
+    color: #ccc;
+}
+
+/* Responsive Design for Experience Cards */
+@media (max-width: 768px) {
+    .experience-card-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .company-logo-placeholder {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .company-logo-image {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .company-logo-placeholder i {
+        font-size: 1.75rem;
+    }
+    
+    .experience-position {
+        font-size: 1.2rem;
+    }
+    
+    .experience-company {
+        font-size: 1rem;
+        justify-content: center;
+    }
+    
+    .experience-location {
+        font-size: 0.9rem;
+    }
+    
+    .experience-description {
+        font-size: 0.95rem;
+    }
+    
+    .experience-card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .company-logo-placeholder {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .company-logo-image {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .company-logo-placeholder i {
+        font-size: 1.5rem;
+    }
+    
+    .experience-position {
+        font-size: 1.1rem;
+    }
+    
+    .experience-company {
+        font-size: 0.95rem;
+    }
+}
+

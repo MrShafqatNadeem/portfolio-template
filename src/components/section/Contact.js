@@ -1,9 +1,21 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import { useHire } from '../../context/HireContext'
 import { social } from '../../profile'
 
 const Contact = () => {
     const { t } = useTranslation();
+    const { selectedPackage } = useHire();
+
+    const getPackageSubject = () => {
+        if (!selectedPackage) return '';
+        const packageNames = {
+            starter: t('hire.pricing.starter.title'),
+            ongoing: t('hire.pricing.ongoing.title'),
+            enterprise: t('hire.pricing.enterprise.title')
+        };
+        return `Inquiry: ${packageNames[selectedPackage]}`;
+    };
 
     return (
         <div className="parallax">
@@ -19,7 +31,15 @@ const Contact = () => {
                             <form action="mailto:shafqatnadeem2@gmail.com" method="GET">
                                 <input type="text" id="fname" name="firstname" placeholder={t('contact.form.name')} required></input>
                                 <input type="mail" id="mailid" name="Email" placeholder={t('contact.form.email')} required></input>
-                                <input type="text" id="sub" name="Subject" placeholder={t('contact.form.subject')} required></input>
+                                <input
+                                    type="text"
+                                    id="sub"
+                                    name="Subject"
+                                    placeholder={t('contact.form.subject')}
+                                    value={getPackageSubject()}
+                                    onChange={(e) => { }}
+                                    required
+                                />
                                 <textarea id="msg" name="message" placeholder={t('contact.form.message')} required></textarea>
                                 <button style={{ cursor: 'pointer' }} type="submit">{t('contact.form.send')}</button>
                             </form>

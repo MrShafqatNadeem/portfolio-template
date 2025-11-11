@@ -21,8 +21,82 @@ const background = {
 const section2title = "Professional Summary";
 const about = {
   paragraph:
-    "Experienced Senior Flutter Engineer with 6+ years of expertise in Flutter, Dart, Android, iOS, and Web development. Proficient in Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs, and GraphQL APIs. Solid knowledge of Python, Node.js, MySQL, and ELK Stack (Elastic Search). Familiar with Robotic Process Automation (RPA) and Selenium.\n\nDeveloped over 30 mobile applications, helping businesses and startups scale successfully. Strong background in CI/CD, CodeMagic, Agile development, and DevOps practices.\n\nCurrently working at WithU Group (London, UK - Remote) since February 2023. Previously worked at CloudMedx (New York/New Jersey, US - Remote), TransData (Lahore), Absolute Solutions (Lahore, US & KSA), AllianceTech Pvt. Ltd (Lahore & UK), and Red Code Technologies (Lahore).\n\nBachelor of Science in Computer Science from University of Sargodha, Lahore Campus (2015-2019)."
+    "Experienced Senior Flutter Engineer with 6+ years of expertise in Flutter, Dart, Android, iOS, and Web development. Proficient in Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs, and GraphQL APIs. Solid knowledge of Python, Node.js, MySQL, and ELK Stack (Elastic Search). Familiar with Robotic Process Automation (RPA) and Selenium.\n\nDeveloped over 30 mobile applications, helping businesses and startups scale successfully. Strong background in CI/CD, CodeMagic, Agile development, and DevOps practices.\n\nBachelor of Science in Computer Science from University of Sargodha, Lahore Campus (2015-2019)."
 };
+
+// Professional Experience with LinkedIn-style data
+const experiences = [
+  {
+    id: 1,
+    position: "Senior Flutter Software Engineer",
+    company: "WithU Group",
+    location: "London, UK (Remote)",
+    period: "February 2023 - Present",
+    website: "https://www.withuholdings.com/",
+    linkedinUrl: "https://www.linkedin.com/company/withu-holdings/",
+    description: "Leading development of health & fitness mobile applications with 100K+ downloads, implementing scalable architecture and real-time features."
+  },
+  {
+    id: 2,
+    position: "Mobile App Developer",
+    company: "CloudMedx",
+    location: "New York/New Jersey, US (Remote)",
+    period: "2021 - 2023",
+    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHwvu_0BFsY1w/company-logo_200_200/company-logo_200_200/0/1630578307340/cloud_medx_logo?e=2147483647&v=beta&t=ctK65wZq-WbOGC53_CeWZfgSaeK7e170yylye9Dmp3Y",
+    linkedinUrl: "https://www.linkedin.com/company/cloudmedx/",
+    description: "Developed healthcare applications with video consultation features using Agora SDK, real-time chat, and secure patient data management."
+  },
+  {
+    id: 3,
+    position: "Flutter Developer",
+    company: "TransData",
+    location: "Lahore, Pakistan",
+    period: "2020 - 2021",
+    website: "https://transdata.biz/",
+    linkedinUrl: "https://www.linkedin.com/company/transdatallc/",
+    description: "Built transportation and logistics applications with real-time tracking, Google Maps integration, and efficient route optimization."
+  },
+  {
+    id: 4,
+    position: "Flutter Developer",
+    company: "Absolute Solutions",
+    location: "Lahore, US & KSA",
+    period: "2019 - 2020",
+    website: "https://www.ab-sol.com/",
+    linkedinUrl: "https://www.linkedin.com/company/absolue-solutions/",
+    description: "Developed e-commerce and business applications with payment gateway integration, inventory management, and analytics."
+  },
+  {
+    id: 5,
+    position: "Flutter Developer",
+    company: "AllianceTech Pvt. Ltd",
+    location: "Lahore & UK",
+    period: "2018 - 2019",
+    website: "https://alliancetechltd.com/",
+    linkedinUrl: "https://www.linkedin.com/company/74819862/",
+    description: "Created social networking and e-commerce platforms with real-time features, push notifications, and seamless user experiences."
+  },
+  {
+    id: 6,
+    position: "Flutter Developer",
+    company: "Red Code Technologies",
+    location: "Lahore, Pakistan",
+    period: "2017 - 2018",
+    website: "https://www.redcodetechnologies.com/",
+    linkedinUrl: "https://www.linkedin.com/company/redcode-technologies/",
+    description: "Started Flutter development journey, building mobile applications and learning industry best practices and design patterns."
+  },
+  {
+    id: 7,
+    position: "Junior Android Developer",
+    company: "NexusBerry",
+    location: "Lahore, Punjab, Pakistan",
+    period: "July 2018 - September 2018",
+    logo: "https://media.licdn.com/dms/image/v2/C510BAQGH0j4XTHmnng/company-logo_200_200/company-logo_200_200/0/1630633423146/nexusberry_logo?e=2147483647&v=beta&t=kAjKGLFbL59yw9T0kKhGQmtGVmtKcGdWYmkTvik8RXU",
+    linkedinUrl: "https://www.linkedin.com/company/nexusberry/",
+    description: "Android Application Development with fundamentals of programming and Object-Oriented Programming. Worked on Google Maps integration, Firebase, and RESTful API integration."
+  }
+];
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
 const skillsBar = [
@@ -315,6 +389,7 @@ export {
   header,
   background,
   about,
+  experiences,
   skillsBar,
   projects,
   miscellaneous,

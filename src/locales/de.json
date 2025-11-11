@@ -7,15 +7,9 @@
     },
     "about": {
         "title": "Berufliche Zusammenfassung",
-        "paragraph": "Erfahrener Senior Flutter Engineer mit über 6 Jahren Expertise in Flutter, Dart, Android, iOS und Web-Entwicklung. Versiert in Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs und GraphQL APIs. Fundierte Kenntnisse in Python, Node.js, MySQL und ELK Stack (Elastic Search). Vertraut mit Robotic Process Automation (RPA) und Selenium.\n\nHabe über 30 mobile Anwendungen entwickelt und Unternehmen sowie Startups beim erfolgreichen Wachstum geholfen. Starker Hintergrund in CI/CD, CodeMagic, Agile-Entwicklung und DevOps-Praktiken.\n\nDerzeit bei WithU Group (London, UK - Remote) seit Februar 2023. Zuvor bei CloudMedx (New York/New Jersey, US - Remote), TransData (Lahore), Absolute Solutions (Lahore, US & KSA), AllianceTech Pvt. Ltd (Lahore & UK) und Red Code Technologies (Lahore).\n\nBachelor of Science in Informatik von der Universität Sargodha, Campus Lahore (2015-2019).",
+        "paragraph": "Erfahrener Senior Flutter Engineer mit über 6 Jahren Expertise in Flutter, Dart, Android, iOS und Web-Entwicklung. Versiert in Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs und GraphQL APIs. Fundierte Kenntnisse in Python, Node.js, MySQL und ELK Stack (Elastic Search). Vertraut mit Robotic Process Automation (RPA) und Selenium.\n\nHabe über 30 mobile Anwendungen entwickelt und Unternehmen sowie Startups beim erfolgreichen Wachstum geholfen. Starker Hintergrund in CI/CD, CodeMagic, Agile-Entwicklung und DevOps-Praktiken.\n\nBachelor of Science in Informatik von der Universität Sargodha, Campus Lahore (2015-2019).",
         "experience": {
-            "title": "Berufserfahrung",
-            "withu": "Senior Flutter Software Engineer bei WithU Group — London, UK (Remote)",
-            "cloudmedx": "Ex-Mobile App Developer bei CloudMedx — New York/New Jersey, US (Remote)",
-            "transdata": "Ex-Flutter Developer bei TransData — Lahore",
-            "absolute": "Ex-Flutter Developer bei Absolute Solutions — Lahore, US & KSA",
-            "alliancetech": "Ex-Flutter Developer bei AllianceTech Pvt. Ltd — Lahore & UK",
-            "redcode": "Ex-Flutter Developer bei Red Code Technologies — Lahore"
+            "title": "Berufserfahrung"
         }
     },
     "works": {
@@ -41,6 +35,46 @@
             "send": "Nachricht Senden"
         },
         "copyright": "Alle Rechte Vorbehalten"
+    },
+    "hire": {
+        "title": "Lassen Sie Uns Etwas Großartiges Zusammen Schaffen",
+        "subtitle": "Verwandeln Sie Ihre Vision in Realität",
+        "pitch": "Bereit, Ihre mobile Anwendung auf das nächste Level zu heben? Mit über 6 Jahren Expertise und 30+ erfolgreichen Deployments spezialisiere ich mich auf die Erstellung pixelgenauer, skalierbarer Lösungen, die Benutzer lieben und Unternehmen vertrauen.",
+        "services": {
+            "title": "Was Ich Anbiete",
+            "development": {
+                "title": "Full-Stack-Entwicklung",
+                "description": "Vom Konzept bis zur Bereitstellung erstelle ich robuste Flutter-Anwendungen für iOS, Android und Web mit sauberer Architektur und Best Practices."
+            },
+            "consulting": {
+                "title": "Technische Beratung",
+                "description": "Erhalten Sie Expertenrat zur App-Architektur, Technologie-Stack-Auswahl und Optimierungsstrategien, um den Erfolg Ihres Projekts zu gewährleisten."
+            },
+            "optimization": {
+                "title": "Leistungsoptimierung",
+                "description": "Transformieren Sie Ihre bestehende App mit Leistungsverbesserungen, Code-Refactoring und pixelgenauen UI-Implementierungen."
+            }
+        },
+        "pricing": {
+            "title": "Flexible Engagement-Modelle",
+            "starter": {
+                "title": "Starter-Paket",
+                "description": "Perfekt für MVPs und neue Projekte. Starten Sie mit wettbewerbsfähigen Preisen und skalieren Sie mit Ihrem Wachstum.",
+                "rate": "Ab $45/Stunde"
+            },
+            "ongoing": {
+                "title": "Laufende Projekte",
+                "description": "Langfristige Partnerschaften mit dediziertem Support und kontinuierlicher Lieferung.",
+                "rate": "$50-65/Stunde"
+            },
+            "enterprise": {
+                "title": "Enterprise-Lösungen",
+                "description": "Individuelle Preise für groß angelegte Projekte, die dedizierte Ressourcen und Architektur-Expertise erfordern.",
+                "rate": "Individuelles Angebot"
+            }
+        },
+        "cta": "Bereit Anzufangen?",
+        "ctaButton": "Jetzt Beauftragen"
     },
     "nav": {
         "about": "Über",

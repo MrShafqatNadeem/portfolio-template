@@ -7,15 +7,9 @@
     },
     "about": {
         "title": "Profesjonelt Sammendrag",
-        "paragraph": "Erfaren Senior Flutter-ingeniør med over 6 års ekspertise innen Flutter, Dart, Android, iOS og webutvikling. Dyktig i Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST API-er og GraphQL API-er. Solid kunnskap om Python, Node.js, MySQL og ELK Stack (Elastic Search). Kjent med Robotprosessautomatisering (RPA) og Selenium.\n\nUtviklet over 30 mobilapplikasjoner, og hjulpet bedrifter og oppstartsbedrifter med å skalere vellykket. Sterk bakgrunn i CI/CD, CodeMagic, smidig utvikling og DevOps-praksis.\n\nJobber for tiden hos WithU Group (London, UK - Eksternt) siden februar 2023. Tidligere hos CloudMedx (New York/New Jersey, US - Eksternt), TransData (Lahore), Absolute Solutions (Lahore, US og KSA), AllianceTech Pvt. Ltd (Lahore og UK), og Red Code Technologies (Lahore).\n\nBachelor of Science i informatikk fra University of Sargodha, Lahore Campus (2015-2019).",
+        "paragraph": "Erfaren Senior Flutter-ingeniør med over 6 års ekspertise innen Flutter, Dart, Android, iOS og webutvikling. Dyktig i Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST API-er og GraphQL API-er. Solid kunnskap om Python, Node.js, MySQL og ELK Stack (Elastic Search). Kjent med Robotprosessautomatisering (RPA) og Selenium.\n\nUtviklet over 30 mobilapplikasjoner, og hjulpet bedrifter og oppstartsbedrifter med å skalere vellykket. Sterk bakgrunn i CI/CD, CodeMagic, smidig utvikling og DevOps-praksis.\n\nBachelor of Science i informatikk fra University of Sargodha, Lahore Campus (2015-2019).",
         "experience": {
-            "title": "Profesjonell Erfaring",
-            "withu": "Senior Flutter-programvareingeniør hos WithU Group — London, UK (Eksternt)",
-            "cloudmedx": "Tidligere mobilapputvikler hos CloudMedx — New York/New Jersey, US (Eksternt)",
-            "transdata": "Tidligere Flutter-utvikler hos TransData — Lahore",
-            "absolute": "Tidligere Flutter-utvikler hos Absolute Solutions — Lahore, US og KSA",
-            "alliancetech": "Tidligere Flutter-utvikler hos AllianceTech Pvt. Ltd — Lahore og UK",
-            "redcode": "Tidligere Flutter-utvikler hos Red Code Technologies — Lahore"
+            "title": "Profesjonell Erfaring"
         }
     },
     "works": {
@@ -41,6 +35,46 @@
             "send": "Send Melding"
         },
         "copyright": "Alle Rettigheter Reservert"
+    },
+    "hire": {
+        "title": "La Oss Bygge Noe Fantastisk Sammen",
+        "subtitle": "Transformer Din Visjon til Virkelighet",
+        "pitch": "Klar til å heve mobilapplikasjonen din til neste nivå? Med over 6 års ekspertise og 30+ vellykkede implementeringer, spesialiserer jeg meg på å lage piksel-perfekte, skalerbare løsninger som brukere elsker og bedrifter stoler på.",
+        "services": {
+            "title": "Hva Jeg Tilbyr",
+            "development": {
+                "title": "Full-Stack Utvikling",
+                "description": "Fra konsept til implementering, bygger jeg robuste Flutter-applikasjoner for iOS, Android og Web med ren arkitektur og beste praksis."
+            },
+            "consulting": {
+                "title": "Teknisk Konsultasjon",
+                "description": "Få ekspertveiledning om app-arkitektur, valg av teknologistakk og optimaliseringsstrategier for å sikre prosjektets suksess."
+            },
+            "optimization": {
+                "title": "Ytelsesoptimalisering",
+                "description": "Transformer din eksisterende app med ytelsesforbedringer, kode-refaktorering og piksel-perfekte UI-implementeringer."
+            }
+        },
+        "pricing": {
+            "title": "Fleksible Engasjementsmodeller",
+            "starter": {
+                "title": "Startpakke",
+                "description": "Perfekt for MVP-er og nye prosjekter. Kom i gang med konkurransedyktige priser og skaler etter hvert som du vokser.",
+                "rate": "Fra $45/time"
+            },
+            "ongoing": {
+                "title": "Pågående Prosjekter",
+                "description": "Langsiktige partnerskap med dedikert støtte og kontinuerlig levering.",
+                "rate": "$50-65/time"
+            },
+            "enterprise": {
+                "title": "Bedriftsløsninger",
+                "description": "Tilpasset prising for store prosjekter som krever dedikerte ressurser og arkitekturekspertise.",
+                "rate": "Tilpasset Tilbud"
+            }
+        },
+        "cta": "Klar til å Starte?",
+        "ctaButton": "Ansett Meg Nå"
     },
     "nav": {
         "about": "Om",

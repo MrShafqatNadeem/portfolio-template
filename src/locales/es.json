@@ -7,15 +7,9 @@
     },
     "about": {
         "title": "Resumen Profesional",
-        "paragraph": "Ingeniero Senior Flutter experimentado con más de 6 años de experiencia en Flutter, Dart, Android, iOS y desarrollo Web. Competente en Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs y GraphQL APIs. Sólidos conocimientos en Python, Node.js, MySQL y ELK Stack (Elastic Search). Familiarizado con Automatización Robótica de Procesos (RPA) y Selenium.\n\nDesarrollé más de 30 aplicaciones móviles, ayudando a empresas y startups a crecer con éxito. Sólida experiencia en CI/CD, CodeMagic, desarrollo Ágil y prácticas DevOps.\n\nActualmente trabajando en WithU Group (Londres, UK - Remoto) desde febrero de 2023. Previamente en CloudMedx (Nueva York/Nueva Jersey, US - Remoto), TransData (Lahore), Absolute Solutions (Lahore, US y KSA), AllianceTech Pvt. Ltd (Lahore y UK), y Red Code Technologies (Lahore).\n\nLicenciatura en Ciencias de la Computación de la Universidad de Sargodha, Campus Lahore (2015-2019).",
+        "paragraph": "Ingeniero Senior Flutter experimentado con más de 6 años de experiencia en Flutter, Dart, Android, iOS y desarrollo Web. Competente en Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs y GraphQL APIs. Sólidos conocimientos en Python, Node.js, MySQL y ELK Stack (Elastic Search). Familiarizado con Automatización Robótica de Procesos (RPA) y Selenium.\n\nDesarrollé más de 30 aplicaciones móviles, ayudando a empresas y startups a crecer con éxito. Sólida experiencia en CI/CD, CodeMagic, desarrollo Ágil y prácticas DevOps.\n\nLicenciatura en Ciencias de la Computación de la Universidad de Sargodha, Campus Lahore (2015-2019).",
         "experience": {
-            "title": "Experiencia Profesional",
-            "withu": "Ingeniero de Software Flutter Senior en WithU Group — Londres, UK (Remoto)",
-            "cloudmedx": "Ex-Desarrollador de Aplicaciones Móviles en CloudMedx — Nueva York/Nueva Jersey, US (Remoto)",
-            "transdata": "Ex-Desarrollador Flutter en TransData — Lahore",
-            "absolute": "Ex-Desarrollador Flutter en Absolute Solutions — Lahore, US y KSA",
-            "alliancetech": "Ex-Desarrollador Flutter en AllianceTech Pvt. Ltd — Lahore y UK",
-            "redcode": "Ex-Desarrollador Flutter en Red Code Technologies — Lahore"
+            "title": "Experiencia Profesional"
         }
     },
     "works": {
@@ -41,6 +35,46 @@
             "send": "Enviar Mensaje"
         },
         "copyright": "Todos los Derechos Reservados"
+    },
+    "hire": {
+        "title": "Construyamos Algo Increíble Juntos",
+        "subtitle": "Transforma Tu Visión en Realidad",
+        "pitch": "¿Listo para elevar tu aplicación móvil al siguiente nivel? Con más de 6 años de experiencia y 30+ implementaciones exitosas, me especializo en crear soluciones escalables pixel-perfect que los usuarios aman y en las que las empresas confían.",
+        "services": {
+            "title": "Lo Que Ofrezco",
+            "development": {
+                "title": "Desarrollo Full-Stack",
+                "description": "Desde el concepto hasta el despliegue, construyo aplicaciones Flutter robustas para iOS, Android y Web con arquitectura limpia y mejores prácticas."
+            },
+            "consulting": {
+                "title": "Consultoría Técnica",
+                "description": "Obtén orientación experta sobre arquitectura de aplicaciones, selección de stack tecnológico y estrategias de optimización para asegurar el éxito de tu proyecto."
+            },
+            "optimization": {
+                "title": "Optimización de Rendimiento",
+                "description": "Transforma tu aplicación existente con mejoras de rendimiento, refactorización de código e implementaciones de UI pixel-perfect."
+            }
+        },
+        "pricing": {
+            "title": "Modelos de Compromiso Flexibles",
+            "starter": {
+                "title": "Paquete Inicial",
+                "description": "Perfecto para MVPs y nuevos proyectos. Comienza con tarifas competitivas y escala a medida que creces.",
+                "rate": "Desde $45/hora"
+            },
+            "ongoing": {
+                "title": "Proyectos Continuos",
+                "description": "Asociaciones a largo plazo con soporte dedicado y entrega continua.",
+                "rate": "$50-65/hora"
+            },
+            "enterprise": {
+                "title": "Soluciones Empresariales",
+                "description": "Precios personalizados para proyectos a gran escala que requieren recursos dedicados y experiencia en arquitectura.",
+                "rate": "Cotización Personalizada"
+            }
+        },
+        "cta": "¿Listo para Comenzar?",
+        "ctaButton": "Contrátame Ahora"
     },
     "nav": {
         "about": "Acerca de",
