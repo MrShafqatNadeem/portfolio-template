@@ -14,9 +14,19 @@ const getPlayStoreId = (url) => {
 
 const fetchAppStoreScreenshots = async (id) => {
     try {
+        console.log(`Fetching screenshots for App Store ID: ${id}`);
         const res = await fetch(`https://itunes.apple.com/lookup?id=${id}`);
         const data = await res.json();
-        const screenshots = data.results?.[0]?.screenshotUrls?.slice(0, 5) || [];
+        console.log(`App Store response for ${id}:`, data);
+
+        // Try iPhone screenshots first, fallback to iPad screenshots
+        let screenshots = data.results?.[0]?.screenshotUrls?.slice(0, 5) || [];
+        if (screenshots.length === 0) {
+            screenshots = data.results?.[0]?.ipadScreenshotUrls?.slice(0, 5) || [];
+            console.log(`Using iPad screenshots for ${id}`);
+        }
+
+        console.log(`Found ${screenshots.length} screenshots for ${id}`);
         return screenshots;
     } catch (error) {
         console.error('Error fetching App Store screenshots:', error);
@@ -40,6 +50,7 @@ const Project = ({ id, name, url, androidUrl, iosUrl, skills }) => {
     const [screenshots, setScreenshots] = useState([]);
     const [loading, setLoading] = useState(true);
     const [activeIndex, setActiveIndex] = useState(0);
+    const [fading, setFading] = useState(false);
     const intervalRef = useRef(null);
 
     useEffect(() => {
@@ -81,11 +92,20 @@ const Project = ({ id, name, url, androidUrl, iosUrl, skills }) => {
         };
     }, [iosUrl, androidUrl]);
 
+    // Handle index change with fade effect
+    const changeSlide = (newIndex) => {
+        setFading(true);
+        setTimeout(() => {
+            setActiveIndex(newIndex);
+            setFading(false);
+        }, 300); // Half of transition duration
+    };
+
     // Auto-slide carousel
     useEffect(() => {
         if (screenshots.length > 1) {
             intervalRef.current = setInterval(() => {
-                setActiveIndex((current) => (current + 1) % screenshots.length);
+                changeSlide((activeIndex + 1) % screenshots.length);
             }, 3000);
 
             return () => {
@@ -94,7 +114,7 @@ const Project = ({ id, name, url, androidUrl, iosUrl, skills }) => {
                 }
             };
         }
-    }, [screenshots]);
+    }, [screenshots, activeIndex]);
 
     return (
         <div data-aos="fade-up" className="col-12 col-lg-4 project-card">
@@ -104,11 +124,11 @@ const Project = ({ id, name, url, androidUrl, iosUrl, skills }) => {
                         <div className="loading-skeleton"></div>
                     </div>
                 ) : screenshots.length > 0 ? (
-                    <div className="img-pro screenshot-container">
+                    <div className="screenshot-container-wrapper">
                         <img
                             src={screenshots[activeIndex]}
                             alt={`${name} screenshot ${activeIndex + 1}`}
-                            className="screenshot-image"
+                            className={`screenshot-image ${fading ? 'fade-out' : 'fade-in'}`}
                         />
                         {screenshots.length > 1 && (
                             <div className="screenshot-dots">
@@ -116,7 +136,7 @@ const Project = ({ id, name, url, androidUrl, iosUrl, skills }) => {
                                     <span
                                         key={index}
                                         className={`dot ${index === activeIndex ? 'active' : ''}`}
-                                        onClick={() => setActiveIndex(index)}
+                                        onClick={() => changeSlide(index)}
                                     />
                                 ))}
                             </div>
