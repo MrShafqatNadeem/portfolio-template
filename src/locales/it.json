@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "Sono",
+        "title": "Flutter Engineer Senior | Sviluppo Mobile, Android, iOS e Web | 6+ Anni | 30+ App Deployate",
+        "button": "Vedi Portfolio"
+    },
+    "about": {
+        "title": "Riepilogo Professionale",
+        "paragraph": "Flutter Engineer Senior con oltre 6 anni di esperienza in Flutter, Dart, Android, iOS e sviluppo Web. Esperto in Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs e GraphQL APIs. Solide competenze in Python, Node.js, MySQL e ELK Stack (Elasticsearch). Familiare con Robotic Process Automation (RPA) e Selenium.\n\nHo sviluppato oltre 30 applicazioni mobili, aiutando aziende e startup a crescere con successo. Forte esperienza in CI/CD, CodeMagic, sviluppo Agile e pratiche DevOps.\n\nLaurea in Informatica presso l'Università di Sargodha, Campus di Lahore (2015-2019).",
+        "experience": {
+            "title": "Esperienza Professionale"
+        }
+    },
+    "works": {
+        "title": "Prodotti e App in Evidenza",
+        "moreTitle": "Altri Progetti e Contributi",
+        "seeMore": "Vedi Altri",
+        "showLess": "Mostra Meno",
+        "downloads": "Download",
+        "viewOn": {
+            "android": "Visualizza su Google Play",
+            "ios": "Visualizza su App Store",
+            "web": "Visita il Sito Web"
+        }
+    },
+    "contact": {
+        "title": "Contattami",
+        "pitch": "Sono sempre interessato a nuovi progetti e opportunità. Che tu abbia una domanda o voglia solo salutare, sentiti libero di contattarmi. Farò del mio meglio per risponderti! Collaboriamo su app mobili innovative con AI e soluzioni Flutter all'avanguardia.",
+        "form": {
+            "name": "Nome",
+            "namePlaceholder": "Mario Rossi",
+            "email": "Email",
+            "emailPlaceholder": "mario@example.com",
+            "subject": "Oggetto",
+            "subjectPlaceholder": "Come posso aiutarti?",
+            "message": "Messaggio",
+            "messagePlaceholder": "Parlami del tuo progetto...",
+            "send": "Invia Messaggio"
+        },
+        "info": {
+            "title": "Connettiamoci",
+            "description": "Sentiti libero di contattarmi attraverso una di queste piattaforme. Sono sempre aperto a discutere di nuovi progetti e opportunità.",
+            "downloadResume": "Scarica Curriculum"
+        },
+        "copyright": "Tutti i Diritti Riservati"
+    },
+    "hire": {
+        "title": "Creiamo Qualcosa di Straordinario Insieme",
+        "subtitle": "Trasforma la Tua Visione in Realtà",
+        "pitch": "Pronto a portare la tua app mobile al livello successivo? Con oltre 6 anni di esperienza e 30+ deployment di successo, sono specializzato nella creazione di soluzioni pixel-perfect e scalabili che gli utenti amano e di cui le aziende si fidano.",
+        "services": {
+            "title": "Cosa Offro",
+            "development": {
+                "title": "Sviluppo Full-Stack",
+                "description": "Dal concept al deployment, costruisco robuste app Flutter per iOS, Android e Web con architettura pulita e best practice."
+            },
+            "consulting": {
+                "title": "Consulenza Tecnica",
+                "description": "Ottieni una guida esperta sull'architettura dell'app, sulla scelta dello stack tecnologico e sulle strategie di ottimizzazione per garantire il successo del progetto."
+            },
+            "optimization": {
+                "title": "Ottimizzazione delle Prestazioni",
+                "description": "Trasforma la tua app esistente con miglioramenti delle prestazioni, refactoring del codice e implementazioni UI pixel-perfect."
+            }
+        },
+        "pricing": {
+            "title": "Modelli di Ingaggio Flessibili",
+            "popular": "Popolare",
+            "selected": "✓ Selezionato",
+            "selectPackage": "Seleziona Pacchetto",
+            "starter": {
+                "title": "Pacchetto Starter",
+                "description": "Perfetto per MVP e nuovi progetti. Inizia con prezzi competitivi e scala man mano che cresci.",
+                "rate": "Da $45/ora"
+            },
+            "ongoing": {
+                "title": "Progetti in Corso",
+                "description": "Partnership a lungo termine con supporto dedicato e consegna continua.",
+                "rate": "$50-65/ora"
+            },
+            "enterprise": {
+                "title": "Soluzioni Enterprise",
+                "description": "Prezzi personalizzati per progetti su larga scala che richiedono risorse dedicate ed esperienza nell'architettura.",
+                "rate": "Preventivo Personalizzato"
+            }
+        },
+        "cta": "Pronto a Iniziare?",
+        "ctaButton": "Assumimi Ora"
+    },
+    "nav": {
+        "about": "Chi Sono",
+        "skills": "Competenze",
+        "works": "Lavori",
+        "contact": "Contatti"
+    },
+    "common": {
+        "loading": "Caricamento...",
+        "error": "Qualcosa è andato storto",
+        "retry": "Riprova",
+        "whatsappMessage": "Ciao Shafqat! Ho visto il tuo portfolio e vorrei discutere di un'opportunità di progetto con te."
+    }
+}

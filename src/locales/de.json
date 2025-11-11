@@ -66,6 +66,9 @@
         },
         "pricing": {
             "title": "Flexible Engagement-Modelle",
+            "popular": "Beliebt",
+            "selected": "✓ Ausgewählt",
+            "selectPackage": "Paket Auswählen",
             "starter": {
                 "title": "Starter-Paket",
                 "description": "Perfekt für MVPs und neue Projekte. Starten Sie mit wettbewerbsfähigen Preisen und skalieren Sie mit Ihrem Wachstum.",
@@ -94,6 +97,7 @@
     "common": {
         "loading": "Wird geladen...",
         "error": "Etwas ist schief gelaufen",
-        "retry": "Wiederholen"
+        "retry": "Erneut versuchen",
+        "whatsappMessage": "Hallo Shafqat! Ich bin auf Ihr Portfolio gestoßen und würde gerne eine Projektmöglichkeit mit Ihnen besprechen."
     }
 }

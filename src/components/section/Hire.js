@@ -69,7 +69,7 @@ const Hire = () => {
                             </div>
                             <p>{t('hire.pricing.starter.description')}</p>
                             <button className="select-package-btn">
-                                {selectedPackage === 'starter' ? '✓ Selected' : 'Select Package'}
+                                {selectedPackage === 'starter' ? t('hire.pricing.selected') : t('hire.pricing.selectPackage')}
                             </button>
                         </div>
                         <div
@@ -78,14 +78,14 @@ const Hire = () => {
                             data-aos-delay="200"
                             onClick={() => handlePackageSelect('ongoing')}
                         >
-                            <div className="featured-badge">Popular</div>
+                            <div className="featured-badge">{t('hire.pricing.popular')}</div>
                             <div className="pricing-header">
                                 <h4>{t('hire.pricing.ongoing.title')}</h4>
                                 <div className="pricing-rate">{t('hire.pricing.ongoing.rate')}</div>
                             </div>
                             <p>{t('hire.pricing.ongoing.description')}</p>
                             <button className="select-package-btn">
-                                {selectedPackage === 'ongoing' ? '✓ Selected' : 'Select Package'}
+                                {selectedPackage === 'ongoing' ? t('hire.pricing.selected') : t('hire.pricing.selectPackage')}
                             </button>
                         </div>
                         <div
@@ -100,7 +100,7 @@ const Hire = () => {
                             </div>
                             <p>{t('hire.pricing.enterprise.description')}</p>
                             <button className="select-package-btn">
-                                {selectedPackage === 'enterprise' ? '✓ Selected' : 'Select Package'}
+                                {selectedPackage === 'enterprise' ? t('hire.pricing.selected') : t('hire.pricing.selectPackage')}
                             </button>
                         </div>
                     </div>

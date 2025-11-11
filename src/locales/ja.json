@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "私は",
+        "title": "シニアFlutterエンジニア | モバイル、Android、iOS、Webアプリケーション開発 | 6年以上の経験 | 30以上のアプリをデプロイ",
+        "button": "ポートフォリオを見る"
+    },
+    "about": {
+        "title": "プロフェッショナル要約",
+        "paragraph": "Flutter、Dart、Android、iOS、Web開発において6年以上の専門知識を持つシニアFlutterエンジニア。Firebase、AWS、GCP、S3、CloudFront、Cloud Functions、REST APIs、GraphQL APIsの経験豊富。Python、Node.js、MySQL、ELK Stack（Elasticsearch）の深い知識。ロボティックプロセスオートメーション（RPA）とSeleniumに精通。\n\n30以上のモバイルアプリケーションを開発し、企業やスタートアップの成長を成功に導いてきました。CI/CD、CodeMagic、アジャイル開発、DevOps実践における豊富な経験。\n\nサルゴダ大学ラホールキャンパスでコンピュータサイエンスの学士号取得（2015-2019年）。",
+        "experience": {
+            "title": "職務経験"
+        }
+    },
+    "works": {
+        "title": "注目の製品とアプリ",
+        "moreTitle": "その他のプロジェクトと貢献",
+        "seeMore": "もっと見る",
+        "showLess": "表示を減らす",
+        "downloads": "ダウンロード数",
+        "viewOn": {
+            "android": "Google Playで表示",
+            "ios": "App Storeで表示",
+            "web": "ウェブサイトを訪問"
+        }
+    },
+    "contact": {
+        "title": "お問い合わせ",
+        "pitch": "新しいプロジェクトや機会に常に興味があります。質問がある場合でも、挨拶したい場合でも、お気軽にご連絡ください。できる限り早く返信いたします！革新的なAI駆動のモバイルアプリと最先端のFlutterソリューションで協力しましょう。",
+        "form": {
+            "name": "名前",
+            "namePlaceholder": "山田太郎",
+            "email": "メール",
+            "emailPlaceholder": "taro@example.com",
+            "subject": "件名",
+            "subjectPlaceholder": "どのようにお手伝いできますか？",
+            "message": "メッセージ",
+            "messagePlaceholder": "プロジェクトについて教えてください...",
+            "send": "メッセージを送信"
+        },
+        "info": {
+            "title": "つながりましょう",
+            "description": "これらのプラットフォームのいずれかを通じてお気軽にご連絡ください。新しいプロジェクトや機会について話し合うことは常に歓迎です。",
+            "downloadResume": "履歴書をダウンロード"
+        },
+        "copyright": "著作権所有"
+    },
+    "hire": {
+        "title": "一緒に素晴らしいものを創造しましょう",
+        "subtitle": "あなたのビジョンを現実に",
+        "pitch": "モバイルアプリを次のレベルに引き上げる準備はできていますか？6年以上の専門知識と30以上の成功したデプロイにより、ユーザーが愛し、企業が信頼するピクセルパーフェクトでスケーラブルなソリューションの構築を専門としています。",
+        "services": {
+            "title": "提供サービス",
+            "development": {
+                "title": "フルスタック開発",
+                "description": "コンセプトからデプロイまで、クリーンなアーキテクチャとベストプラクティスでiOS、Android、Web向けの堅牢なFlutterアプリを構築します。"
+            },
+            "consulting": {
+                "title": "技術コンサルティング",
+                "description": "アプリアーキテクチャ、テクノロジースタックの選択、最適化戦略に関する専門家のガイダンスを取得し、プロジェクトの成功を確保します。"
+            },
+            "optimization": {
+                "title": "パフォーマンス最適化",
+                "description": "パフォーマンスの改善、コードのリファクタリング、ピクセルパーフェクトなUI実装により、既存のアプリを変革します。"
+            }
+        },
+        "pricing": {
+            "title": "柔軟な契約モデル",
+            "popular": "人気",
+            "selected": "✓ 選択済み",
+            "selectPackage": "パッケージを選択",
+            "starter": {
+                "title": "スターターパッケージ",
+                "description": "MVPや新規プロジェクトに最適です。競争力のある価格でスタートし、成長に合わせてスケールアップします。",
+                "rate": "$45/時から"
+            },
+            "ongoing": {
+                "title": "継続的なプロジェクト",
+                "description": "専任サポートと継続的な提供を伴う長期的なパートナーシップ。",
+                "rate": "$50-65/時"
+            },
+            "enterprise": {
+                "title": "エンタープライズソリューション",
+                "description": "専用リソースとアーキテクチャの専門知識が必要な大規模プロジェクト向けのカスタム価格。",
+                "rate": "カスタム見積もり"
+            }
+        },
+        "cta": "始める準備はできていますか？",
+        "ctaButton": "今すぐ採用"
+    },
+    "nav": {
+        "about": "概要",
+        "skills": "スキル",
+        "works": "実績",
+        "contact": "お問い合わせ"
+    },
+    "common": {
+        "loading": "読み込み中...",
+        "error": "エラーが発生しました",
+        "retry": "再試行",
+        "whatsappMessage": "こんにちはShafqat！あなたのポートフォリオを拝見し、プロジェクトの機会について話し合いたいと思います。"
+    }
+}

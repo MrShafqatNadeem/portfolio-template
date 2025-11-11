@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "Ik ben",
+        "title": "Senior Flutter Engineer | Mobiele, Android, iOS en Web Ontwikkeling | 6+ Jaar | 30+ Apps Gedeployed",
+        "button": "Bekijk Portfolio"
+    },
+    "about": {
+        "title": "Professionele Samenvatting",
+        "paragraph": "Senior Flutter Engineer met 6+ jaar expertise in Flutter, Dart, Android, iOS en Web ontwikkeling. Ervaren in Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs en GraphQL APIs. Sterke kennis van Python, Node.js, MySQL en ELK Stack (Elasticsearch). Bekend met Robotic Process Automation (RPA) en Selenium.\n\nHeb meer dan 30 mobiele applicaties ontwikkeld en bedrijven en startups geholpen succesvol te groeien. Sterke ervaring in CI/CD, CodeMagic, Agile ontwikkeling en DevOps praktijken.\n\nBachelor in Computerwetenschappen van de Universiteit van Sargodha, Lahore Campus (2015-2019).",
+        "experience": {
+            "title": "Professionele Ervaring"
+        }
+    },
+    "works": {
+        "title": "Uitgelichte Producten en Apps",
+        "moreTitle": "Meer Projecten en Bijdragen",
+        "seeMore": "Zie Meer",
+        "showLess": "Toon Minder",
+        "downloads": "Downloads",
+        "viewOn": {
+            "android": "Bekijk op Google Play",
+            "ios": "Bekijk op App Store",
+            "web": "Bezoek Website"
+        }
+    },
+    "contact": {
+        "title": "Neem Contact Op",
+        "pitch": "Ik ben altijd geïnteresseerd in nieuwe projecten en kansen. Of je nu een vraag hebt of gewoon wilt zeggen hallo, voel je vrij om contact op te nemen. Ik zal mijn best doen om terug te komen bij je! Laten we samenwerken aan innovatieve AI-gedreven mobiele apps en geavanceerde Flutter-oplossingen.",
+        "form": {
+            "name": "Naam",
+            "namePlaceholder": "Jan de Vries",
+            "email": "E-mail",
+            "emailPlaceholder": "jan@example.com",
+            "subject": "Onderwerp",
+            "subjectPlaceholder": "Hoe kan ik je helpen?",
+            "message": "Bericht",
+            "messagePlaceholder": "Vertel me over je project...",
+            "send": "Verstuur Bericht"
+        },
+        "info": {
+            "title": "Laten We Verbinden",
+            "description": "Voel je vrij om contact op te nemen via een van deze platforms. Ik sta altijd open om nieuwe projecten en kansen te bespreken.",
+            "downloadResume": "Download CV"
+        },
+        "copyright": "Alle Rechten Voorbehouden"
+    },
+    "hire": {
+        "title": "Laten We Samen Iets Geweldigs Creëren",
+        "subtitle": "Transformeer Jouw Visie in Realiteit",
+        "pitch": "Klaar om je mobiele app naar het volgende niveau te tillen? Met meer dan 6 jaar expertise en 30+ succesvolle deployments, ben ik gespecialiseerd in het bouwen van pixel-perfecte, schaalbare oplossingen waar gebruikers van houden en bedrijven op vertrouwen.",
+        "services": {
+            "title": "Wat Ik Aanbied",
+            "development": {
+                "title": "Full-Stack Ontwikkeling",
+                "description": "Van concept tot deployment, ik bouw robuuste Flutter apps voor iOS, Android en Web met clean architectuur en best practices."
+            },
+            "consulting": {
+                "title": "Technisch Advies",
+                "description": "Krijg expert begeleiding bij app-architectuur, technologie stack selectie en optimalisatiestrategieën om projectsucces te verzekeren."
+            },
+            "optimization": {
+                "title": "Prestatie Optimalisatie",
+                "description": "Transformeer je bestaande app met prestatie-verbeteringen, code refactoring en pixel-perfecte UI implementaties."
+            }
+        },
+        "pricing": {
+            "title": "Flexibele Samenwerkingsmodellen",
+            "popular": "Populair",
+            "selected": "✓ Geselecteerd",
+            "selectPackage": "Selecteer Pakket",
+            "starter": {
+                "title": "Starter Pakket",
+                "description": "Perfect voor MVP's en nieuwe projecten. Begin met competitieve prijzen en schaal op terwijl je groeit.",
+                "rate": "Vanaf €40/uur"
+            },
+            "ongoing": {
+                "title": "Doorlopende Projecten",
+                "description": "Langetermijn partnerschappen met toegewijde ondersteuning en continue oplevering.",
+                "rate": "€45-60/uur"
+            },
+            "enterprise": {
+                "title": "Enterprise Oplossingen",
+                "description": "Maatwerk prijzen voor grootschalige projecten die toegewijde middelen en architectuurexpertise vereisen.",
+                "rate": "Aangepaste Offerte"
+            }
+        },
+        "cta": "Klaar om te Beginnen?",
+        "ctaButton": "Huur Me Nu In"
+    },
+    "nav": {
+        "about": "Over",
+        "skills": "Vaardigheden",
+        "works": "Werk",
+        "contact": "Contact"
+    },
+    "common": {
+        "loading": "Laden...",
+        "error": "Er is iets misgegaan",
+        "retry": "Probeer Opnieuw",
+        "whatsappMessage": "Hoi Shafqat! Ik heb je portfolio gezien en zou graag een projectmogelijkheid met je willen bespreken."
+    }
+}

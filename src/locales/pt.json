@@ -65,10 +65,13 @@
             }
         },
         "pricing": {
-            "title": "Modelos de Engajamento Flexíveis",
+            "title": "Modelos de Contratação Flexíveis",
+            "popular": "Popular",
+            "selected": "✓ Selecionado",
+            "selectPackage": "Selecionar Pacote",
             "starter": {
                 "title": "Pacote Inicial",
-                "description": "Perfeito para MVPs e novos projetos. Comece com taxas competitivas e escale conforme você cresce.",
+                "description": "Perfeito para MVPs e novos projetos. Comece com taxas competitivas e escale conforme cresce.",
                 "rate": "A partir de $45/hora"
             },
             "ongoing": {
@@ -94,6 +97,7 @@
     "common": {
         "loading": "Carregando...",
         "error": "Algo deu errado",
-        "retry": "Tentar Novamente"
+        "retry": "Tentar Novamente",
+        "whatsappMessage": "Olá Shafqat! Vi seu portfólio e gostaria de discutir uma oportunidade de projeto com você."
     }
 }

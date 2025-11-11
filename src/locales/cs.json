@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "Jsem",
+        "title": "Senior Flutter Inženýr | Vývoj Mobilních, Android, iOS a Web Aplikací | 6+ Let | 30+ Nasazených Aplikací",
+        "button": "Zobrazit Portfolio"
+    },
+    "about": {
+        "title": "Profesní Shrnutí",
+        "paragraph": "Senior Flutter inženýr s více než 6letou expertízou ve Flutter, Dart, Android, iOS a webovém vývoji. Zkušenosti s Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs a GraphQL APIs. Silné znalosti Python, Node.js, MySQL a ELK Stack (Elasticsearch). Obeznámen s Robotic Process Automation (RPA) a Selenium.\n\nVyvinul jsem více než 30 mobilních aplikací a pomohl firmám a startupům úspěšně růst. Silné zkušenosti s CI/CD, CodeMagic, Agile vývojem a DevOps praktikami.\n\nBakalářský titul z informatiky na Univerzitě Sargodha, Campus Lahore (2015-2019).",
+        "experience": {
+            "title": "Profesní Zkušenosti"
+        }
+    },
+    "works": {
+        "title": "Vybrané Produkty a Aplikace",
+        "moreTitle": "Další Projekty a Příspěvky",
+        "seeMore": "Zobrazit Více",
+        "showLess": "Zobrazit Méně",
+        "downloads": "Stažení",
+        "viewOn": {
+            "android": "Zobrazit na Google Play",
+            "ios": "Zobrazit v App Store",
+            "web": "Navštívit Webovou Stránku"
+        }
+    },
+    "contact": {
+        "title": "Kontaktujte Mě",
+        "pitch": "Vždy mě zajímají nové projekty a příležitosti. Ať už máte otázku nebo jen chcete pozdravit, neváhejte mě kontaktovat. Udělám vše pro to, abych vám odpověděl! Spolupracujme na inovativních mobilních aplikacích s umělou inteligencí a pokročilých Flutter řešeních.",
+        "form": {
+            "name": "Jméno",
+            "namePlaceholder": "Jan Novák",
+            "email": "E-mail",
+            "emailPlaceholder": "jan@example.com",
+            "subject": "Předmět",
+            "subjectPlaceholder": "Jak vám mohu pomoci?",
+            "message": "Zpráva",
+            "messagePlaceholder": "Řekněte mi o vašem projektu...",
+            "send": "Odeslat Zprávu"
+        },
+        "info": {
+            "title": "Spojme Se",
+            "description": "Neváhejte mě kontaktovat prostřednictvím kterékoli z těchto platforem. Jsem vždy otevřený diskusi o nových projektech a příležitostech.",
+            "downloadResume": "Stáhnout Životopis"
+        },
+        "copyright": "Všechna Práva Vyhrazena"
+    },
+    "hire": {
+        "title": "Vytvořme Společně Něco Úžasného",
+        "subtitle": "Přeměňte Svou Vizi ve Skutečnost",
+        "pitch": "Jste připraveni posunout svou mobilní aplikaci na další úroveň? S více než 6letou expertízou a 30+ úspěšnými nasazeními se specializuji na vytváření pixel-perfect, škálovatelných řešení, která uživatelé milují a kterým firmy důvěřují.",
+        "services": {
+            "title": "Co Nabízím",
+            "development": {
+                "title": "Full-Stack Vývoj",
+                "description": "Od konceptu po nasazení vytvářím robustní Flutter aplikace pro iOS, Android a Web s čistou architekturou a osvědčenými postupy."
+            },
+            "consulting": {
+                "title": "Technické Poradenství",
+                "description": "Získejte odborné vedení v oblasti architektury aplikací, výběru technologického stacku a optimalizačních strategií pro zajištění úspěchu projektu."
+            },
+            "optimization": {
+                "title": "Optimalizace Výkonu",
+                "description": "Transformujte svou stávající aplikaci pomocí vylepšení výkonu, refaktoringu kódu a pixel-perfect implementací UI."
+            }
+        },
+        "pricing": {
+            "title": "Flexibilní Modely Spolupráce",
+            "popular": "Populární",
+            "selected": "✓ Vybráno",
+            "selectPackage": "Vybrat Balíček",
+            "starter": {
+                "title": "Startovní Balíček",
+                "description": "Ideální pro MVP a nové projekty. Začněte s konkurenceschopnými cenami a škálujte s růstem.",
+                "rate": "Od $45/hodinu"
+            },
+            "ongoing": {
+                "title": "Probíhající Projekty",
+                "description": "Dlouhodobá partnerství s dedikovanou podporou a průběžným dodáváním.",
+                "rate": "$50-65/hodinu"
+            },
+            "enterprise": {
+                "title": "Podniková Řešení",
+                "description": "Individuální ceny pro rozsáhlé projekty vyžadující dedikované zdroje a architektonickou expertízu.",
+                "rate": "Individuální Nabídka"
+            }
+        },
+        "cta": "Jste Připraveni Začít?",
+        "ctaButton": "Najmout Mě Nyní"
+    },
+    "nav": {
+        "about": "O Mně",
+        "skills": "Dovednosti",
+        "works": "Práce",
+        "contact": "Kontakt"
+    },
+    "common": {
+        "loading": "Načítání...",
+        "error": "Něco se pokazilo",
+        "retry": "Zkusit Znovu",
+        "whatsappMessage": "Ahoj Shafqate! Narazil jsem na tvé portfolio a rád bych s tebou projednal možnost projektu."
+    }
+}

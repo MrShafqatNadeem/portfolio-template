@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "Jestem",
+        "title": "Starszy Inżynier Flutter | Tworzenie Aplikacji Mobilnych, Android, iOS i Web | 6+ Lat | 30+ Wdrożonych Aplikacji",
+        "button": "Zobacz Portfolio"
+    },
+    "about": {
+        "title": "Podsumowanie Profesjonalne",
+        "paragraph": "Starszy Inżynier Flutter z ponad 6-letnim doświadczeniem w Flutter, Dart, Android, iOS i tworzeniu aplikacji webowych. Doświadczony w Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs i GraphQL APIs. Solidna znajomość Python, Node.js, MySQL i ELK Stack (Elasticsearch). Zaznajomiony z Automatyzacją Procesów Robotycznych (RPA) i Selenium.\n\nRozwinąłem ponad 30 aplikacji mobilnych, pomagając firmom i startupom w pomyślnym rozwoju. Duże doświadczenie w CI/CD, CodeMagic, metodologii Agile i praktykach DevOps.\n\nLicencjat z Informatyki na Uniwersytecie Sargodha, Campus Lahore (2015-2019).",
+        "experience": {
+            "title": "Doświadczenie Zawodowe"
+        }
+    },
+    "works": {
+        "title": "Wyróżnione Produkty i Aplikacje",
+        "moreTitle": "Więcej Projektów i Wkładów",
+        "seeMore": "Zobacz Więcej",
+        "showLess": "Pokaż Mniej",
+        "downloads": "Pobrań",
+        "viewOn": {
+            "android": "Zobacz w Google Play",
+            "ios": "Zobacz w App Store",
+            "web": "Odwiedź Stronę"
+        }
+    },
+    "contact": {
+        "title": "Skontaktuj Się",
+        "pitch": "Zawsze jestem zainteresowany nowymi projektami i możliwościami. Czy masz pytanie, czy po prostu chcesz przywitać się, śmiało się ze mną skontaktuj. Postaram się odpowiedzieć jak najszybciej! Współpracujmy nad innowacyjnymi aplikacjami mobilnymi opartymi na AI i zaawansowanymi rozwiązaniami Flutter.",
+        "form": {
+            "name": "Imię",
+            "namePlaceholder": "Jan Kowalski",
+            "email": "E-mail",
+            "emailPlaceholder": "jan@example.com",
+            "subject": "Temat",
+            "subjectPlaceholder": "Jak mogę Ci pomóc?",
+            "message": "Wiadomość",
+            "messagePlaceholder": "Opowiedz mi o swoim projekcie...",
+            "send": "Wyślij Wiadomość"
+        },
+        "info": {
+            "title": "Nawiążmy Kontakt",
+            "description": "Śmiało skontaktuj się ze mną przez którąkolwiek z tych platform. Zawsze jestem otwarty na rozmowy o nowych projektach i możliwościach.",
+            "downloadResume": "Pobierz CV"
+        },
+        "copyright": "Wszelkie Prawa Zastrzeżone"
+    },
+    "hire": {
+        "title": "Stwórzmy Razem Coś Niesamowitego",
+        "subtitle": "Przekształć Swoją Wizję w Rzeczywistość",
+        "pitch": "Gotowy, aby przenieść swoją aplikację mobilną na wyższy poziom? Z ponad 6-letnim doświadczeniem i 30+ udanymi wdrożeniami, specjalizuję się w tworzeniu pixel-perfect, skalowalnych rozwiązań, które użytkownicy kochają i którym firmy ufają.",
+        "services": {
+            "title": "Co Oferuję",
+            "development": {
+                "title": "Rozwój Full-Stack",
+                "description": "Od koncepcji do wdrożenia, buduję solidne aplikacje Flutter dla iOS, Android i Web z czystą architekturą i najlepszymi praktykami."
+            },
+            "consulting": {
+                "title": "Doradztwo Techniczne",
+                "description": "Uzyskaj eksperckie wskazówki dotyczące architektury aplikacji, wyboru stosu technologicznego i strategii optymalizacji, aby zapewnić sukces projektu."
+            },
+            "optimization": {
+                "title": "Optymalizacja Wydajności",
+                "description": "Przekształć swoją istniejącą aplikację dzięki ulepszeniom wydajności, refaktoryzacji kodu i pixel-perfect implementacjom UI."
+            }
+        },
+        "pricing": {
+            "title": "Elastyczne Modele Współpracy",
+            "popular": "Popularny",
+            "selected": "✓ Wybrany",
+            "selectPackage": "Wybierz Pakiet",
+            "starter": {
+                "title": "Pakiet Startowy",
+                "description": "Idealny dla MVP i nowych projektów. Zacznij z konkurencyjnymi cenami i skaluj w miarę rozwoju.",
+                "rate": "Od $45/godz"
+            },
+            "ongoing": {
+                "title": "Bieżące Projekty",
+                "description": "Długoterminowe partnerstwa z dedykowanym wsparciem i ciągłym dostarczaniem.",
+                "rate": "$50-65/godz"
+            },
+            "enterprise": {
+                "title": "Rozwiązania Korporacyjne",
+                "description": "Indywidualne ceny dla projektów na dużą skalę wymagających dedykowanych zasobów i ekspertyzy architektonicznej.",
+                "rate": "Wycena Indywidualna"
+            }
+        },
+        "cta": "Gotowy, Aby Zacząć?",
+        "ctaButton": "Zatrudnij Mnie Teraz"
+    },
+    "nav": {
+        "about": "O Mnie",
+        "skills": "Umiejętności",
+        "works": "Prace",
+        "contact": "Kontakt"
+    },
+    "common": {
+        "loading": "Ładowanie...",
+        "error": "Coś poszło nie tak",
+        "retry": "Spróbuj Ponownie",
+        "whatsappMessage": "Cześć Shafqat! Trafiłem na Twoje portfolio i chciałbym omówić możliwość projektu z Tobą."
+    }
+}

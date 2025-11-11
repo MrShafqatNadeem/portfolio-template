@@ -66,6 +66,9 @@
         },
         "pricing": {
             "title": "Fleksible Engasjementsmodeller",
+            "popular": "Populær",
+            "selected": "✓ Valgt",
+            "selectPackage": "Velg Pakke",
             "starter": {
                 "title": "Startpakke",
                 "description": "Perfekt for MVP-er og nye prosjekter. Kom i gang med konkurransedyktige priser og skaler etter hvert som du vokser.",
@@ -94,6 +97,7 @@
     "common": {
         "loading": "Laster...",
         "error": "Noe gikk galt",
-        "retry": "Prøv Igjen"
+        "retry": "Prøv Igjen",
+        "whatsappMessage": "Hei Shafqat! Jeg kom over porteføljen din og vil gjerne diskutere en prosjektmulighet med deg."
     }
 }

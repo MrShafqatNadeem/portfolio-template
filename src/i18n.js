@@ -11,6 +11,25 @@ import es from './locales/es.json';
 import pt from './locales/pt.json';
 import no from './locales/no.json';
 import sv from './locales/sv.json';
+import uk from './locales/uk.json';
+import ro from './locales/ro.json';
+import sr from './locales/sr.json';
+import bg from './locales/bg.json';
+import it from './locales/it.json';
+import nl from './locales/nl.json';
+import pl from './locales/pl.json';
+import ru from './locales/ru.json';
+import tr from './locales/tr.json';
+import el from './locales/el.json';
+import da from './locales/da.json';
+import fi from './locales/fi.json';
+import cs from './locales/cs.json';
+import hu from './locales/hu.json';
+import zh from './locales/zh.json';
+import ja from './locales/ja.json';
+import ko from './locales/ko.json';
+import ur from './locales/ur.json';
+import hi from './locales/hi.json';
 
 const resources = {
     en: { translation: en },
@@ -21,6 +40,25 @@ const resources = {
     pt: { translation: pt },
     no: { translation: no },
     sv: { translation: sv },
+    uk: { translation: uk },
+    ro: { translation: ro },
+    sr: { translation: sr },
+    bg: { translation: bg },
+    it: { translation: it },
+    nl: { translation: nl },
+    pl: { translation: pl },
+    ru: { translation: ru },
+    tr: { translation: tr },
+    el: { translation: el },
+    da: { translation: da },
+    fi: { translation: fi },
+    cs: { translation: cs },
+    hu: { translation: hu },
+    zh: { translation: zh },
+    ja: { translation: ja },
+    ko: { translation: ko },
+    ur: { translation: ur },
+    hi: { translation: hi },
 };
 
 // Detect language based on user's geographic location
@@ -59,9 +97,66 @@ async function detectLanguageByGeolocation() {
             // Swedish
             'SE': 'sv',
 
-            // English-speaking countries (default) - Canada defaults to English
+            // Ukrainian
+            'UA': 'uk',
+
+            // Romanian
+            'RO': 'ro', 'MD': 'ro',
+
+            // Serbian
+            'RS': 'sr', 'BA': 'sr', 'ME': 'sr',
+
+            // Bulgarian
+            'BG': 'bg',
+
+            // Italian
+            'IT': 'it', 'SM': 'it', 'VA': 'it',
+
+            // Dutch
+            'NL': 'nl', 'SR': 'nl',
+
+            // Polish
+            'PL': 'pl',
+
+            // Russian
+            'RU': 'ru', 'BY': 'ru', 'KZ': 'ru',
+
+            // Turkish
+            'TR': 'tr', 'CY': 'tr',
+
+            // Greek
+            'GR': 'el',
+
+            // Danish
+            'DK': 'da',
+
+            // Finnish
+            'FI': 'fi',
+
+            // Czech
+            'CZ': 'cs',
+
+            // Hungarian
+            'HU': 'hu',
+
+            // Chinese
+            'CN': 'zh', 'TW': 'zh', 'HK': 'zh', 'SG': 'zh',
+
+            // Japanese
+            'JP': 'ja',
+
+            // Korean
+            'KR': 'ko', 'KP': 'ko',
+
+            // Urdu
+            'PK': 'ur',
+
+            // Hindi
+            'IN': 'hi',
+
+            // English-speaking countries (default)
             'US': 'en', 'GB': 'en', 'AU': 'en', 'NZ': 'en', 'IE': 'en', 'ZA': 'en',
-            'CA': 'en', 'IN': 'en', 'PK': 'en', 'NG': 'en', 'PH': 'en',
+            'CA': 'en', 'NG': 'en', 'PH': 'en',
         };
 
         return countryLanguageMap[countryCode] || 'en';
@@ -70,10 +165,10 @@ async function detectLanguageByGeolocation() {
     }
 }
 
-// Apply RTL for Arabic
+// Apply RTL for Arabic and Urdu
 i18n.on('languageChanged', (lng) => {
     document.documentElement.setAttribute('lang', lng);
-    document.documentElement.setAttribute('dir', lng === 'ar' ? 'rtl' : 'ltr');
+    document.documentElement.setAttribute('dir', (lng === 'ar' || lng === 'ur') ? 'rtl' : 'ltr');
 });
 
 i18n
@@ -82,7 +177,7 @@ i18n
     .init({
         resources,
         fallbackLng: 'en',
-        supportedLngs: ['en', 'ar', 'fr', 'de', 'es', 'pt', 'no', 'sv'],
+        supportedLngs: ['en', 'ar', 'fr', 'de', 'es', 'pt', 'no', 'sv', 'uk', 'ro', 'sr', 'bg', 'it', 'nl', 'pl', 'ru', 'tr', 'el', 'da', 'fi', 'cs', 'hu', 'zh', 'ja', 'ko', 'ur', 'hi'],
         lng: 'en', // Set default language explicitly
 
         detection: {

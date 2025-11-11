@@ -66,6 +66,9 @@
         },
         "pricing": {
             "title": "Modèles d'Engagement Flexibles",
+            "popular": "Populaire",
+            "selected": "✓ Sélectionné",
+            "selectPackage": "Sélectionner le Pack",
             "starter": {
                 "title": "Pack Démarrage",
                 "description": "Parfait pour les MVP et nouveaux projets. Démarrez avec des tarifs compétitifs et évoluez avec votre croissance.",
@@ -94,6 +97,7 @@
     "common": {
         "loading": "Chargement...",
         "error": "Une erreur s'est produite",
-        "retry": "Réessayer"
+        "retry": "Réessayer",
+        "whatsappMessage": "Bonjour Shafqat ! J'ai découvert votre portfolio et j'aimerais discuter d'une opportunité de projet avec vous."
     }
 }

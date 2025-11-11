@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "Ben",
+        "title": "Kıdemli Flutter Mühendisi | Mobil, Android, iOS ve Web Geliştirme | 6+ Yıl | 30+ Uygulama Yayınlandı",
+        "button": "Portföyü Gör"
+    },
+    "about": {
+        "title": "Profesyonel Özet",
+        "paragraph": "Flutter, Dart, Android, iOS ve Web geliştirmede 6+ yıl deneyime sahip Kıdemli Flutter Mühendisi. Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs ve GraphQL APIs konusunda uzman. Python, Node.js, MySQL ve ELK Stack (Elasticsearch) konusunda güçlü bilgi. Robotik Süreç Otomasyonu (RPA) ve Selenium'a aşina.\n\n30'dan fazla mobil uygulama geliştirerek işletmelerin ve startup'ların başarılı bir şekilde büyümesine yardımcı oldum. CI/CD, CodeMagic, Agile geliştirme ve DevOps uygulamaları konusunda güçlü deneyim.\n\nSargodha Üniversitesi, Lahore Kampüsü'nden Bilgisayar Bilimleri Lisans derecesi (2015-2019).",
+        "experience": {
+            "title": "Profesyonel Deneyim"
+        }
+    },
+    "works": {
+        "title": "Öne Çıkan Ürünler ve Uygulamalar",
+        "moreTitle": "Daha Fazla Proje ve Katkılar",
+        "seeMore": "Daha Fazla Gör",
+        "showLess": "Daha Az Göster",
+        "downloads": "İndirme",
+        "viewOn": {
+            "android": "Google Play'de Görüntüle",
+            "ios": "App Store'da Görüntüle",
+            "web": "Web Sitesini Ziyaret Et"
+        }
+    },
+    "contact": {
+        "title": "İletişime Geçin",
+        "pitch": "Her zaman yeni projeler ve fırsatlarla ilgileniyorum. İster bir sorunuz olsun, ister sadece merhaba demek isteyin, benimle iletişime geçmekten çekinmeyin. Size geri dönmek için elimden geleni yapacağım! Yapay zeka destekli yenilikçi mobil uygulamalar ve en son Flutter çözümleri üzerinde birlikte çalışalım.",
+        "form": {
+            "name": "İsim",
+            "namePlaceholder": "Ahmet Yılmaz",
+            "email": "E-posta",
+            "emailPlaceholder": "ahmet@example.com",
+            "subject": "Konu",
+            "subjectPlaceholder": "Size nasıl yardımcı olabilirim?",
+            "message": "Mesaj",
+            "messagePlaceholder": "Projeniz hakkında bana bilgi verin...",
+            "send": "Mesaj Gönder"
+        },
+        "info": {
+            "title": "Hadi Bağlanalım",
+            "description": "Bu platformlardan herhangi biri üzerinden benimle iletişime geçmekten çekinmeyin. Yeni projeler ve fırsatları tartışmaya her zaman açığım.",
+            "downloadResume": "Özgeçmiş İndir"
+        },
+        "copyright": "Tüm Hakları Saklıdır"
+    },
+    "hire": {
+        "title": "Birlikte Harika Bir Şey Yaratalım",
+        "subtitle": "Vizyonunuzu Gerçeğe Dönüştürün",
+        "pitch": "Mobil uygulamanızı bir sonraki seviyeye taşımaya hazır mısınız? 6+ yıllık uzmanlık ve 30+ başarılı dağıtımla, kullanıcıların sevdiği ve işletmelerin güvendiği pixel-perfect, ölçeklenebilir çözümler oluşturmada uzmanım.",
+        "services": {
+            "title": "Ne Sunuyorum",
+            "development": {
+                "title": "Full-Stack Geliştirme",
+                "description": "Konseptten dağıtıma kadar, temiz mimari ve en iyi uygulamalarla iOS, Android ve Web için sağlam Flutter uygulamaları oluşturuyorum."
+            },
+            "consulting": {
+                "title": "Teknik Danışmanlık",
+                "description": "Proje başarısını sağlamak için uygulama mimarisi, teknoloji yığını seçimi ve optimizasyon stratejileri konusunda uzman rehberlik alın."
+            },
+            "optimization": {
+                "title": "Performans Optimizasyonu",
+                "description": "Performans iyileştirmeleri, kod yeniden düzenlemesi ve pixel-perfect UI uygulamalarıyla mevcut uygulamanızı dönüştürün."
+            }
+        },
+        "pricing": {
+            "title": "Esnek Anlaşma Modelleri",
+            "popular": "Popüler",
+            "selected": "✓ Seçildi",
+            "selectPackage": "Paket Seç",
+            "starter": {
+                "title": "Başlangıç Paketi",
+                "description": "MVP'ler ve yeni projeler için mükemmel. Rekabetçi fiyatlarla başlayın ve büyüdükçe ölçeklendirin.",
+                "rate": "$45/saat'ten başlayan"
+            },
+            "ongoing": {
+                "title": "Devam Eden Projeler",
+                "description": "Özel destek ve sürekli teslimat ile uzun vadeli ortaklıklar.",
+                "rate": "$50-65/saat"
+            },
+            "enterprise": {
+                "title": "Kurumsal Çözümler",
+                "description": "Özel kaynaklar ve mimari uzmanlık gerektiren büyük ölçekli projeler için özelleştirilmiş fiyatlandırma.",
+                "rate": "Özel Teklif"
+            }
+        },
+        "cta": "Başlamaya Hazır Mısınız?",
+        "ctaButton": "Şimdi Beni İşe Al"
+    },
+    "nav": {
+        "about": "Hakkımda",
+        "skills": "Yetenekler",
+        "works": "Çalışmalar",
+        "contact": "İletişim"
+    },
+    "common": {
+        "loading": "Yükleniyor...",
+        "error": "Bir şeyler yanlış gitti",
+        "retry": "Tekrar Dene",
+        "whatsappMessage": "Merhaba Shafqat! Portföyünüze rastladım ve sizinle bir proje fırsatı hakkında konuşmak istiyorum."
+    }
+}

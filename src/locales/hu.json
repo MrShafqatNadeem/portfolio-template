@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "Én vagyok",
+        "title": "Vezető Flutter Mérnök | Mobil, Android, iOS és Webfejlesztés | 6+ Év | 30+ Telepített Alkalmazás",
+        "button": "Portfólió Megtekintése"
+    },
+    "about": {
+        "title": "Szakmai Összefoglaló",
+        "paragraph": "Vezető Flutter mérnök több mint 6 éves szakértelemmel Flutter, Dart, Android, iOS és webfejlesztés területén. Tapasztalt Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs és GraphQL APIs használatában. Erős ismeretek Python, Node.js, MySQL és ELK Stack (Elasticsearch) területén. Jártas a Robotizált Folyamatautomatizálásban (RPA) és Seleniumban.\n\nTöbb mint 30 mobilalkalmazást fejlesztettem, segítve a vállalatokat és startupokat a sikeres növekedésben. Erős tapasztalat CI/CD, CodeMagic, Agile fejlesztés és DevOps gyakorlatok terén.\n\nSzámítástudományi alapdiploma a Sargodha Egyetemen, Lahore Campus (2015-2019).",
+        "experience": {
+            "title": "Szakmai Tapasztalat"
+        }
+    },
+    "works": {
+        "title": "Kiemelt Termékek és Alkalmazások",
+        "moreTitle": "További Projektek és Hozzájárulások",
+        "seeMore": "Több Megtekintése",
+        "showLess": "Kevesebb Mutatása",
+        "downloads": "Letöltések",
+        "viewOn": {
+            "android": "Megtekintés Google Play-en",
+            "ios": "Megtekintés App Store-ban",
+            "web": "Webhely Meglátogatása"
+        }
+    },
+    "contact": {
+        "title": "Lépjen Kapcsolatba",
+        "pitch": "Mindig érdekelnek az új projektek és lehetőségek. Akár kérdése van, akár csak köszönni szeretne, bátran vegye fel velem a kapcsolatot. Mindent megteszek, hogy válaszoljak! Dolgozzunk együtt innovatív mesterséges intelligenciával működő mobil alkalmazásokon és élvonalbeli Flutter megoldásokon.",
+        "form": {
+            "name": "Név",
+            "namePlaceholder": "Kovács János",
+            "email": "E-mail",
+            "emailPlaceholder": "janos@example.com",
+            "subject": "Tárgy",
+            "subjectPlaceholder": "Hogyan segíthetek?",
+            "message": "Üzenet",
+            "messagePlaceholder": "Mesélj a projektedről...",
+            "send": "Üzenet Küldése"
+        },
+        "info": {
+            "title": "Lépjünk Kapcsolatba",
+            "description": "Bátran keressen meg ezen platformok bármelyikén keresztül. Mindig nyitott vagyok új projektek és lehetőségek megvitatására.",
+            "downloadResume": "Önéletrajz Letöltése"
+        },
+        "copyright": "Minden Jog Fenntartva"
+    },
+    "hire": {
+        "title": "Alkossunk Együtt Valami Csodálatosat",
+        "subtitle": "Változtassa Valóra Vízióját",
+        "pitch": "Készen áll arra, hogy mobilalkalmazását a következő szintre emelje? Több mint 6 éves szakértelemmel és 30+ sikeres telepítéssel pixel-tökéletes, méretezhető megoldások építésére specializálódtam, amelyeket a felhasználók imádnak és amelyekben a vállalatok megbíznak.",
+        "services": {
+            "title": "Mit Kínálok",
+            "development": {
+                "title": "Full-Stack Fejlesztés",
+                "description": "A koncepciótól a telepítésig robusztus Flutter alkalmazásokat építek iOS, Android és Web platformokra tiszta architektúrával és legjobb gyakorlatokkal."
+            },
+            "consulting": {
+                "title": "Technikai Tanácsadás",
+                "description": "Szerezzen szakértői útmutatást az alkalmazás architektúrájához, technológiai stack kiválasztásához és optimalizálási stratégiákhoz a projekt sikerének biztosítása érdekében."
+            },
+            "optimization": {
+                "title": "Teljesítmény Optimalizálás",
+                "description": "Alakítsa át meglévő alkalmazását teljesítményjavításokkal, kód refaktorálással és pixel-tökéletes UI implementációkkal."
+            }
+        },
+        "pricing": {
+            "title": "Rugalmas Együttműködési Modellek",
+            "popular": "Népszerű",
+            "selected": "✓ Kiválasztva",
+            "selectPackage": "Csomag Kiválasztása",
+            "starter": {
+                "title": "Kezdő Csomag",
+                "description": "Tökéletes MVP-khez és új projektekhez. Kezdje versenyképes árakkal és növekedjen a fejlődéssel.",
+                "rate": "$45/óra-tól"
+            },
+            "ongoing": {
+                "title": "Folyamatos Projektek",
+                "description": "Hosszú távú partnerségek dedikált támogatással és folyamatos szállítással.",
+                "rate": "$50-65/óra"
+            },
+            "enterprise": {
+                "title": "Vállalati Megoldások",
+                "description": "Egyedi árazás nagyméretű projektekhez, amelyek dedikált erőforrásokat és architektúra szakértelmet igényelnek.",
+                "rate": "Egyedi Ajánlat"
+            }
+        },
+        "cta": "Készen Áll a Kezdésre?",
+        "ctaButton": "Alkalmazzon Most"
+    },
+    "nav": {
+        "about": "Rólam",
+        "skills": "Készségek",
+        "works": "Munkák",
+        "contact": "Kapcsolat"
+    },
+    "common": {
+        "loading": "Betöltés...",
+        "error": "Valami elromlott",
+        "retry": "Próbálja Újra",
+        "whatsappMessage": "Szia Shafqat! Rátaláltam a portfoliódra és szeretnék megbeszélni veled egy projekt lehetőséget."
+    }
+}

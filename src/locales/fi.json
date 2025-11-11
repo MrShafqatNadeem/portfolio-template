@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "Olen",
+        "title": "Vanhempi Flutter-insinööri | Mobiili-, Android-, iOS- ja web-kehitys | 6+ vuotta | 30+ sovellusta julkaistu",
+        "button": "Katso Portfolio"
+    },
+    "about": {
+        "title": "Ammatillinen Yhteenveto",
+        "paragraph": "Vanhempi Flutter-insinööri, jolla on 6+ vuoden asiantuntemus Flutter-, Dart-, Android-, iOS- ja web-kehityksessä. Kokenut Firebase-, AWS-, GCP-, S3-, CloudFront-, Cloud Functions-, REST API- ja GraphQL API -ympäristöissä. Vahva osaaminen Python-, Node.js-, MySQL- ja ELK Stack (Elasticsearch) -teknologioissa. Perehtynyt robotiikkaprosessien automatisointiin (RPA) ja Seleniumiin.\n\nOlen kehittänyt yli 30 mobiilisovellusta auttaen yrityksiä ja startup-yrityksiä kasvamaan menestyksellisesti. Vahva kokemus CI/CD-, CodeMagic-, Agile-kehitys- ja DevOps-käytännöistä.\n\nTietojenkäsittelytieteen kandidaatin tutkinto Sargodhan yliopistosta, Lahoren kampus (2015-2019).",
+        "experience": {
+            "title": "Ammatillinen Kokemus"
+        }
+    },
+    "works": {
+        "title": "Esillä Olevat Tuotteet ja Sovellukset",
+        "moreTitle": "Lisää Projekteja ja Panoksia",
+        "seeMore": "Näytä Lisää",
+        "showLess": "Näytä Vähemmän",
+        "downloads": "Latauksia",
+        "viewOn": {
+            "android": "Katso Google Playssa",
+            "ios": "Katso App Storessa",
+            "web": "Käy Verkkosivustolla"
+        }
+    },
+    "contact": {
+        "title": "Ota Yhteyttä",
+        "pitch": "Olen aina kiinnostunut uusista projekteista ja mahdollisuuksista. Olipa sinulla kysymys tai haluat vain sanoa hei, älä epäröi ottaa yhteyttä. Teen parhaan vastatakseni! Tehdään yhteistyötä innovatiivisten tekoälyyn perustuvien mobiilisovellusten ja huipputeknisten Flutter-ratkaisujen parissa.",
+        "form": {
+            "name": "Nimi",
+            "namePlaceholder": "Matti Virtanen",
+            "email": "Sähköposti",
+            "emailPlaceholder": "matti@example.com",
+            "subject": "Aihe",
+            "subjectPlaceholder": "Miten voin auttaa sinua?",
+            "message": "Viesti",
+            "messagePlaceholder": "Kerro minulle projektistasi...",
+            "send": "Lähetä Viesti"
+        },
+        "info": {
+            "title": "Ollaan Yhteydessä",
+            "description": "Älä epäröi ottaa yhteyttä minkä tahansa näistä alustoista kautta. Olen aina avoin keskustelemaan uusista projekteista ja mahdollisuuksista.",
+            "downloadResume": "Lataa Ansioluettelo"
+        },
+        "copyright": "Kaikki Oikeudet Pidätetään"
+    },
+    "hire": {
+        "title": "Luodaan Jotain Hämmästyttävää Yhdessä",
+        "subtitle": "Muuta Visiosi Todellisuudeksi",
+        "pitch": "Oletko valmis viemään mobiilisovelluksesi seuraavalle tasolle? Yli 6 vuoden asiantuntemuksella ja 30+ onnistuneella julkaisulla olen erikoistunut pikselientäydellisten, skaalautuvien ratkaisujen rakentamiseen, joita käyttäjät rakastavat ja joihin yritykset luottavat.",
+        "services": {
+            "title": "Mitä Tarjoan",
+            "development": {
+                "title": "Full-Stack-kehitys",
+                "description": "Konseptista julkaisuun rakennan vankkoja Flutter-sovelluksia iOS-, Android- ja web-alustoille puhtaalla arkkitehtuurilla ja parhailla käytännöillä."
+            },
+            "consulting": {
+                "title": "Tekninen Konsultointi",
+                "description": "Hanki asiantuntija-ohjausta sovelluksen arkkitehtuuriin, teknologiapinon valintaan ja optimointistrategioihin projektin onnistumisen varmistamiseksi."
+            },
+            "optimization": {
+                "title": "Suorituskyvyn Optimointi",
+                "description": "Muuta olemassa oleva sovelluksesi suorituskyvyn parannuksilla, koodin uudelleenjärjestelyllä ja pikselientäydellisillä käyttöliittymätoteutuksilla."
+            }
+        },
+        "pricing": {
+            "title": "Joustavat Yhteistyömallit",
+            "popular": "Suosittu",
+            "selected": "✓ Valittu",
+            "selectPackage": "Valitse Paketti",
+            "starter": {
+                "title": "Aloituspaketti",
+                "description": "Täydellinen MVP:ille ja uusille projekteille. Aloita kilpailukykyisillä hinnoilla ja skaalaa kasvaessasi.",
+                "rate": "Alkaen $45/tunti"
+            },
+            "ongoing": {
+                "title": "Jatkuvat Projektit",
+                "description": "Pitkäaikaiset kumppanuudet omistautuneella tuella ja jatkuvalla toimituksella.",
+                "rate": "$50-65/tunti"
+            },
+            "enterprise": {
+                "title": "Yritysratkaisut",
+                "description": "Räätälöity hinnoittelu laajamittaisille projekteille, jotka vaativat omistettuja resursseja ja arkkitehtuuriosaamista.",
+                "rate": "Räätälöity Tarjous"
+            }
+        },
+        "cta": "Valmis Aloittamaan?",
+        "ctaButton": "Palkkaa Minut Nyt"
+    },
+    "nav": {
+        "about": "Tietoja",
+        "skills": "Taidot",
+        "works": "Työt",
+        "contact": "Yhteystiedot"
+    },
+    "common": {
+        "loading": "Ladataan...",
+        "error": "Jokin meni pieleen",
+        "retry": "Yritä Uudelleen",
+        "whatsappMessage": "Hei Shafqat! Löysin portfoliosi ja haluaisin keskustella projektimahdollisuudesta kanssasi."
+    }
+}

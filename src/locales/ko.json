@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "저는",
+        "title": "시니어 Flutter 엔지니어 | 모바일, Android, iOS 및 웹 개발 | 6년 이상 경력 | 30개 이상의 앱 배포",
+        "button": "포트폴리오 보기"
+    },
+    "about": {
+        "title": "전문가 요약",
+        "paragraph": "Flutter, Dart, Android, iOS 및 웹 개발 분야에서 6년 이상의 전문 지식을 갖춘 시니어 Flutter 엔지니어입니다. Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs 및 GraphQL APIs에 능숙합니다. Python, Node.js, MySQL 및 ELK Stack(Elasticsearch)에 대한 깊은 지식을 보유하고 있습니다. 로봇 프로세스 자동화(RPA) 및 Selenium에 익숙합니다.\n\n30개 이상의 모바일 애플리케이션을 개발하여 기업과 스타트업이 성공적으로 성장하도록 도왔습니다. CI/CD, CodeMagic, 애자일 개발 및 DevOps 관행에 대한 풍부한 경험을 보유하고 있습니다.\n\n사르고다 대학교 라호르 캠퍼스에서 컴퓨터 과학 학사 학위 취득(2015-2019).",
+        "experience": {
+            "title": "전문 경력"
+        }
+    },
+    "works": {
+        "title": "주요 제품 및 앱",
+        "moreTitle": "더 많은 프로젝트 및 기여",
+        "seeMore": "더 보기",
+        "showLess": "간략히 보기",
+        "downloads": "다운로드",
+        "viewOn": {
+            "android": "Google Play에서 보기",
+            "ios": "App Store에서 보기",
+            "web": "웹사이트 방문"
+        }
+    },
+    "contact": {
+        "title": "연락하기",
+        "pitch": "항상 새로운 프로젝트와 기회에 관심이 있습니다. 질문이 있거나 인사하고 싶으시면 부담 없이 연락해 주세요. 최선을 다해 답변 드리겠습니다! 혁신적인 AI 기반 모바일 앱과 최첨단 Flutter 솔루션에서 함께 협력합시다.",
+        "form": {
+            "name": "이름",
+            "namePlaceholder": "홍길동",
+            "email": "이메일",
+            "emailPlaceholder": "gildong@example.com",
+            "subject": "제목",
+            "subjectPlaceholder": "어떻게 도와드릴까요?",
+            "message": "메시지",
+            "messagePlaceholder": "프로젝트에 대해 알려주세요...",
+            "send": "메시지 보내기"
+        },
+        "info": {
+            "title": "연결해요",
+            "description": "이러한 플랫폼 중 하나를 통해 편하게 연락해 주세요. 항상 새로운 프로젝트와 기회에 대해 논의할 준비가 되어 있습니다.",
+            "downloadResume": "이력서 다운로드"
+        },
+        "copyright": "모든 권리 보유"
+    },
+    "hire": {
+        "title": "함께 놀라운 것을 만들어봅시다",
+        "subtitle": "비전을 현실로",
+        "pitch": "모바일 앱을 다음 단계로 끌어올릴 준비가 되셨습니까? 6년 이상의 전문 지식과 30개 이상의 성공적인 배포를 통해 사용자가 좋아하고 기업이 신뢰하는 픽셀 완벽하고 확장 가능한 솔루션 구축을 전문으로 합니다.",
+        "services": {
+            "title": "제공 서비스",
+            "development": {
+                "title": "풀스택 개발",
+                "description": "컨셉부터 배포까지 깨끗한 아키텍처와 모범 사례로 iOS, Android 및 웹용 견고한 Flutter 앱을 구축합니다."
+            },
+            "consulting": {
+                "title": "기술 컨설팅",
+                "description": "앱 아키텍처, 기술 스택 선택 및 최적화 전략에 대한 전문가 지침을 받아 프로젝트 성공을 보장하세요."
+            },
+            "optimization": {
+                "title": "성능 최적화",
+                "description": "성능 개선, 코드 리팩토링 및 픽셀 완벽한 UI 구현으로 기존 앱을 혁신하세요."
+            }
+        },
+        "pricing": {
+            "title": "유연한 계약 모델",
+            "popular": "인기",
+            "selected": "✓ 선택됨",
+            "selectPackage": "패키지 선택",
+            "starter": {
+                "title": "스타터 패키지",
+                "description": "MVP 및 새 프로젝트에 완벽합니다. 경쟁력 있는 가격으로 시작하고 성장하면서 확장하세요.",
+                "rate": "시간당 $45부터"
+            },
+            "ongoing": {
+                "title": "진행 중인 프로젝트",
+                "description": "전담 지원 및 지속적인 제공을 통한 장기 파트너십.",
+                "rate": "시간당 $50-65"
+            },
+            "enterprise": {
+                "title": "엔터프라이즈 솔루션",
+                "description": "전담 리소스와 아키텍처 전문 지식이 필요한 대규모 프로젝트를 위한 맞춤형 가격.",
+                "rate": "맞춤 견적"
+            }
+        },
+        "cta": "시작할 준비가 되셨나요?",
+        "ctaButton": "지금 고용하기"
+    },
+    "nav": {
+        "about": "소개",
+        "skills": "기술",
+        "works": "작업물",
+        "contact": "연락처"
+    },
+    "common": {
+        "loading": "로딩 중...",
+        "error": "문제가 발생했습니다",
+        "retry": "다시 시도",
+        "whatsappMessage": "안녕하세요 Shafqat! 포트폴리오를 보았고 프로젝트 기회에 대해 논의하고 싶습니다."
+    }
+}

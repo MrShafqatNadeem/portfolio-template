@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "我是",
+        "title": "高级Flutter工程师 | 移动、Android、iOS和Web开发 | 6年以上经验 | 部署30多个应用",
+        "button": "查看作品集"
+    },
+    "about": {
+        "title": "专业概述",
+        "paragraph": "高级Flutter工程师，在Flutter、Dart、Android、iOS和Web开发方面拥有6年以上的专业知识。精通Firebase、AWS、GCP、S3、CloudFront、Cloud Functions、REST APIs和GraphQL APIs。对Python、Node.js、MySQL和ELK Stack（Elasticsearch）有深厚的理解。熟悉机器人流程自动化（RPA）和Selenium。\n\n已开发30多个移动应用程序，帮助企业和初创公司成功发展。在CI/CD、CodeMagic、敏捷开发和DevOps实践方面拥有丰富经验。\n\n萨戈达大学拉合尔校区计算机科学学士学位（2015-2019年）。",
+        "experience": {
+            "title": "专业经验"
+        }
+    },
+    "works": {
+        "title": "精选产品和应用",
+        "moreTitle": "更多项目和贡献",
+        "seeMore": "查看更多",
+        "showLess": "显示更少",
+        "downloads": "下载量",
+        "viewOn": {
+            "android": "在Google Play上查看",
+            "ios": "在App Store上查看",
+            "web": "访问网站"
+        }
+    },
+    "contact": {
+        "title": "联系我",
+        "pitch": "我始终对新项目和机会感兴趣。无论您有问题还是只是想打个招呼，请随时与我联系。我会尽最大努力回复您！让我们在创新的AI驱动移动应用和尖端Flutter解决方案上进行合作。",
+        "form": {
+            "name": "姓名",
+            "namePlaceholder": "张三",
+            "email": "电子邮件",
+            "emailPlaceholder": "zhangsan@example.com",
+            "subject": "主题",
+            "subjectPlaceholder": "我能如何帮助您？",
+            "message": "消息",
+            "messagePlaceholder": "告诉我您的项目...",
+            "send": "发送消息"
+        },
+        "info": {
+            "title": "让我们联系",
+            "description": "请随时通过这些平台中的任何一个与我联系。我始终愿意讨论新项目和机会。",
+            "downloadResume": "下载简历"
+        },
+        "copyright": "版权所有"
+    },
+    "hire": {
+        "title": "让我们一起创造非凡",
+        "subtitle": "将您的愿景变为现实",
+        "pitch": "准备好将您的移动应用提升到新的水平了吗？凭借6年以上的专业知识和30多个成功部署，我专注于构建像素级完美、可扩展的解决方案，这些解决方案受到用户喜爱并获得企业信任。",
+        "services": {
+            "title": "我提供的服务",
+            "development": {
+                "title": "全栈开发",
+                "description": "从概念到部署，我使用清晰的架构和最佳实践为iOS、Android和Web构建强大的Flutter应用程序。"
+            },
+            "consulting": {
+                "title": "技术咨询",
+                "description": "获得有关应用架构、技术栈选择和优化策略的专家指导，以确保项目成功。"
+            },
+            "optimization": {
+                "title": "性能优化",
+                "description": "通过性能改进、代码重构和像素级完美的UI实现来改造您现有的应用程序。"
+            }
+        },
+        "pricing": {
+            "title": "灵活的合作模式",
+            "popular": "热门",
+            "selected": "✓ 已选择",
+            "selectPackage": "选择套餐",
+            "starter": {
+                "title": "入门套餐",
+                "description": "非常适合MVP和新项目。以具有竞争力的价格开始，并随着您的成长而扩展。",
+                "rate": "起价$45/小时"
+            },
+            "ongoing": {
+                "title": "持续项目",
+                "description": "具有专门支持和持续交付的长期合作伙伴关系。",
+                "rate": "$50-65/小时"
+            },
+            "enterprise": {
+                "title": "企业解决方案",
+                "description": "针对需要专用资源和架构专业知识的大型项目的定制定价。",
+                "rate": "定制报价"
+            }
+        },
+        "cta": "准备开始了吗？",
+        "ctaButton": "立即雇用我"
+    },
+    "nav": {
+        "about": "关于",
+        "skills": "技能",
+        "works": "作品",
+        "contact": "联系"
+    },
+    "common": {
+        "loading": "加载中...",
+        "error": "出了点问题",
+        "retry": "重试",
+        "whatsappMessage": "你好Shafqat！我看到了你的作品集，想和你讨论一个项目机会。"
+    }
+}

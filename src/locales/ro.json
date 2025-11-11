@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "Sunt",
+        "title": "Inginer Flutter Senior | Dezvoltare Mobile, Android, iOS și Web | 6+ Ani | 30+ Aplicații Implementate",
+        "button": "Vezi Portofoliu"
+    },
+    "about": {
+        "title": "Rezumat Profesional",
+        "paragraph": "Inginer Flutter Senior cu 6+ ani de expertiză în Flutter, Dart, Android, iOS și dezvoltare Web. Competent în Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs și GraphQL APIs. Cunoștințe solide de Python, Node.js, MySQL și ELK Stack (Elasticsearch). Familiarizat cu Automatizarea Proceselor Robotice (RPA) și Selenium.\n\nAm dezvoltat peste 30 de aplicații mobile, ajutând afacerile și startup-urile să se extindă cu succes. Experiență solidă în CI/CD, CodeMagic, dezvoltare Agile și practici DevOps.\n\nLicențiat în Informatică de la Universitatea Sargodha, Campus Lahore (2015-2019).",
+        "experience": {
+            "title": "Experiență Profesională"
+        }
+    },
+    "works": {
+        "title": "Produse și Aplicații Recomandate",
+        "moreTitle": "Mai Multe Proiecte și Contribuții",
+        "seeMore": "Vezi Mai Mult",
+        "showLess": "Vezi Mai Puțin",
+        "downloads": "Descărcări",
+        "viewOn": {
+            "android": "Vezi pe Google Play",
+            "ios": "Vezi pe App Store",
+            "web": "Vizitează Site-ul"
+        }
+    },
+    "contact": {
+        "title": "Ia Legătura",
+        "pitch": "Sunt întotdeauna interesat să aud despre proiecte și oportunități noi. Fie că ai o întrebare sau doar vrei să spui bună, nu ezita să mă contactezi. Voi face tot posibilul să îți răspund! Să colaborăm la aplicații mobile inovatoare bazate pe AI și soluții Flutter de ultimă generație.",
+        "form": {
+            "name": "Nume",
+            "namePlaceholder": "Ion Popescu",
+            "email": "Email",
+            "emailPlaceholder": "ion@example.com",
+            "subject": "Subiect",
+            "subjectPlaceholder": "Cum te pot ajuta?",
+            "message": "Mesaj",
+            "messagePlaceholder": "Spune-mi despre proiectul tău...",
+            "send": "Trimite Mesaj"
+        },
+        "info": {
+            "title": "Să Ne Conectăm",
+            "description": "Nu ezita să mă contactezi prin oricare dintre aceste platforme. Sunt întotdeauna deschis să discut despre proiecte și oportunități noi.",
+            "downloadResume": "Descarcă CV"
+        },
+        "copyright": "Toate Drepturile Rezervate"
+    },
+    "hire": {
+        "title": "Să Construim Ceva Minunat Împreună",
+        "subtitle": "Transformă-ți Viziunea în Realitate",
+        "pitch": "Ești gata să duci aplicația ta mobilă la următorul nivel? Cu peste 6 ani de expertiză și 30+ implementări de succes, mă specializez în crearea de soluții scalabile pixel-perfect pe care utilizatorii le adoră și în care afacerile au încredere.",
+        "services": {
+            "title": "Ce Ofer",
+            "development": {
+                "title": "Dezvoltare Full-Stack",
+                "description": "De la concept la implementare, construiesc aplicații Flutter robuste pentru iOS, Android și Web cu arhitectură curată și cele mai bune practici."
+            },
+            "consulting": {
+                "title": "Consultanță Tehnică",
+                "description": "Obține îndrumare expertă despre arhitectura aplicației, selecția stack-ului tehnologic și strategii de optimizare pentru a asigura succesul proiectului tău."
+            },
+            "optimization": {
+                "title": "Optimizare Performanță",
+                "description": "Transformă aplicația ta existentă cu îmbunătățiri de performanță, refactorizare de cod și implementări UI pixel-perfect."
+            }
+        },
+        "pricing": {
+            "title": "Modele Flexibile de Angajare",
+            "popular": "Popular",
+            "selected": "✓ Selectat",
+            "selectPackage": "Selectează Pachetul",
+            "starter": {
+                "title": "Pachet Starter",
+                "description": "Perfect pentru MVP-uri și proiecte noi. Începe cu tarife competitive și extinde-te pe măsură ce crești.",
+                "rate": "De la $45/oră"
+            },
+            "ongoing": {
+                "title": "Proiecte Continue",
+                "description": "Parteneriate pe termen lung cu suport dedicat și livrare continuă.",
+                "rate": "$50-65/oră"
+            },
+            "enterprise": {
+                "title": "Soluții Enterprise",
+                "description": "Prețuri personalizate pentru proiecte la scară mare care necesită resurse dedicate și expertiză în arhitectură.",
+                "rate": "Ofertă Personalizată"
+            }
+        },
+        "cta": "Gata Să Începem?",
+        "ctaButton": "Angajează-mă Acum"
+    },
+    "nav": {
+        "about": "Despre",
+        "skills": "Abilități",
+        "works": "Lucrări",
+        "contact": "Contact"
+    },
+    "common": {
+        "loading": "Se încarcă...",
+        "error": "Ceva nu a mers bine",
+        "retry": "Reîncearcă",
+        "whatsappMessage": "Bună Shafqat! Am văzut portofoliul tău și aș dori să discut o oportunitate de proiect cu tine."
+    }
+}

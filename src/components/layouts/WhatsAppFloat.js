@@ -1,7 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const WhatsAppFloat = () => {
+    const { t } = useTranslation();
     const [isVisible, setIsVisible] = useState(false);
     const [isAtBottom, setIsAtBottom] = useState(false);
 
@@ -38,7 +40,7 @@ const WhatsAppFloat = () => {
     const openWhatsApp = (e) => {
         e.stopPropagation();
         const phoneNumber = '12134692225';
-        const message = encodeURIComponent('Hi Shafqat! I came across your portfolio and would like to discuss a project opportunity with you.');
+        const message = encodeURIComponent(t('common.whatsappMessage'));
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
         window.open(whatsappUrl, '_blank');
     };

@@ -1,0 +1,103 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "greeting": "Jeg er",
+        "title": "Senior Flutter Ingeniør | Mobil, Android, iOS og Webudvikling | 6+ År | 30+ Apps Implementeret",
+        "button": "Se Portfolio"
+    },
+    "about": {
+        "title": "Professionel Sammenfatning",
+        "paragraph": "Senior Flutter Ingeniør med 6+ års ekspertise i Flutter, Dart, Android, iOS og webudvikling. Erfaren i Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs og GraphQL APIs. Stærk viden om Python, Node.js, MySQL og ELK Stack (Elasticsearch). Bekendt med Robotic Process Automation (RPA) og Selenium.\n\nHar udviklet over 30 mobilapplikationer og hjulpet virksomheder og startups med at vokse succesfuldt. Stærk erfaring med CI/CD, CodeMagic, Agile udvikling og DevOps-praksisser.\n\nBachelor i Datalogi fra Sargodha Universitet, Lahore Campus (2015-2019).",
+        "experience": {
+            "title": "Professionel Erfaring"
+        }
+    },
+    "works": {
+        "title": "Fremhævede Produkter og Apps",
+        "moreTitle": "Flere Projekter og Bidrag",
+        "seeMore": "Se Mere",
+        "showLess": "Vis Mindre",
+        "downloads": "Downloads",
+        "viewOn": {
+            "android": "Se på Google Play",
+            "ios": "Se på App Store",
+            "web": "Besøg Hjemmeside"
+        }
+    },
+    "contact": {
+        "title": "Kontakt",
+        "pitch": "Jeg er altid interesseret i nye projekter og muligheder. Uanset om du har et spørgsmål eller bare vil sige hej, er du velkommen til at kontakte mig. Jeg vil gøre mit bedste for at vende tilbage til dig! Lad os samarbejde om innovative AI-drevne mobile apps og avancerede Flutter-løsninger.",
+        "form": {
+            "name": "Navn",
+            "namePlaceholder": "Anders Jensen",
+            "email": "E-mail",
+            "emailPlaceholder": "anders@example.com",
+            "subject": "Emne",
+            "subjectPlaceholder": "Hvordan kan jeg hjælpe dig?",
+            "message": "Besked",
+            "messagePlaceholder": "Fortæl mig om dit projekt...",
+            "send": "Send Besked"
+        },
+        "info": {
+            "title": "Lad Os Forbinde",
+            "description": "Du er velkommen til at kontakte mig gennem en af disse platforme. Jeg er altid åben for at diskutere nye projekter og muligheder.",
+            "downloadResume": "Download CV"
+        },
+        "copyright": "Alle Rettigheder Forbeholdes"
+    },
+    "hire": {
+        "title": "Lad Os Skabe Noget Fantastisk Sammen",
+        "subtitle": "Omdanne Din Vision til Virkelighed",
+        "pitch": "Klar til at tage din mobile app til næste niveau? Med over 6 års ekspertise og 30+ succesfulde implementeringer, specialiserer jeg mig i at bygge pixel-perfekte, skalerbare løsninger, som brugerne elsker og virksomheder stoler på.",
+        "services": {
+            "title": "Hvad Jeg Tilbyder",
+            "development": {
+                "title": "Full-Stack Udvikling",
+                "description": "Fra koncept til implementering bygger jeg robuste Flutter-apps til iOS, Android og Web med ren arkitektur og bedste praksis."
+            },
+            "consulting": {
+                "title": "Teknisk Konsultation",
+                "description": "Få ekspertvejledning om app-arkitektur, valg af teknologisk stack og optimeringsstrategier for at sikre projektsucces."
+            },
+            "optimization": {
+                "title": "Ydelsesoptimering",
+                "description": "Transformer din eksisterende app med ydelsesforbedringer, koderefaktorering og pixel-perfekte UI-implementeringer."
+            }
+        },
+        "pricing": {
+            "title": "Fleksible Samarbejdsmodeller",
+            "popular": "Populær",
+            "selected": "✓ Valgt",
+            "selectPackage": "Vælg Pakke",
+            "starter": {
+                "title": "Starter Pakke",
+                "description": "Perfekt til MVP'er og nye projekter. Start med konkurrencedygtige priser og skaler op, mens du vokser.",
+                "rate": "Fra $45/time"
+            },
+            "ongoing": {
+                "title": "Løbende Projekter",
+                "description": "Langsigtede partnerskaber med dedikeret support og kontinuerlig levering.",
+                "rate": "$50-65/time"
+            },
+            "enterprise": {
+                "title": "Enterprise Løsninger",
+                "description": "Tilpasset prissætning til store projekter, der kræver dedikerede ressourcer og arkitekturekspertise.",
+                "rate": "Tilpasset Tilbud"
+            }
+        },
+        "cta": "Klar Til At Starte?",
+        "ctaButton": "Ansæt Mig Nu"
+    },
+    "nav": {
+        "about": "Om",
+        "skills": "Færdigheder",
+        "works": "Arbejde",
+        "contact": "Kontakt"
+    },
+    "common": {
+        "loading": "Indlæser...",
+        "error": "Noget gik galt",
+        "retry": "Prøv Igen",
+        "whatsappMessage": "Hej Shafqat! Jeg faldt over din portfolio og vil gerne diskutere en projektmulighed med dig."
+    }
+}

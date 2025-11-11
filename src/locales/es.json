@@ -66,6 +66,9 @@
         },
         "pricing": {
             "title": "Modelos de Compromiso Flexibles",
+            "popular": "Popular",
+            "selected": "✓ Seleccionado",
+            "selectPackage": "Seleccionar Paquete",
             "starter": {
                 "title": "Paquete Inicial",
                 "description": "Perfecto para MVPs y nuevos proyectos. Comienza con tarifas competitivas y escala a medida que creces.",
@@ -94,6 +97,7 @@
     "common": {
         "loading": "Cargando...",
         "error": "Algo salió mal",
-        "retry": "Reintentar"
+        "retry": "Reintentar",
+        "whatsappMessage": "¡Hola Shafqat! Vi tu portafolio y me gustaría discutir una oportunidad de proyecto contigo."
     }
 }

@@ -68,10 +68,32 @@
     background: white;
     border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-    min-width: 200px;
-    overflow: hidden;
+    min-width: 220px;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
     animation: slideDown 0.3s ease;
     z-index: 1004;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) #f0f0f0;
+}
+
+.language-dropdown::-webkit-scrollbar {
+    width: 6px;
+}
+
+.language-dropdown::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.language-dropdown::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+.language-dropdown::-webkit-scrollbar-thumb:hover {
+    background: var(--hover-color);
 }
 
 @keyframes slideDown {
@@ -128,6 +150,19 @@
 .dark-mode .language-dropdown {
     background: #2a2a2a;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    scrollbar-color: #5ba3d0 #404040;
+}
+
+.dark-mode .language-dropdown::-webkit-scrollbar-track {
+    background: #404040;
+}
+
+.dark-mode .language-dropdown::-webkit-scrollbar-thumb {
+    background: #5ba3d0;
+}
+
+.dark-mode .language-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #7bb9dc;
 }
 
 .dark-mode .language-option {
