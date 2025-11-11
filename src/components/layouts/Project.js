@@ -14,7 +14,9 @@ const getPlayStoreId = (url) => {
 
 const fetchAppStoreScreenshots = async (id) => {
     try {
-        const res = await fetch(`https://itunes.apple.com/lookup?id=${id}`);
+        // Use corsproxy.io to bypass CORS - simulates user browser request
+        const apiUrl = `https://corsproxy.io/?${encodeURIComponent(`https://itunes.apple.com/lookup?id=${id}`)}`;
+        const res = await fetch(apiUrl);
         const data = await res.json();
         const appData = data.results?.[0];
 
@@ -32,18 +34,14 @@ const fetchAppStoreScreenshots = async (id) => {
             category: appData.primaryGenreName || null,
         };
     } catch (error) {
-        console.error('Error fetching App Store data:', error);
+        // Silently fail and use defaults from profile.js
         return { screenshots: [], rating: null, category: null };
     }
 };
 
 const fetchPlayStoreScreenshots = async (id) => {
-    try {
-        // For now, return empty data as we need backend endpoint
-        // In production, you'd call: const res = await fetch(`/api/playstore?appId=${id}`);
-    } catch (error) {
-        console.error('Error fetching Play Store data:', error);
-    }
+    // Play Store doesn't have a public API, would need backend
+    // Return empty for now, using default values from profile.js
     return { screenshots: [], rating: null, category: null };
 };
 
