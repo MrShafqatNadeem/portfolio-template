@@ -25,6 +25,18 @@ const Header = () => {
             x.item(i).classList.toggle("inverse-dark");
         }
 
+        // Toggle inverse-dark for screenshot images
+        var screenshots = document.getElementsByClassName('screenshot-image')
+        for (let i = 0; i < screenshots.length; i += 1) {
+            screenshots.item(i).classList.toggle("inverse-dark");
+        }
+
+        // Toggle inverse-dark for screenshot containers
+        var containers = document.getElementsByClassName('screenshot-container-wrapper')
+        for (let i = 0; i < containers.length; i += 1) {
+            containers.item(i).classList.toggle("inverse-dark");
+        }
+
         if (document.documentElement.classList.contains('dark-mode'))
             localStorage.setItem('mode', 'Dark')
         else

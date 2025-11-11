@@ -296,13 +296,12 @@
     opacity: 1;
 }
 
-/* Ensure screenshot images are never inverted in dark mode */
+/* Ensure screenshot images display correctly in dark mode by counter-inverting */
 .screenshot-image.inverse-dark,
-.dark-mode .screenshot-image,
-.screenshot-container-wrapper {
-    filter: none !important;
-    -webkit-filter: none !important;
-    -moz-filter: none !important;
+.screenshot-container-wrapper.inverse-dark {
+    filter: invert(1) hue-rotate(180deg) !important;
+    -webkit-filter: invert(1) hue-rotate(180deg) !important;
+    -moz-filter: invert(1) hue-rotate(180deg) !important;
 }
 
 .screenshot-dots {
