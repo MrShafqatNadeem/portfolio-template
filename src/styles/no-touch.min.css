@@ -64,10 +64,29 @@ button:focus {
   -webkit-filter: invert(1) hue-rotate(180deg);
   -moz-filter: invert(1) hue-rotate(180deg);
 }
+/* Keep parallax background in original colors */
 .dark-mode .parallax {
-  filter: invert(1) hue-rotate(180deg);
-  -webkit-filter: invert(1) hue-rotate(180deg);
-  -moz-filter: invert(1) hue-rotate(180deg);
+  filter: invert(1) hue-rotate(180deg) !important;
+  -webkit-filter: invert(1) hue-rotate(180deg) !important;
+  -moz-filter: invert(1) hue-rotate(180deg) !important;
+}
+/* Keep all images in their original form - immune to dark mode */
+.dark-mode img {
+  filter: invert(1) hue-rotate(180deg) !important;
+  -webkit-filter: invert(1) hue-rotate(180deg) !important;
+  -moz-filter: invert(1) hue-rotate(180deg) !important;
+}
+/* Keep project card background images in original form */
+.dark-mode .img-pro {
+  filter: invert(1) hue-rotate(180deg) !important;
+  -webkit-filter: invert(1) hue-rotate(180deg) !important;
+  -moz-filter: invert(1) hue-rotate(180deg) !important;
+}
+/* Keep profile photo in original form */
+.dark-mode .Photo {
+  filter: invert(1) hue-rotate(180deg) !important;
+  -webkit-filter: invert(1) hue-rotate(180deg) !important;
+  -moz-filter: invert(1) hue-rotate(180deg) !important;
 }
 .effect2 {
   position: relative;

@@ -14,28 +14,6 @@ const Header = () => {
 
     const toggleDarkMode = (e) => {
         document.documentElement.classList.toggle('dark-mode')
-        const notDark = document.getElementById('not-dark');
-        const notDark2 = document.getElementById('not-dark2');
-
-        if (notDark) notDark.classList.toggle('inverse-dark');
-        if (notDark2) notDark2.classList.toggle('inverse-dark');
-
-        var x = document.getElementsByClassName('img-pro')
-        for (let i = 0; i < x.length; i += 1) {
-            x.item(i).classList.toggle("inverse-dark");
-        }
-
-        // Toggle inverse-dark for screenshot images
-        var screenshots = document.getElementsByClassName('screenshot-image')
-        for (let i = 0; i < screenshots.length; i += 1) {
-            screenshots.item(i).classList.toggle("inverse-dark");
-        }
-
-        // Toggle inverse-dark for screenshot containers
-        var containers = document.getElementsByClassName('screenshot-container-wrapper')
-        for (let i = 0; i < containers.length; i += 1) {
-            containers.item(i).classList.toggle("inverse-dark");
-        }
 
         if (document.documentElement.classList.contains('dark-mode'))
             localStorage.setItem('mode', 'Dark')
@@ -54,7 +32,7 @@ const Header = () => {
                 </label>
                 <HeaderButton />
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="https://avatars.githubusercontent.com/u/36890044?v=4"></img>
+            <img onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="https://avatars.githubusercontent.com/u/36890044?v=4"></img>
         </div>
     )
 

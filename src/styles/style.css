@@ -281,10 +281,6 @@
     height: 100%;
     object-fit: contain;
     transition: opacity 0.6s ease-in-out;
-    /* Prevent dark mode filter from affecting screenshots */
-    filter: none !important;
-    -webkit-filter: none !important;
-    -moz-filter: none !important;
 }
 
 /* Add fade animation class */
@@ -296,13 +292,7 @@
     opacity: 1;
 }
 
-/* Ensure screenshot images display correctly in dark mode by counter-inverting */
-.screenshot-image.inverse-dark,
-.screenshot-container-wrapper.inverse-dark {
-    filter: invert(1) hue-rotate(180deg) !important;
-    -webkit-filter: invert(1) hue-rotate(180deg) !important;
-    -moz-filter: invert(1) hue-rotate(180deg) !important;
-}
+/* Keep screenshots in original colors - handled by global img rule in no-touch.min.css */
 
 .screenshot-dots {
     position: absolute;
