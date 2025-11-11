@@ -421,12 +421,12 @@ textarea:focus {
   text-decoration-color: var(--hover-color);
 }
 .Copy {
-  color: #fff !important;
+  color: #333 !important;
   font-weight: 500;
   padding-top: 2%;
 }
 .dark-mode .Copy {
-  color: #ffffff !important;
+  color: #e0e0e0 !important;
 }
 .project-name {
   text-decoration: none;
