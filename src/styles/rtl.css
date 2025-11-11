@@ -1,0 +1,117 @@
+/* RTL Support for Arabic and other RTL languages */
+
+html[dir="rtl"] {
+    text-align: right;
+}
+
+html[dir="rtl"] .row {
+    direction: rtl;
+}
+
+html[dir="rtl"] .text-center {
+    text-align: center !important;
+}
+
+html[dir="rtl"] .text-left {
+    text-align: right;
+}
+
+html[dir="rtl"] .text-right {
+    text-align: left;
+}
+
+html[dir="rtl"] .about-text {
+    text-align: right;
+}
+
+html[dir="rtl"] .lead {
+    text-align: right;
+}
+
+html[dir="rtl"] .Header h1,
+html[dir="rtl"] .Header p {
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+/* Fix flex items order in RTL */
+html[dir="rtl"] .d-flex {
+    direction: rtl;
+}
+
+/* Fix margins and paddings */
+html[dir="rtl"] .ml-auto {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+
+html[dir="rtl"] .mr-auto {
+    margin-left: auto !important;
+    margin-right: unset !important;
+}
+
+/* Fix navigation */
+html[dir="rtl"] .navbar-nav {
+    flex-direction: row-reverse;
+}
+
+/* Fix social icons */
+html[dir="rtl"] .inline-block a {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* Fix form elements */
+html[dir="rtl"] input,
+html[dir="rtl"] textarea {
+    text-align: right;
+}
+
+/* Fix bullets and lists */
+html[dir="rtl"] ul,
+html[dir="rtl"] ol {
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+/* Fix skill chips */
+html[dir="rtl"] .skills-container {
+    direction: rtl;
+}
+
+html[dir="rtl"] .skill-chip {
+    direction: ltr;
+}
+
+/* Fix project cards */
+html[dir="rtl"] .project-info {
+    text-align: right;
+}
+
+html[dir="rtl"] .app-meta-row {
+    direction: rtl;
+}
+
+/* Fix store links */
+html[dir="rtl"] .store-link-item {
+    direction: rtl;
+}
+
+html[dir="rtl"] .store-link-item::before {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .store-link-item:hover {
+    transform: translateX(-5px);
+}
+
+/* Ensure English text (names, tech terms) stays LTR */
+html[dir="rtl"] .skill-chip,
+html[dir="rtl"] .project-title,
+html[dir="rtl"] .category-badge,
+html[dir="rtl"] code,
+html[dir="rtl"] pre {
+    direction: ltr;
+    text-align: left;
+}

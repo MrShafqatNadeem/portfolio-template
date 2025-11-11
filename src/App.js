@@ -4,6 +4,7 @@ import Header from "./components/section/Header";
 import About from "./components/section/About";
 import Works from "./components/section/Works";
 import Contact from "./components/section/Contact";
+import LanguageSwitcher from "./components/layouts/LanguageSwitcher";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { animation } from "./profile";
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <div className="App">
+      <LanguageSwitcher />
       <Header />
       <Particles />
       <About />

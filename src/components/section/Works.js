@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import Project from '../layouts/Project'
-import { projects, section3Title } from '../../profile'
+import { projects } from '../../profile'
 
 const Works = () => {
+    const { t } = useTranslation();
     const [showAll, setShowAll] = useState(false);
     const displayedProjects = showAll ? projects : projects.slice(0, 3);
 
@@ -10,7 +12,7 @@ const Works = () => {
         <div data-aos="zoom-in-up" data-aos-once="true" className="third">
             <>
                 <div className="pp-head-line mx-auto text-center">
-                    <h1 id="Projects" className="red-line pp-head">{section3Title}</h1>
+                    <h1 id="Projects" className="red-line pp-head">{t('works.title')}</h1>
                 </div>
             </>
             <div className="row">
@@ -36,7 +38,7 @@ const Works = () => {
                         className="see-more-btn"
                         onClick={() => setShowAll(!showAll)}
                     >
-                        {showAll ? 'Show Less' : `See More Projects (${projects.length - 3})`}
+                        {showAll ? t('works.showLess') || 'Show Less' : `${t('works.seeMore')} (${projects.length - 3})`}
                     </button>
                 </div>
             )}

@@ -1,0 +1,51 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "title": "Ingénieur Flutter Senior Expérimenté | Développement Mobile, Android, iOS et Web | 6+ Ans | 30+ Applications Déployées"
+    },
+    "about": {
+        "title": "Résumé Professionnel",
+        "paragraph": "Ingénieur Flutter Senior expérimenté avec plus de 6 ans d'expertise en Flutter, Dart, Android, iOS et développement Web. Compétent en Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs et GraphQL APIs. Solides connaissances en Python, Node.js, MySQL et ELK Stack (Elastic Search). Familier avec l'automatisation des processus robotiques (RPA) et Selenium.\n\nDéveloppé plus de 30 applications mobiles, aidant les entreprises et startups à croître avec succès. Solide expérience en CI/CD, CodeMagic, développement Agile et pratiques DevOps.\n\nActuellement en poste chez WithU Group (Londres, UK - Remote) depuis février 2023. Précédemment chez CloudMedx (New York/New Jersey, US - Remote), TransData (Lahore), Absolute Solutions (Lahore, US & KSA), AllianceTech Pvt. Ltd (Lahore & UK), et Red Code Technologies (Lahore).\n\nBachelor of Science en Informatique de l'Université de Sargodha, Campus de Lahore (2015-2019).",
+        "experience": {
+            "title": "Expérience Professionnelle",
+            "withu": "Ingénieur Logiciel Flutter Senior chez WithU Group — Londres, UK (Remote)",
+            "cloudmedx": "Ex-Développeur d'Applications Mobiles chez CloudMedx — New York/New Jersey, US (Remote)",
+            "transdata": "Ex-Développeur Flutter chez TransData — Lahore",
+            "absolute": "Ex-Développeur Flutter chez Absolute Solutions — Lahore, US & KSA",
+            "alliancetech": "Ex-Développeur Flutter chez AllianceTech Pvt. Ltd — Lahore & UK",
+            "redcode": "Ex-Développeur Flutter chez Red Code Technologies — Lahore"
+        }
+    },
+    "works": {
+        "title": "Produits et Applications en Vedette",
+        "moreTitle": "Plus de Projets et Contributions",
+        "seeMore": "Voir Plus",
+        "downloads": "Téléchargements",
+        "viewOn": {
+            "android": "Voir sur Google Play",
+            "ios": "Voir sur l'App Store",
+            "web": "Visiter le Site"
+        }
+    },
+    "contact": {
+        "title": "Contactez-moi",
+        "pitch": "Je suis toujours intéressé par de nouveaux projets et opportunités. Que vous ayez une question ou que vous vouliez simplement dire bonjour, n'hésitez pas à me contacter. Je ferai de mon mieux pour vous répondre ! Collaborons sur des applications mobiles innovantes alimentées par l'IA et des solutions Flutter de pointe.",
+        "form": {
+            "name": "Nom",
+            "email": "Email",
+            "message": "Message",
+            "send": "Envoyer le Message"
+        }
+    },
+    "nav": {
+        "about": "À propos",
+        "skills": "Compétences",
+        "works": "Travaux",
+        "contact": "Contact"
+    },
+    "common": {
+        "loading": "Chargement...",
+        "error": "Une erreur s'est produite",
+        "retry": "Réessayer"
+    }
+}

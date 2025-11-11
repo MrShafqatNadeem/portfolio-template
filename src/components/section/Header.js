@@ -1,8 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import HeaderButton from '../layouts/HeaderButton'
-import { header } from '../../profile'
 
 const Header = () => {
+    const { t } = useTranslation();
 
     const scrollTo = () => {
         window.scrollTo({
@@ -24,8 +25,8 @@ const Header = () => {
     return (
         <div>
             <div className="Header">
-                <h1>{`I'm ${header.name}`}</h1>
-                <p className='line-1 anim-typewriter' style={{ position: 'absolute', top: '58%', left: '50%', transform: 'translate(-50%, -50%)', width: 'auto', maxWidth: '90%', fontSize: 'clamp(0.8rem, 2vw, 1.2rem)' }}>{header.title}</p>
+                <h1>{`I'm ${t('header.name')}`}</h1>
+                <p className='line-1 anim-typewriter' style={{ position: 'absolute', top: '58%', left: '50%', transform: 'translate(-50%, -50%)', width: 'auto', maxWidth: '90%', fontSize: 'clamp(0.8rem, 2vw, 1.2rem)' }}>{t('header.title')}</p>
                 <label className="switch">
                     <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox" />
                     <span className="slider round"></span>

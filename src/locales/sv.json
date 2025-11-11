@@ -1,0 +1,51 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "title": "Erfaren Senior Flutter-ingenjör | Mobil, Android, iOS och Webbutveckling | 6+ År | 30+ Distribuerade Appar"
+    },
+    "about": {
+        "title": "Professionell Sammanfattning",
+        "paragraph": "Erfaren Senior Flutter-ingenjör med över 6 års expertis inom Flutter, Dart, Android, iOS och webbutveckling. Kunnig i Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST API:er och GraphQL API:er. Gedigen kunskap om Python, Node.js, MySQL och ELK Stack (Elastic Search). Bekant med robotprocessautomatisering (RPA) och Selenium.\n\nUtvecklat över 30 mobilapplikationer och hjälpt företag och startups att växa framgångsrikt. Stark bakgrund inom CI/CD, CodeMagic, Agil utveckling och DevOps-praktiker.\n\nArbetar för närvarande på WithU Group (London, UK - Distans) sedan februari 2023. Tidigare på CloudMedx (New York/New Jersey, US - Distans), TransData (Lahore), Absolute Solutions (Lahore, US och KSA), AllianceTech Pvt. Ltd (Lahore och UK), och Red Code Technologies (Lahore).\n\nBachelor of Science i datavetenskap från University of Sargodha, Lahore Campus (2015-2019).",
+        "experience": {
+            "title": "Professionell Erfarenhet",
+            "withu": "Senior Flutter-mjukvaruingenjör på WithU Group — London, UK (Distans)",
+            "cloudmedx": "Tidigare mobilappsutvecklare på CloudMedx — New York/New Jersey, US (Distans)",
+            "transdata": "Tidigare Flutter-utvecklare på TransData — Lahore",
+            "absolute": "Tidigare Flutter-utvecklare på Absolute Solutions — Lahore, US och KSA",
+            "alliancetech": "Tidigare Flutter-utvecklare på AllianceTech Pvt. Ltd — Lahore och UK",
+            "redcode": "Tidigare Flutter-utvecklare på Red Code Technologies — Lahore"
+        }
+    },
+    "works": {
+        "title": "Utvalda Produkter och Appar",
+        "moreTitle": "Fler Projekt och Bidrag",
+        "seeMore": "Se Mer",
+        "downloads": "Nedladdningar",
+        "viewOn": {
+            "android": "Visa på Google Play",
+            "ios": "Visa i App Store",
+            "web": "Besök Webbplats"
+        }
+    },
+    "contact": {
+        "title": "Hör av Dig",
+        "pitch": "Jag är alltid intresserad av att höra om nya projekt och möjligheter. Oavsett om du har en fråga eller bara vill säga hej, tveka inte att höra av dig. Jag ska göra mitt bästa för att svara! Låt oss samarbeta kring innovativa AI-drivna mobilapplikationer och banbrytande Flutter-lösningar.",
+        "form": {
+            "name": "Namn",
+            "email": "E-post",
+            "message": "Meddelande",
+            "send": "Skicka Meddelande"
+        }
+    },
+    "nav": {
+        "about": "Om",
+        "skills": "Färdigheter",
+        "works": "Arbeten",
+        "contact": "Kontakt"
+    },
+    "common": {
+        "loading": "Laddar...",
+        "error": "Något gick fel",
+        "retry": "Försök Igen"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "header": {
+        "name": "Shafqat Nadeem",
+        "title": "Erfaren Senior Flutter-ingeniør | Mobil, Android, iOS og Webutvikling | 6+ År | 30+ Distribuerte Apper"
+    },
+    "about": {
+        "title": "Profesjonelt Sammendrag",
+        "paragraph": "Erfaren Senior Flutter-ingeniør med over 6 års ekspertise innen Flutter, Dart, Android, iOS og webutvikling. Dyktig i Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST API-er og GraphQL API-er. Solid kunnskap om Python, Node.js, MySQL og ELK Stack (Elastic Search). Kjent med Robotprosessautomatisering (RPA) og Selenium.\n\nUtviklet over 30 mobilapplikasjoner, og hjulpet bedrifter og oppstartsbedrifter med å skalere vellykket. Sterk bakgrunn i CI/CD, CodeMagic, smidig utvikling og DevOps-praksis.\n\nJobber for tiden hos WithU Group (London, UK - Eksternt) siden februar 2023. Tidligere hos CloudMedx (New York/New Jersey, US - Eksternt), TransData (Lahore), Absolute Solutions (Lahore, US og KSA), AllianceTech Pvt. Ltd (Lahore og UK), og Red Code Technologies (Lahore).\n\nBachelor of Science i informatikk fra University of Sargodha, Lahore Campus (2015-2019).",
+        "experience": {
+            "title": "Profesjonell Erfaring",
+            "withu": "Senior Flutter-programvareingeniør hos WithU Group — London, UK (Eksternt)",
+            "cloudmedx": "Tidligere mobilapputvikler hos CloudMedx — New York/New Jersey, US (Eksternt)",
+            "transdata": "Tidligere Flutter-utvikler hos TransData — Lahore",
+            "absolute": "Tidligere Flutter-utvikler hos Absolute Solutions — Lahore, US og KSA",
+            "alliancetech": "Tidligere Flutter-utvikler hos AllianceTech Pvt. Ltd — Lahore og UK",
+            "redcode": "Tidligere Flutter-utvikler hos Red Code Technologies — Lahore"
+        }
+    },
+    "works": {
+        "title": "Fremhevede Produkter og Apper",
+        "moreTitle": "Flere Prosjekter og Bidrag",
+        "seeMore": "Se Mer",
+        "downloads": "Nedlastinger",
+        "viewOn": {
+            "android": "Se på Google Play",
+            "ios": "Se på App Store",
+            "web": "Besøk Nettsted"
+        }
+    },
+    "contact": {
+        "title": "Ta Kontakt",
+        "pitch": "Jeg er alltid interessert i å høre om nye prosjekter og muligheter. Enten du har et spørsmål eller bare vil si hei, ta gjerne kontakt. Jeg skal gjøre mitt beste for å svare! La oss samarbeide om innovative AI-drevne mobilapplikasjoner og banebrytende Flutter-løsninger.",
+        "form": {
+            "name": "Navn",
+            "email": "E-post",
+            "message": "Melding",
+            "send": "Send Melding"
+        }
+    },
+    "nav": {
+        "about": "Om",
+        "skills": "Ferdigheter",
+        "works": "Arbeider",
+        "contact": "Kontakt"
+    },
+    "common": {
+        "loading": "Laster...",
+        "error": "Noe gikk galt",
+        "retry": "Prøv Igjen"
+    }
+}
