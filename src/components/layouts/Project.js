@@ -14,43 +14,47 @@ const getPlayStoreId = (url) => {
 
 const fetchAppStoreScreenshots = async (id) => {
     try {
-        console.log(`Fetching screenshots for App Store ID: ${id}`);
         const res = await fetch(`https://itunes.apple.com/lookup?id=${id}`);
         const data = await res.json();
-        console.log(`App Store response for ${id}:`, data);
+        const appData = data.results?.[0];
+
+        if (!appData) return { screenshots: [], rating: null, category: null };
 
         // Try iPhone screenshots first, fallback to iPad screenshots
-        let screenshots = data.results?.[0]?.screenshotUrls?.slice(0, 5) || [];
+        let screenshots = appData.screenshotUrls?.slice(0, 5) || [];
         if (screenshots.length === 0) {
-            screenshots = data.results?.[0]?.ipadScreenshotUrls?.slice(0, 5) || [];
-            console.log(`Using iPad screenshots for ${id}`);
+            screenshots = appData.ipadScreenshotUrls?.slice(0, 5) || [];
         }
 
-        console.log(`Found ${screenshots.length} screenshots for ${id}`);
-        return screenshots;
+        return {
+            screenshots,
+            rating: appData.averageUserRating || null,
+            category: appData.primaryGenreName || null,
+        };
     } catch (error) {
-        console.error('Error fetching App Store screenshots:', error);
-        return [];
+        console.error('Error fetching App Store data:', error);
+        return { screenshots: [], rating: null, category: null };
     }
 };
 
 const fetchPlayStoreScreenshots = async (id) => {
     try {
-        // For now, return empty array as we need backend endpoint
+        // For now, return empty data as we need backend endpoint
         // In production, you'd call: const res = await fetch(`/api/playstore?appId=${id}`);
-        console.log('Play Store screenshots would be fetched for:', id);
-        return [];
+        return { screenshots: [], rating: null, category: null };
     } catch (error) {
-        console.error('Error fetching Play Store screenshots:', error);
-        return [];
+        console.error('Error fetching Play Store data:', error);
+        return { screenshots: [], rating: null, category: null };
     }
 };
 
-const Project = ({ id, name, url, androidUrl, iosUrl, skills }) => {
+const Project = ({ id, name, url, androidUrl, iosUrl, skills, downloads, category: defaultCategory, rating: defaultRating }) => {
     const [screenshots, setScreenshots] = useState([]);
     const [loading, setLoading] = useState(true);
     const [activeIndex, setActiveIndex] = useState(0);
     const [fading, setFading] = useState(false);
+    const [appRating, setAppRating] = useState(defaultRating);
+    const [appCategory, setAppCategory] = useState(defaultCategory);
     const intervalRef = useRef(null);
 
     useEffect(() => {
@@ -58,26 +62,29 @@ const Project = ({ id, name, url, androidUrl, iosUrl, skills }) => {
 
         const loadScreenshots = async () => {
             setLoading(true);
-            let urls = [];
+            let data = { screenshots: [], rating: null, category: null };
 
             // Try App Store first
             if (iosUrl) {
                 const appStoreId = getAppStoreId(iosUrl);
                 if (appStoreId) {
-                    urls = await fetchAppStoreScreenshots(appStoreId);
+                    data = await fetchAppStoreScreenshots(appStoreId);
                 }
             }
 
             // If no App Store screenshots, try Play Store
-            if (urls.length === 0 && androidUrl) {
+            if (data.screenshots.length === 0 && androidUrl) {
                 const playStoreId = getPlayStoreId(androidUrl);
                 if (playStoreId) {
-                    urls = await fetchPlayStoreScreenshots(playStoreId);
+                    data = await fetchPlayStoreScreenshots(playStoreId);
                 }
             }
 
             if (!cancelled) {
-                setScreenshots(urls);
+                setScreenshots(data.screenshots);
+                // Update rating and category if fetched from API
+                if (data.rating !== null) setAppRating(data.rating);
+                if (data.category !== null) setAppCategory(data.category);
                 setLoading(false);
             }
         };
@@ -148,6 +155,30 @@ const Project = ({ id, name, url, androidUrl, iosUrl, skills }) => {
             </div>
             <div className="project-info">
                 <h2 className="project-title">{name}</h2>
+
+                {/* Category and Rating Row */}
+                <div className="app-meta-row">
+                    {appCategory && (
+                        <div className="category-badge">
+                            <i className="fas fa-tag"></i>
+                            <span>{appCategory}</span>
+                        </div>
+                    )}
+                    {appRating && (
+                        <div className="rating-badge">
+                            <i className="fas fa-star"></i>
+                            <span>{appRating.toFixed(1)}</span>
+                        </div>
+                    )}
+                </div>
+
+                {/* Download count badge */}
+                {downloads && (
+                    <div className="downloads-badge">
+                        <i className="fas fa-download"></i>
+                        <span>{downloads} Downloads</span>
+                    </div>
+                )}
 
                 {/* Skills as chips */}
                 {skills && skills.length > 0 && (

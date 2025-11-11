@@ -145,6 +145,9 @@ const projects = [
     skills: ["Flutter", "AWS", "GCP", "Firebase", "GraphQL", "REST API", "CI/CD"],
     androidUrl: "https://play.google.com/store/apps/details?id=fit.withu.flutter.withu&hl=en",
     iosUrl: "https://apps.apple.com/us/app/withu-workout-fitness-app/id1487259038",
+    downloads: "100K+",
+    category: "Health & Fitness",
+    rating: 4.8,
   },
   {
     id: "project2",
@@ -152,6 +155,9 @@ const projects = [
     skills: ["Flutter", "Dart", "Firebase", "REST API", "Multi-Language"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.iftikharbookdepot.imamia_jantri",
     iosUrl: "https://apps.apple.com/pk/app/imamia-jantri-official/id1441674194",
+    downloads: "100K+",
+    category: "Books & Reference",
+    rating: 4.5,
   },
   {
     id: "project4",
@@ -159,6 +165,9 @@ const projects = [
     skills: ["Flutter", "Google Maps", "Live Tracking", "Firebase"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.bikefixup.mobile",
     iosUrl: "https://apps.apple.com/ae/app/bikefixup/id1665163967",
+    downloads: "100K+",
+    category: "Transportation",
+    rating: 4.6,
   },
   {
     id: "project3",

@@ -15,7 +15,18 @@ const Works = () => {
             </>
             <div className="row">
                 {displayedProjects && displayedProjects.map((x) =>
-                    <Project key={x.id} id={x.id} url={x.url} name={x.name} skills={x.skills} androidUrl={x.androidUrl} iosUrl={x.iosUrl} />
+                    <Project
+                        key={x.id}
+                        id={x.id}
+                        url={x.url}
+                        name={x.name}
+                        skills={x.skills}
+                        androidUrl={x.androidUrl}
+                        iosUrl={x.iosUrl}
+                        downloads={x.downloads}
+                        category={x.category}
+                        rating={x.rating}
+                    />
                 )}
             </div>
 
