@@ -23,36 +23,6 @@ const resources = {
     sv: { translation: sv },
 };
 
-// Custom language detector that includes geolocation
-const customDetector = {
-    name: 'customDetector',
-
-    async lookup() {
-        // First check localStorage
-        const stored = localStorage.getItem('i18nextLng');
-        if (stored) return stored;
-
-        // Then try geolocation-based detection
-        try {
-            const geoLang = await detectLanguageByGeolocation();
-            if (geoLang) {
-                localStorage.setItem('i18nextLng', geoLang);
-                return geoLang;
-            }
-        } catch (error) {
-            console.log('Geolocation detection failed:', error);
-        }
-
-        // Fall back to browser language
-        const browserLang = navigator.language || navigator.userLanguage;
-        return browserLang.split('-')[0];
-    },
-
-    cacheUserLanguage(lng) {
-        localStorage.setItem('i18nextLng', lng);
-    }
-};
-
 // Detect language based on user's geographic location
 async function detectLanguageByGeolocation() {
     try {
@@ -69,7 +39,7 @@ async function detectLanguageByGeolocation() {
             'JO': 'ar', 'LB': 'ar', 'EG': 'ar', 'IQ': 'ar', 'SY': 'ar', 'YE': 'ar',
 
             // French-speaking countries
-            'FR': 'fr', 'BE': 'fr', 'CH': 'fr', 'CA': 'fr', 'LU': 'fr', 'MC': 'fr',
+            'FR': 'fr', 'BE': 'fr', 'CH': 'fr', 'LU': 'fr', 'MC': 'fr',
 
             // German-speaking countries
             'DE': 'de', 'AT': 'de', 'LI': 'de',
@@ -89,17 +59,22 @@ async function detectLanguageByGeolocation() {
             // Swedish
             'SE': 'sv',
 
-            // English-speaking countries (default)
+            // English-speaking countries (default) - Canada defaults to English
             'US': 'en', 'GB': 'en', 'AU': 'en', 'NZ': 'en', 'IE': 'en', 'ZA': 'en',
             'CA': 'en', 'IN': 'en', 'PK': 'en', 'NG': 'en', 'PH': 'en',
         };
 
         return countryLanguageMap[countryCode] || 'en';
     } catch (error) {
-        console.error('Failed to detect location:', error);
         return null;
     }
 }
+
+// Apply RTL for Arabic
+i18n.on('languageChanged', (lng) => {
+    document.documentElement.setAttribute('lang', lng);
+    document.documentElement.setAttribute('dir', lng === 'ar' ? 'rtl' : 'ltr');
+});
 
 i18n
     .use(initReactI18next)
@@ -108,6 +83,7 @@ i18n
         resources,
         fallbackLng: 'en',
         supportedLngs: ['en', 'ar', 'fr', 'de', 'es', 'pt', 'no', 'sv'],
+        lng: 'en', // Set default language explicitly
 
         detection: {
             order: ['localStorage', 'navigator'],
@@ -120,22 +96,22 @@ i18n
 
         react: {
             useSuspense: false,
+            bindI18n: 'languageChanged',
+            bindI18nStore: '',
+            transEmptyNodeValue: '',
+            transSupportBasicHtmlNodes: true,
+            transKeepBasicHtmlNodesFor: ['br', 'strong', 'i'],
         },
-    });
-
-// Apply RTL for Arabic
-i18n.on('languageChanged', (lng) => {
-    document.documentElement.setAttribute('lang', lng);
-    document.documentElement.setAttribute('dir', lng === 'ar' ? 'rtl' : 'ltr');
-});
-
-// Initialize with geolocation detection on first load
-if (!localStorage.getItem('i18nextLng')) {
-    detectLanguageByGeolocation().then(lang => {
-        if (lang && lang !== i18n.language) {
-            i18n.changeLanguage(lang);
+    })
+    .then(() => {
+        // Initialize with geolocation detection on first load
+        if (!localStorage.getItem('i18nextLng')) {
+            detectLanguageByGeolocation().then(lang => {
+                if (lang && lang !== i18n.language) {
+                    i18n.changeLanguage(lang);
+                }
+            });
         }
     });
-}
 
 export default i18n;

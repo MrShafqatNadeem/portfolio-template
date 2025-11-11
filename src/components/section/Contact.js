@@ -19,7 +19,7 @@ const Contact = () => {
                             <form action="mailto:shafqatnadeem2@gmail.com" method="GET">
                                 <input type="text" id="fname" name="firstname" placeholder={t('contact.form.name')} required></input>
                                 <input type="mail" id="mailid" name="Email" placeholder={t('contact.form.email')} required></input>
-                                <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
+                                <input type="text" id="sub" name="Subject" placeholder={t('contact.form.subject')} required></input>
                                 <textarea id="msg" name="message" placeholder={t('contact.form.message')} required></textarea>
                                 <button style={{ cursor: 'pointer' }} type="submit">{t('contact.form.send')}</button>
                             </form>
@@ -42,7 +42,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <p id="not-dark" className="Copy">2025 © Copyright <strong>{t('header.name')}</strong>. All Rights Reserved</p>
+            <p id="not-dark" className="Copy">2025 © Copyright <strong>{t('header.name')}</strong>. {t('contact.copyright')}</p>
         </div>
     )
 

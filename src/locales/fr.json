@@ -1,7 +1,9 @@
 {
     "header": {
         "name": "Shafqat Nadeem",
-        "title": "Ingénieur Flutter Senior Expérimenté | Développement Mobile, Android, iOS et Web | 6+ Ans | 30+ Applications Déployées"
+        "greeting": "Je suis",
+        "title": "Ingénieur Flutter Senior Expérimenté | Développement Mobile, Android, iOS et Web | 6+ Ans | 30+ Applications Déployées",
+        "button": "Voir le Portfolio"
     },
     "about": {
         "title": "Résumé Professionnel",
@@ -20,6 +22,7 @@
         "title": "Produits et Applications en Vedette",
         "moreTitle": "Plus de Projets et Contributions",
         "seeMore": "Voir Plus",
+        "showLess": "Voir Moins",
         "downloads": "Téléchargements",
         "viewOn": {
             "android": "Voir sur Google Play",
@@ -33,9 +36,11 @@
         "form": {
             "name": "Nom",
             "email": "Email",
+            "subject": "Sujet",
             "message": "Message",
             "send": "Envoyer le Message"
-        }
+        },
+        "copyright": "Tous Droits Réservés"
     },
     "nav": {
         "about": "À propos",

@@ -1,7 +1,7 @@
 .language-switcher {
     position: fixed;
     top: 20px;
-    right: 20px;
+    left: 20px;
     z-index: 1003;
 }
 
@@ -38,6 +38,11 @@
     line-height: 1;
 }
 
+/* Prevent flag emojis from being inverted in dark mode */
+.dark-mode .flag {
+    filter: invert(1) hue-rotate(180deg);
+}
+
 .language-code {
     font-weight: 700;
 }
@@ -64,13 +69,14 @@
 .language-dropdown {
     position: absolute;
     top: 55px;
-    right: 0;
+    left: 0;
     background: white;
     border-radius: 12px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
     min-width: 200px;
     overflow: hidden;
     animation: slideDown 0.3s ease;
+    z-index: 1004;
 }
 
 @keyframes slideDown {
@@ -146,13 +152,13 @@
 
 /* RTL Support */
 html[dir="rtl"] .language-switcher {
-    right: auto;
-    left: 20px;
+    left: auto;
+    right: 20px;
 }
 
 html[dir="rtl"] .language-dropdown {
-    right: auto;
-    left: 0;
+    left: auto;
+    right: 0;
 }
 
 html[dir="rtl"] .dropdown-arrow {
@@ -164,7 +170,7 @@ html[dir="rtl"] .dropdown-arrow {
 @media (max-width: 768px) {
     .language-switcher {
         top: 10px;
-        right: 10px;
+        left: 10px;
     }
     
     .language-button {
@@ -185,6 +191,7 @@ html[dir="rtl"] .dropdown-arrow {
     }
     
     html[dir="rtl"] .language-switcher {
-        left: 10px;
+        left: auto;
+        right: 10px;
     }
 }

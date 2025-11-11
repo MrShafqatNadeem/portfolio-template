@@ -1,7 +1,9 @@
 {
     "header": {
         "name": "Shafqat Nadeem",
-        "title": "Erfahrener Senior Flutter Engineer | Mobile, Android, iOS & Web Entwicklung | 6+ Jahre | 30+ Bereitgestellte Apps"
+        "greeting": "Ich bin",
+        "title": "Erfahrener Senior Flutter-Ingenieur | Mobile, Android, iOS & Web-Entwicklung | 6+ Jahre | 30+ Apps Veröffentlicht",
+        "button": "Portfolio Ansehen"
     },
     "about": {
         "title": "Berufliche Zusammenfassung",
@@ -20,22 +22,25 @@
         "title": "Ausgewählte Produkte & Apps",
         "moreTitle": "Weitere Projekte & Beiträge",
         "seeMore": "Mehr Sehen",
+        "showLess": "Weniger Anzeigen",
         "downloads": "Downloads",
         "viewOn": {
-            "android": "Auf Google Play ansehen",
-            "ios": "Im App Store ansehen",
-            "web": "Website besuchen"
+            "android": "Auf Google Play Ansehen",
+            "ios": "Im App Store Ansehen",
+            "web": "Website Besuchen"
         }
     },
     "contact": {
-        "title": "Kontakt aufnehmen",
-        "pitch": "Ich bin immer an neuen Projekten und Möglichkeiten interessiert. Egal ob Sie eine Frage haben oder einfach nur Hallo sagen möchten, zögern Sie nicht mich zu kontaktieren. Ich werde mein Bestes tun, um Ihnen zu antworten! Lassen Sie uns an innovativen KI-gestützten mobilen Anwendungen und modernsten Flutter-Lösungen zusammenarbeiten.",
+        "title": "Kontaktieren Sie Mich",
+        "pitch": "Ich bin immer an neuen Projekten und Möglichkeiten interessiert. Egal ob Sie eine Frage haben oder nur Hallo sagen möchten, zögern Sie nicht, sich zu melden. Ich werde mein Bestes tun, um Ihnen zu antworten! Lassen Sie uns an innovativen KI-gestützten mobilen Anwendungen und modernsten Flutter-Lösungen zusammenarbeiten.",
         "form": {
             "name": "Name",
             "email": "E-Mail",
+            "subject": "Betreff",
             "message": "Nachricht",
             "send": "Nachricht Senden"
-        }
+        },
+        "copyright": "Alle Rechte Vorbehalten"
     },
     "nav": {
         "about": "Über",

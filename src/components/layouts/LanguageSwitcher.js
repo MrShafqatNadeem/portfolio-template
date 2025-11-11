@@ -26,7 +26,7 @@ const LanguageSwitcher = () => {
 
     return (
         <div className="language-switcher">
-            <button 
+            <button
                 className="language-button"
                 onClick={() => setIsOpen(!isOpen)}
                 aria-label="Select language"

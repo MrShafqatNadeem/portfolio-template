@@ -1,7 +1,9 @@
 {
     "header": {
         "name": "Shafqat Nadeem",
-        "title": "Erfaren Senior Flutter-ingenjör | Mobil, Android, iOS och Webbutveckling | 6+ År | 30+ Distribuerade Appar"
+        "greeting": "Jag är",
+        "title": "Erfaren Senior Flutter-ingenjör | Mobil, Android, iOS & Webbutveckling | 6+ År | 30+ Appar Distribuerade",
+        "button": "Se Portfölj"
     },
     "about": {
         "title": "Professionell Sammanfattning",
@@ -17,25 +19,28 @@
         }
     },
     "works": {
-        "title": "Utvalda Produkter och Appar",
-        "moreTitle": "Fler Projekt och Bidrag",
+        "title": "Utvalda Produkter & Appar",
+        "moreTitle": "Fler Projekt & Bidrag",
         "seeMore": "Se Mer",
+        "showLess": "Se Mindre",
         "downloads": "Nedladdningar",
         "viewOn": {
             "android": "Visa på Google Play",
-            "ios": "Visa i App Store",
+            "ios": "Visa på App Store",
             "web": "Besök Webbplats"
         }
     },
     "contact": {
-        "title": "Hör av Dig",
-        "pitch": "Jag är alltid intresserad av att höra om nya projekt och möjligheter. Oavsett om du har en fråga eller bara vill säga hej, tveka inte att höra av dig. Jag ska göra mitt bästa för att svara! Låt oss samarbeta kring innovativa AI-drivna mobilapplikationer och banbrytande Flutter-lösningar.",
+        "title": "Kom i Kontakt",
+        "pitch": "Jag är alltid intresserad av att höra om nya projekt och möjligheter. Oavsett om du har en fråga eller bara vill säga hej, tveka inte att höra av dig. Jag ska göra mitt bästa för att återkomma till dig! Låt oss samarbeta om innovativa AI-drivna mobilapplikationer och banbrytande Flutter-lösningar.",
         "form": {
             "name": "Namn",
             "email": "E-post",
+            "subject": "Ämne",
             "message": "Meddelande",
             "send": "Skicka Meddelande"
-        }
+        },
+        "copyright": "Alla Rättigheter Förbehållna"
     },
     "nav": {
         "about": "Om",

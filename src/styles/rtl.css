@@ -115,3 +115,11 @@ html[dir="rtl"] pre {
     direction: ltr;
     text-align: left;
 }
+
+/* Move dark mode toggle to the right side in RTL */
+html[dir="rtl"] .switch {
+    left: auto;
+    right: 44.5%;
+}
+
+/* Adjust language switcher position in RTL (already handled in LanguageSwitcher.css) */

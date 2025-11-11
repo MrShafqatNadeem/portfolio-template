@@ -25,7 +25,7 @@ const Header = () => {
     return (
         <div>
             <div className="Header">
-                <h1>{`I'm ${t('header.name')}`}</h1>
+                <h1>{`${t('header.greeting')} ${t('header.name')}`}</h1>
                 <p className='line-1 anim-typewriter' style={{ position: 'absolute', top: '58%', left: '50%', transform: 'translate(-50%, -50%)', width: 'auto', maxWidth: '90%', fontSize: 'clamp(0.8rem, 2vw, 1.2rem)' }}>{t('header.title')}</p>
                 <label className="switch">
                     <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox" />
