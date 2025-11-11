@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useHire } from '../../context/HireContext'
 import { social } from '../../profile'
@@ -8,22 +8,17 @@ const Contact = () => {
     const { selectedPackage } = useHire();
     const [subject, setSubject] = useState('');
 
-    const getPackageSubject = () => {
-        if (!selectedPackage) return '';
-        const packageNames = {
-            starter: t('hire.pricing.starter.title'),
-            ongoing: t('hire.pricing.ongoing.title'),
-            enterprise: t('hire.pricing.enterprise.title')
-        };
-        return `Inquiry: ${packageNames[selectedPackage]}`;
-    };
-
     // Initialize subject when package is selected
-    React.useEffect(() => {
+    useEffect(() => {
         if (selectedPackage) {
-            setSubject(getPackageSubject());
+            const packageNames = {
+                starter: t('hire.pricing.starter.title'),
+                ongoing: t('hire.pricing.ongoing.title'),
+                enterprise: t('hire.pricing.enterprise.title')
+            };
+            setSubject(`Inquiry: ${packageNames[selectedPackage]}`);
         }
-    }, [selectedPackage]);
+    }, [selectedPackage, t]);
 
     return (
         <div className="contact-section-modern">
