@@ -40,7 +40,7 @@ const Contact = () => {
                                                 type="text"
                                                 id="fname"
                                                 name="firstname"
-                                                placeholder="John Doe"
+                                                placeholder={t('contact.form.namePlaceholder')}
                                                 required
                                                 className="modern-input"
                                             />
@@ -51,7 +51,7 @@ const Contact = () => {
                                                 type="email"
                                                 id="mailid"
                                                 name="Email"
-                                                placeholder="john@example.com"
+                                                placeholder={t('contact.form.emailPlaceholder')}
                                                 required
                                                 className="modern-input"
                                             />
@@ -63,7 +63,7 @@ const Contact = () => {
                                             type="text"
                                             id="sub"
                                             name="Subject"
-                                            placeholder="How can I help you?"
+                                            placeholder={t('contact.form.subjectPlaceholder')}
                                             value={subject}
                                             onChange={(e) => setSubject(e.target.value)}
                                             required
@@ -75,7 +75,7 @@ const Contact = () => {
                                         <textarea
                                             id="msg"
                                             name="message"
-                                            placeholder="Tell me about your project..."
+                                            placeholder={t('contact.form.messagePlaceholder')}
                                             required
                                             className="modern-textarea"
                                             rows="5"
@@ -91,9 +91,9 @@ const Contact = () => {
 
                         <div className="contact-info-col">
                             <div className="modern-card contact-info-card">
-                                <h3 className="info-title">Let's Connect</h3>
+                                <h3 className="info-title">{t('contact.info.title')}</h3>
                                 <p className="info-description">
-                                    Feel free to reach out through any of these platforms. I'm always open to discussing new projects and opportunities.
+                                    {t('contact.info.description')}
                                 </p>
 
                                 <div className="social-links-modern">
@@ -130,9 +130,9 @@ const Contact = () => {
                                 </div>
 
                                 {social.resume && (
-                                    <a title="Download Resume" href={social.resume} download="Shafqat_Nadeem_Resume.pdf" className="resume-download-btn">
+                                    <a title={t('contact.info.downloadResume')} href={social.resume} download="Shafqat_Nadeem_Resume.pdf" className="resume-download-btn">
                                         <i className="fas fa-download"></i>
-                                        <span>Download Resume</span>
+                                        <span>{t('contact.info.downloadResume')}</span>
                                     </a>
                                 )}
                             </div>

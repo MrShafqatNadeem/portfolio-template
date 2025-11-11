@@ -29,10 +29,19 @@
         "pitch": "Jeg er alltid interessert i å høre om nye prosjekter og muligheter. Enten du har et spørsmål eller bare vil si hei, ta gjerne kontakt. Jeg vil gjøre mitt beste for å komme tilbake til deg! La oss samarbeide om innovative AI-drevne mobilapplikasjoner og banebrytende Flutter-løsninger.",
         "form": {
             "name": "Navn",
+            "namePlaceholder": "Ola Nordmann",
             "email": "E-post",
+            "emailPlaceholder": "ola@example.com",
             "subject": "Emne",
+            "subjectPlaceholder": "Hvordan kan jeg hjelpe deg?",
             "message": "Melding",
+            "messagePlaceholder": "Fortell meg om prosjektet ditt...",
             "send": "Send Melding"
+        },
+        "info": {
+            "title": "La Oss Koble",
+            "description": "Ta gjerne kontakt via en av disse plattformene. Jeg er alltid åpen for å diskutere nye prosjekter og muligheter.",
+            "downloadResume": "Last Ned CV"
         },
         "copyright": "Alle Rettigheter Reservert"
     },

@@ -29,10 +29,19 @@
         "pitch": "I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out. I'll try my best to get back to you! Let's collaborate on innovative AI-powered mobile applications and cutting-edge Flutter solutions.",
         "form": {
             "name": "Name",
+            "namePlaceholder": "John Doe",
             "email": "Email",
+            "emailPlaceholder": "john@example.com",
             "subject": "Subject",
+            "subjectPlaceholder": "How can I help you?",
             "message": "Message",
+            "messagePlaceholder": "Tell me about your project...",
             "send": "Send Message"
+        },
+        "info": {
+            "title": "Let's Connect",
+            "description": "Feel free to reach out through any of these platforms. I'm always open to discussing new projects and opportunities.",
+            "downloadResume": "Download Resume"
         },
         "copyright": "All Rights Reserved"
     },

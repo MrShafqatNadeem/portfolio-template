@@ -29,10 +29,19 @@
         "pitch": "Estou sempre interessado em ouvir sobre novos projetos e oportunidades. Se você tem uma pergunta ou apenas quer dizer olá, sinta-se à vontade para entrar em contato. Farei o meu melhor para responder! Vamos colaborar em aplicações móveis inovadoras com inteligência artificial e soluções Flutter de ponta.",
         "form": {
             "name": "Nome",
+            "namePlaceholder": "João Silva",
             "email": "E-mail",
+            "emailPlaceholder": "joao@example.com",
             "subject": "Assunto",
+            "subjectPlaceholder": "Como posso ajudá-lo?",
             "message": "Mensagem",
+            "messagePlaceholder": "Conte-me sobre seu projeto...",
             "send": "Enviar Mensagem"
+        },
+        "info": {
+            "title": "Vamos Conectar",
+            "description": "Sinta-se à vontade para entrar em contato através de qualquer uma dessas plataformas. Estou sempre aberto para discutir novos projetos e oportunidades.",
+            "downloadResume": "Baixar Currículo"
         },
         "copyright": "Todos os Direitos Reservados"
     },

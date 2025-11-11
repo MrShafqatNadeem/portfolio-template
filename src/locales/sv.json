@@ -29,10 +29,19 @@
         "pitch": "Jag är alltid intresserad av att höra om nya projekt och möjligheter. Oavsett om du har en fråga eller bara vill säga hej, tveka inte att höra av dig. Jag ska göra mitt bästa för att återkomma till dig! Låt oss samarbeta om innovativa AI-drivna mobilapplikationer och banbrytande Flutter-lösningar.",
         "form": {
             "name": "Namn",
+            "namePlaceholder": "Erik Andersson",
             "email": "E-post",
+            "emailPlaceholder": "erik@example.com",
             "subject": "Ämne",
+            "subjectPlaceholder": "Hur kan jag hjälpa dig?",
             "message": "Meddelande",
+            "messagePlaceholder": "Berätta om ditt projekt...",
             "send": "Skicka Meddelande"
+        },
+        "info": {
+            "title": "Låt Oss Ansluta",
+            "description": "Tveka inte att höra av dig via någon av dessa plattformar. Jag är alltid öppen för att diskutera nya projekt och möjligheter.",
+            "downloadResume": "Ladda Ner CV"
         },
         "copyright": "Alla Rättigheter Förbehållna"
     },

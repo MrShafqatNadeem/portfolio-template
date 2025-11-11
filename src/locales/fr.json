@@ -29,10 +29,19 @@
         "pitch": "Je suis toujours intéressé par de nouveaux projets et opportunités. Que vous ayez une question ou que vous vouliez simplement dire bonjour, n'hésitez pas à me contacter. Je ferai de mon mieux pour vous répondre ! Collaborons sur des applications mobiles innovantes alimentées par l'IA et des solutions Flutter de pointe.",
         "form": {
             "name": "Nom",
+            "namePlaceholder": "Jean Dupont",
             "email": "Email",
+            "emailPlaceholder": "jean@example.com",
             "subject": "Sujet",
+            "subjectPlaceholder": "Comment puis-je vous aider?",
             "message": "Message",
+            "messagePlaceholder": "Parlez-moi de votre projet...",
             "send": "Envoyer le Message"
+        },
+        "info": {
+            "title": "Connectons-nous",
+            "description": "N'hésitez pas à me contacter via l'une de ces plateformes. Je suis toujours ouvert à discuter de nouveaux projets et opportunités.",
+            "downloadResume": "Télécharger le CV"
         },
         "copyright": "Tous Droits Réservés"
     },

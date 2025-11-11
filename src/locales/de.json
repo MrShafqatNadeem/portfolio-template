@@ -29,10 +29,19 @@
         "pitch": "Ich bin immer an neuen Projekten und Möglichkeiten interessiert. Egal ob Sie eine Frage haben oder nur Hallo sagen möchten, zögern Sie nicht, sich zu melden. Ich werde mein Bestes tun, um Ihnen zu antworten! Lassen Sie uns an innovativen KI-gestützten mobilen Anwendungen und modernsten Flutter-Lösungen zusammenarbeiten.",
         "form": {
             "name": "Name",
+            "namePlaceholder": "Max Mustermann",
             "email": "E-Mail",
+            "emailPlaceholder": "max@example.com",
             "subject": "Betreff",
+            "subjectPlaceholder": "Wie kann ich Ihnen helfen?",
             "message": "Nachricht",
+            "messagePlaceholder": "Erzählen Sie mir von Ihrem Projekt...",
             "send": "Nachricht Senden"
+        },
+        "info": {
+            "title": "Lassen Sie Uns Verbinden",
+            "description": "Kontaktieren Sie mich gerne über eine dieser Plattformen. Ich bin immer offen für Gespräche über neue Projekte und Möglichkeiten.",
+            "downloadResume": "Lebenslauf Herunterladen"
         },
         "copyright": "Alle Rechte Vorbehalten"
     },

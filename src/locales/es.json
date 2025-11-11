@@ -29,10 +29,19 @@
         "pitch": "Siempre estoy interesado en escuchar sobre nuevos proyectos y oportunidades. Ya sea que tengas una pregunta o simplemente quieras saludar, no dudes en comunicarte. ¡Haré todo lo posible para responderte! Colaboremos en aplicaciones móviles innovadoras impulsadas por IA y soluciones Flutter de vanguardia.",
         "form": {
             "name": "Nombre",
+            "namePlaceholder": "Juan Pérez",
             "email": "Correo Electrónico",
+            "emailPlaceholder": "juan@example.com",
             "subject": "Asunto",
+            "subjectPlaceholder": "¿Cómo puedo ayudarte?",
             "message": "Mensaje",
+            "messagePlaceholder": "Cuéntame sobre tu proyecto...",
             "send": "Enviar Mensaje"
+        },
+        "info": {
+            "title": "Conectemos",
+            "description": "No dudes en comunicarte a través de cualquiera de estas plataformas. Siempre estoy abierto a discutir nuevos proyectos y oportunidades.",
+            "downloadResume": "Descargar Currículum"
         },
         "copyright": "Todos los Derechos Reservados"
     },
