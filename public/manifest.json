@@ -3,9 +3,9 @@
   "name": "Shafqat Nadeem - Portfolio",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "https://avatars.githubusercontent.com/u/36890044?v=4",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "start_url": ".",

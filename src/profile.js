@@ -175,6 +175,7 @@ const projects = [
     skills: ["Flutter", "Agora", "Video Chat", "Real-time Chat", "REST API"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.emedgh.app",
     iosUrl: "https://apps.apple.com/pk/app/emed-ghana/id1636172632",
+    category: "Medical",
   },
   {
     id: "project5",
@@ -182,6 +183,7 @@ const projects = [
     skills: ["Flutter", "E-Commerce", "Cart Management", "REST API"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.alliance.shopping_app",
     iosUrl: "https://apps.apple.com/app/voon-express/id6443234568",
+    category: "Shopping",
   },
   {
     id: "project6",
@@ -189,6 +191,7 @@ const projects = [
     skills: ["Flutter", "Firebase", "In-App Purchase", "Revenue-Cat"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.hasbati.app",
     iosUrl: "https://apps.apple.com/app/hasbati/id6443234569",
+    category: "Finance",
   },
   {
     id: "project7",
@@ -196,6 +199,7 @@ const projects = [
     skills: ["Flutter", "E-Commerce", "Firebase", "Google Maps", "Inventory"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.virtualshop.mobile",
     iosUrl: "https://apps.apple.com/app/virtual-shop/id6443234570",
+    category: "Shopping",
   },
   {
     id: "project8",
@@ -203,6 +207,7 @@ const projects = [
     skills: ["Flutter", "Firebase", "Real-time Database", "Admin Panel"],
     androidUrl: "https://play.google.com/store/apps/dev?id=5374323931637311363",
     iosUrl: "https://apps.apple.com/app/irish-virtual-dj/id6443234571",
+    category: "Music & Audio",
   },
   {
     id: "project9",
@@ -210,6 +215,7 @@ const projects = [
     skills: ["Flutter", "Agora", "Video Chat", "Firebase", "Algorithm"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.cherry.videochat",
     iosUrl: "https://apps.apple.com/app/cherry-chat/id6443234572",
+    category: "Social Networking",
   },
   {
     id: "project10",
@@ -217,6 +223,7 @@ const projects = [
     skills: ["Flutter", "Social Media", "Firebase", "Story Management"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.spottat.app",
     iosUrl: "https://apps.apple.com/app/spott-at/id6443234573",
+    category: "Social Networking",
   },
   {
     id: "project11",
@@ -224,6 +231,7 @@ const projects = [
     skills: ["Flutter", "E-Commerce", "Material Design", "Payment Gateway"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.abc.cashcarry",
     iosUrl: "https://apps.apple.com/app/abc-cash-carry/id6443234574",
+    category: "Shopping",
   },
   {
     id: "project12",
@@ -231,42 +239,49 @@ const projects = [
     skills: ["Flutter", "Law Firm", "Multi-Role", "File Management"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.cms.lawfirm",
     iosUrl: "https://apps.apple.com/app/cms-case-management/id6443234575",
+    category: "Business",
   },
   {
     id: "misc1",
     name: "Aber Driver - Delivery App",
     skills: ["Flutter", "Delivery", "Real-time Tracking", "Maps"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.aber.driver",
+    category: "Transportation",
   },
   {
     id: "misc2",
     name: "College Meet App",
     skills: ["Flutter", "Social", "Networking", "Firebase"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.college.meet",
+    category: "Social Networking",
   },
   {
     id: "misc3",
     name: "Talk at Cha - Social App",
     skills: ["Flutter", "Chat", "Social Media", "Real-time"],
     androidUrl: "https://play.google.com/store/apps/details?id=com.talkatcha.app",
+    category: "Social Networking",
   },
   {
     id: "misc4",
-    name: "Donation Mobile App",
-    skills: ["Flutter", "Payment Gateway", "Charity", "Firebase"],
-    androidUrl: "https://play.google.com/store/apps/details?id=com.donation.app",
+    name: "Seed4Me - Fundraising App",
+    skills: ["Flutter", "Payment Gateway", "Crowdfunding", "Firebase"],
+    androidUrl: "https://play.google.com/store/apps/details?id=com.seedforme.seed",
+    category: "Finance",
   },
   {
     id: "misc5",
     name: "PR-System (Final Year Project)",
     skills: ["Flutter", "Academic", "Management System", "Database"],
     url: "https://github.com/MrShafqatNadeem/PR-System",
+    category: "Education",
   },
   {
     id: "misc6",
     name: "Flutter PayPal Integration",
     skills: ["Flutter", "PayPal", "Payment Gateway", "Open Source"],
     url: "https://github.com/MrShafqatNadeem/flutter-paypal-in-app-integration",
+    category: "Developer Tools",
   },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
