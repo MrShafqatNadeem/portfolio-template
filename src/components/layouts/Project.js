@@ -41,11 +41,10 @@ const fetchPlayStoreScreenshots = async (id) => {
     try {
         // For now, return empty data as we need backend endpoint
         // In production, you'd call: const res = await fetch(`/api/playstore?appId=${id}`);
-        return { screenshots: [], rating: null, category: null };
     } catch (error) {
         console.error('Error fetching Play Store data:', error);
-        return { screenshots: [], rating: null, category: null };
     }
+    return { screenshots: [], rating: null, category: null };
 };
 
 const Project = ({ id, name, url, androidUrl, iosUrl, skills, downloads, category: defaultCategory, rating: defaultRating }) => {
