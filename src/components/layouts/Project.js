@@ -1,10 +1,130 @@
-import React from 'react'
+import React, { useEffect, useState, useRef } from 'react'
+
+const getAppStoreId = (url) => {
+    if (!url) return null;
+    const match = url.match(/id(\d+)/);
+    return match ? match[1] : null;
+};
+
+const getPlayStoreId = (url) => {
+    if (!url) return null;
+    const match = url.match(/id=([a-zA-Z0-9._-]+)/);
+    return match ? match[1] : null;
+};
+
+const fetchAppStoreScreenshots = async (id) => {
+    try {
+        const res = await fetch(`https://itunes.apple.com/lookup?id=${id}`);
+        const data = await res.json();
+        const screenshots = data.results?.[0]?.screenshotUrls?.slice(0, 5) || [];
+        return screenshots;
+    } catch (error) {
+        console.error('Error fetching App Store screenshots:', error);
+        return [];
+    }
+};
+
+const fetchPlayStoreScreenshots = async (id) => {
+    try {
+        // For now, return empty array as we need backend endpoint
+        // In production, you'd call: const res = await fetch(`/api/playstore?appId=${id}`);
+        console.log('Play Store screenshots would be fetched for:', id);
+        return [];
+    } catch (error) {
+        console.error('Error fetching Play Store screenshots:', error);
+        return [];
+    }
+};
 
 const Project = ({ id, name, url, androidUrl, iosUrl, skills }) => {
+    const [screenshots, setScreenshots] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [activeIndex, setActiveIndex] = useState(0);
+    const intervalRef = useRef(null);
+
+    useEffect(() => {
+        let cancelled = false;
+
+        const loadScreenshots = async () => {
+            setLoading(true);
+            let urls = [];
+
+            // Try App Store first
+            if (iosUrl) {
+                const appStoreId = getAppStoreId(iosUrl);
+                if (appStoreId) {
+                    urls = await fetchAppStoreScreenshots(appStoreId);
+                }
+            }
+
+            // If no App Store screenshots, try Play Store
+            if (urls.length === 0 && androidUrl) {
+                const playStoreId = getPlayStoreId(androidUrl);
+                if (playStoreId) {
+                    urls = await fetchPlayStoreScreenshots(playStoreId);
+                }
+            }
+
+            if (!cancelled) {
+                setScreenshots(urls);
+                setLoading(false);
+            }
+        };
+
+        loadScreenshots();
+
+        return () => {
+            cancelled = true;
+            if (intervalRef.current) {
+                clearInterval(intervalRef.current);
+            }
+        };
+    }, [iosUrl, androidUrl]);
+
+    // Auto-slide carousel
+    useEffect(() => {
+        if (screenshots.length > 1) {
+            intervalRef.current = setInterval(() => {
+                setActiveIndex((current) => (current + 1) % screenshots.length);
+            }, 3000);
+
+            return () => {
+                if (intervalRef.current) {
+                    clearInterval(intervalRef.current);
+                }
+            };
+        }
+    }, [screenshots]);
+
     return (
         <div data-aos="fade-up" className="col-12 col-lg-4 project-card">
             <div className="image-project">
-                <div className={`img-pro ${id}`}></div>
+                {loading ? (
+                    <div className={`img-pro ${id} screenshot-loading`}>
+                        <div className="loading-skeleton"></div>
+                    </div>
+                ) : screenshots.length > 0 ? (
+                    <div className="img-pro screenshot-container">
+                        <img
+                            src={screenshots[activeIndex]}
+                            alt={`${name} screenshot ${activeIndex + 1}`}
+                            className="screenshot-image"
+                        />
+                        {screenshots.length > 1 && (
+                            <div className="screenshot-dots">
+                                {screenshots.map((_, index) => (
+                                    <span
+                                        key={index}
+                                        className={`dot ${index === activeIndex ? 'active' : ''}`}
+                                        onClick={() => setActiveIndex(index)}
+                                    />
+                                ))}
+                            </div>
+                        )}
+                    </div>
+                ) : (
+                    <div className={`img-pro ${id}`}></div>
+                )}
             </div>
             <div className="project-info">
                 <h2 className="project-title">{name}</h2>
