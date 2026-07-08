@@ -21,73 +21,82 @@ const background = {
 const section2title = "Professional Summary";
 const about = {
   paragraph:
-    "Senior Flutter Engineer with 6+ years of expertise in Flutter, Dart, Android, iOS, and Web development. Proficient in Firebase, AWS, GCP, S3, CloudFront, Cloud Functions, REST APIs, and GraphQL APIs. Solid knowledge of Python, Node.js, MySQL, and ELK Stack (Elasticsearch). Familiar with Robotic Process Automation (RPA) and Selenium.\n\nDeveloped over 30 mobile applications, helping businesses and startups scale successfully. Strong background in CI/CD, CodeMagic, Agile development, and DevOps practices.\n\nBachelor of Science in Computer Science from University of Sargodha, Lahore Campus (2015-2019)."
+    "Experienced Senior Flutter (Mobile App) Developer with 6+ years of expertise in Flutter, Dart, Android, iOS, and Web development. Skilled in Firebase, REST APIs, and solid knowledge of Python, Node.js, MySQL & Elastic Search Stack (ELK). Familiar with Robotic Process Automation (RPA) and Selenium.\n\nEnergetic and curiosity-driven software developer writing top-quality clean code for high-paced businesses. Expertise in all aspects of the software development life cycle, including requirement analysis, design, development and production. Dedicated to constantly improving tools and infrastructure to maximize productivity, minimize system downtime and quickly respond to changing needs of the business.\n\nDeveloped over 30 mobile applications, helping businesses and startups scale successfully. Bachelor of Science in Computer Science from University of Sargodha, Lahore Campus (2015-2019)."
 };
 
 // Professional Experience with LinkedIn-style data
 const experiences = [
   {
     id: 1,
-    position: "Senior Flutter Software Engineer",
-    company: "WithU Group",
-    location: "London, UK (Remote)",
-    period: "February 2023 - Present",
-    website: "https://www.withuholdings.com/",
-    linkedinUrl: "https://www.linkedin.com/company/withu-holdings/",
-    description: "Leading development of health & fitness mobile applications with 100K+ downloads, implementing scalable architecture and real-time features."
+    position: "Freelance Flutter Consultant",
+    company: "Freelance Insider",
+    location: "Dubai, United Arab Emirates",
+    period: "January 2026 - Present",
+    linkedinUrl: "https://www.linkedin.com/in/mistershafqatnadeem/",
+    description: "Architected bespoke cross-platform apps for global clients, driving the full SDLC from concept to deployment. Re-engineered legacy codebases, eliminating bottlenecks and modernizing architecture for maximum maintainability."
   },
   {
     id: 2,
-    position: "Mobile App Developer",
-    company: "CloudMedx",
-    location: "New York/New Jersey, US (Remote)",
-    period: "2021 - 2023",
-    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHwvu_0BFsY1w/company-logo_200_200/company-logo_200_200/0/1630578307340/cloud_medx_logo?e=2147483647&v=beta&t=ctK65wZq-WbOGC53_CeWZfgSaeK7e170yylye9Dmp3Y",
-    linkedinUrl: "https://www.linkedin.com/company/cloudmedx/",
-    description: "Developed healthcare applications with video consultation features using Agora SDK, real-time chat, and secure patient data management."
+    position: "Flutter Software Engineer",
+    company: "WithU",
+    location: "London, England, United Kingdom",
+    period: "February 2023 - December 2025",
+    website: "https://www.withuholdings.com/",
+    linkedinUrl: "https://www.linkedin.com/company/withu-holdings/",
+    description: "Architected, designed, and implemented scalable, modular, and maintainable Flutter applications. Led technical decision-making, integrating third-party services for enhanced app performance. Conducted code reviews, technical discussions, and enforced best coding practices."
   },
   {
     id: 3,
-    position: "Flutter Developer",
+    position: "Senior Flutter Developer",
     company: "TransData",
-    location: "Lahore, Pakistan",
-    period: "2020 - 2021",
+    location: "Lahore, Punjab, Pakistan",
+    period: "July 2022 - April 2023",
     website: "https://transdata.biz/",
     linkedinUrl: "https://www.linkedin.com/company/transdatallc/",
-    description: "Built transportation and logistics applications with real-time tracking, Google Maps integration, and efficient route optimization."
+    description: "Worked as part of cross-functional, passionate agile project teams. Architected, designed, developed and deployed new features for mobile applications. Ensured best possible performance, quality, and responsiveness of the application."
   },
   {
     id: 4,
-    position: "Flutter Developer",
-    company: "Absolute Solutions",
-    location: "Lahore, US & KSA",
-    period: "2019 - 2020",
-    website: "https://www.ab-sol.com/",
-    linkedinUrl: "https://www.linkedin.com/company/absolue-solutions/",
-    description: "Developed e-commerce and business applications with payment gateway integration, inventory management, and analytics."
+    position: "Senior Mobile App Developer (Outsourced via TransData)",
+    company: "CloudMedx",
+    location: "New York, NY",
+    period: "July 2022 - February 2023",
+    logo: "https://media.licdn.com/dms/image/v2/C4D0BAQHwvu_0BFsY1w/company-logo_200_200/company-logo_200_200/0/1630578307340/cloud_medx_logo?e=2147483647&v=beta&t=ctK65wZq-WbOGC53_CeWZfgSaeK7e170yylye9Dmp3Y",
+    linkedinUrl: "https://www.linkedin.com/company/cloudmedx/",
+    description: "Writing clean, high-quality, high-performance, maintainable code. Developed and supported software including applications, database integration, interfaces, and new functionality enhancements. Coordinated cross-functionally to ensure project meets business objectives."
   },
   {
     id: 5,
-    position: "Flutter Developer",
-    company: "AllianceTech Pvt. Ltd",
-    location: "Lahore & UK",
-    period: "2018 - 2019",
-    website: "https://alliancetechltd.com/",
-    linkedinUrl: "https://www.linkedin.com/company/74819862/",
-    description: "Created social networking and e-commerce platforms with real-time features, push notifications, and seamless user experiences."
+    position: "Senior Software Engineer",
+    company: "ABSOL (Absolute Solutions)",
+    location: "Lahore, Punjab, Pakistan",
+    period: "July 2021 - August 2022",
+    website: "https://www.ab-sol.com/",
+    linkedinUrl: "https://www.linkedin.com/company/absolue-solutions/",
+    description: "Architected, designed, developed and deployed new features for mobile applications. Designed and implemented mobile applications, participating in definition and implementation standards for mobile development. Strong UI building skills and REST APIs integration."
   },
   {
     id: 6,
-    position: "Flutter Developer",
-    company: "Red Code Technologies",
+    position: "Lead Flutter Engineer & Project Coordinator",
+    company: "ALLIANCE TECH (PVT. LTD)",
     location: "Lahore, Pakistan",
-    period: "2017 - 2018",
-    website: "https://www.redcodetechnologies.com/",
-    linkedinUrl: "https://www.linkedin.com/company/redcode-technologies/",
-    description: "Started Flutter development journey, building mobile applications and learning industry best practices and design patterns."
+    period: "August 2019 - August 2021",
+    website: "https://alliancetechltd.com/",
+    linkedinUrl: "https://www.linkedin.com/company/74819862/",
+    description: "Collaborated with cross-functional teams to define, design, and ship new features. Feature breakdown & assignments to resources. Designed & implemented new app modules using Flutter framework. Built reusable code and libraries, integrated various third-party APIs."
   },
   {
     id: 7,
+    position: "Flutter Developer",
+    company: "Redcode Technologies",
+    location: "Lahore, Pakistan",
+    period: "January 2019 - August 2019",
+    website: "https://www.redcodetechnologies.com/",
+    linkedinUrl: "https://www.linkedin.com/company/redcode-technologies/",
+    description: "Flutter Developer with expertise in UI/UX design, animations, Firebase integration, and API integration."
+  },
+  {
+    id: 8,
     position: "Junior Android Developer",
     company: "NexusBerry",
     location: "Lahore, Punjab, Pakistan",
