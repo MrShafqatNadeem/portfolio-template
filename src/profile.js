@@ -10,7 +10,7 @@ const animation = {
 // Change your display name on the landing display
 const header = {
   name: "Shafqat Nadeem",
-  title: "Senior Flutter Engineer | Mobile, Android, iOS & Web Development | 6+ Years | 30+ Apps Deployed"
+  title: "Senior Flutter Software Engineer | 7+ Years Experience | 20+ Mobile Apps Delivered"
 };
 const background = {
   // Options: Snow or Particle
@@ -21,7 +21,7 @@ const background = {
 const section2title = "Professional Summary";
 const about = {
   paragraph:
-    "Experienced Senior Flutter (Mobile App) Developer with 6+ years of expertise in Flutter, Dart, Android, iOS, and Web development. Skilled in Firebase, REST APIs, and solid knowledge of Python, Node.js, MySQL & Elastic Search Stack (ELK). Familiar with Robotic Process Automation (RPA) and Selenium.\n\nEnergetic and curiosity-driven software developer writing top-quality clean code for high-paced businesses. Expertise in all aspects of the software development life cycle, including requirement analysis, design, development and production. Dedicated to constantly improving tools and infrastructure to maximize productivity, minimize system downtime and quickly respond to changing needs of the business.\n\nDeveloped over 30 mobile applications, helping businesses and startups scale successfully. Bachelor of Science in Computer Science from University of Sargodha, Lahore Campus (2015-2019)."
+    "Senior Flutter Software Engineer with 7+ years of experience building, scaling, and shipping cross-platform mobile applications. Delivered 20+ mobile applications, including WithU, BikeFixup, and Imamia Jantri, each surpassing 100,000 downloads.\n\nCore & Working Stack: Flutter, Dart, Android, iOS, Java | Firebase, REST APIs, GraphQL APIs, AWS (S3, CloudFront), GCP, CodeMagic CI/CD | Python, Node.js, MySQL, ELK Stack (Elasticsearch, Logstash, Kibana).\n\nHighlights: Part of a 3-engineer team that rewrote and re-architected WithU (a media-heavy fitness app), leveraging AWS S3 and CloudFront for content delivery. Built the APIs, Flutter application, and admin dashboard for BikeFixup. Published a JazzCash payment gateway package on pub.dev.\n\nAvailable for remote full-time or contract roles, with flexible hours for US, UK, and EU overlap."
 };
 
 // Professional Experience with LinkedIn-style data
@@ -33,7 +33,7 @@ const experiences = [
     location: "Dubai, United Arab Emirates",
     period: "January 2026 - Present",
     linkedinUrl: "https://www.linkedin.com/in/mistershafqatnadeem/",
-    description: "Architected bespoke cross-platform apps for global clients, driving the full SDLC from concept to deployment. Re-engineered legacy codebases, eliminating bottlenecks and modernizing architecture for maximum maintainability."
+    description: "Architected bespoke cross-platform apps for global clients, driving the full SDLC from concept to deployment. Re-engineered legacy codebases, eliminating bottlenecks and modernizing architecture for maximum maintainability. Published a JazzCash payment gateway package on pub.dev."
   },
   {
     id: 2,
@@ -43,7 +43,7 @@ const experiences = [
     period: "February 2023 - December 2025",
     website: "https://www.withuholdings.com/",
     linkedinUrl: "https://www.linkedin.com/company/withu-holdings/",
-    description: "Architected, designed, and implemented scalable, modular, and maintainable Flutter applications. Led technical decision-making, integrating third-party services for enhanced app performance. Conducted code reviews, technical discussions, and enforced best coding practices."
+    description: "Part of a 3-engineer team that rewrote and re-architected a media-heavy fitness app, leveraging AWS S3 and CloudFront for content delivery and CodeMagic for CI/CD. Architected, designed, and implemented scalable, modular, and maintainable Flutter applications."
   },
   {
     id: 3,
