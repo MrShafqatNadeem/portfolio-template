@@ -2,10 +2,6 @@
   command = "npm run build"
   publish = "build"
 
-[build.environment]
-  NODE_VERSION = "22"
-  NODE_OPTIONS = "--openssl-legacy-provider"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"

@@ -1,6 +1,6 @@
 {
   "short_name": "Shafqat Nadeem",
-  "name": "Shafqat Nadeem - Portfolio",
+  "name": "Shafqat Nadeem - Senior Flutter Software Engineer",
   "icons": [
     {
       "src": "https://avatars.githubusercontent.com/u/36890044?v=4",
@@ -8,8 +8,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#02569B",
-  "background_color": "#ffffff"
+  "theme_color": "#0a0e17",
+  "background_color": "#0a0e17"
 }
