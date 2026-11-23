@@ -22,6 +22,14 @@
             "android": "View on Google Play",
             "ios": "View on App Store",
             "web": "Visit Website"
+        },
+        "allProjects": "All Projects",
+        "categories": {
+            "fitness": "Fitness & Health",
+            "onDemand": "On-Demand Services",
+            "utilities": "Utilities",
+            "healthcare": "Healthcare",
+            "openSource": "Open Source"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Let's Connect",
             "description": "Feel free to reach out through any of these platforms. I'm always open to discussing new projects and opportunities.",
-            "downloadResume": "Download Resume"
+            "downloadResume": "Download Resume",
+            "phone": "Phone / WhatsApp",
+            "location": "Location",
+            "timezone": "Timezone Overlap"
         },
         "copyright": "All Rights Reserved"
     },
@@ -99,5 +110,13 @@
         "error": "Something went wrong",
         "retry": "Retry",
         "whatsappMessage": "Hi Shafqat! I came across your portfolio and would like to discuss a project opportunity with you."
+    },
+    "metrics": {
+        "yearsExperience": "Years Experience",
+        "productionApps": "Production Apps",
+        "appDownloads": "App Downloads",
+        "zeroJankUi": "Zero-Jank UI",
+        "apkReduction": "APK Size Reduction",
+        "openSourceAuthor": "Open Source Author"
     }
 }

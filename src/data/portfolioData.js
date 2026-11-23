@@ -26,31 +26,37 @@ export const portfolioData = {
     {
       value: "7+",
       label: "Years Experience",
+      translationKey: "metrics.yearsExperience",
       detail: "Cross-Platform & Mobile Architecture",
     },
     {
       value: "20+",
       label: "Production Apps",
+      translationKey: "metrics.productionApps",
       detail: "Shipped to App Store & Google Play",
     },
     {
       value: "100K+",
       label: "App Downloads",
+      translationKey: "metrics.appDownloads",
       detail: "Across WithU, BikeFixup & Imamia Jantri",
     },
     {
       value: "60 FPS",
       label: "Zero-Jank UI",
+      translationKey: "metrics.zeroJankUi",
       detail: "Custom painters & animation optimization",
     },
     {
       value: "60%",
       label: "APK Size Reduction",
+      translationKey: "metrics.apkReduction",
       detail: "CloudFront CDN asset streaming",
     },
     {
       value: "pub.dev",
       label: "Open Source Author",
+      translationKey: "metrics.openSourceAuthor",
       detail: "Published JazzCash Payment Gateway",
     },
   ],
@@ -195,7 +201,8 @@ export const portfolioData = {
         "Adopted by developers across Pakistan for mobile commerce and fintech checkouts.",
       ],
       techStack: ["Flutter", "Dart", "Fintech", "Payment SDK", "pub.dev", "Open Source"],
-      githubUrl: "https://github.com/MrShafqatNadeem/jazzcash",
+      githubUrl: "https://github.com/DigiX-Technologies/jazzcash_flutter",
+      pubUrl: "https://pub.dev/packages/jazzcash_flutter",
       gradient: "linear-gradient(135deg, #EC4899 0%, #1E1B4B 100%)",
     },
     {

@@ -768,20 +768,20 @@ section {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 20px;
+  inset-inline-start: 20px;
   width: 2px;
   background: var(--bg-card-border);
 }
 
 .timeline-item {
   position: relative;
-  padding-left: 60px;
+  padding-inline-start: 60px;
   margin-bottom: 40px;
 }
 
 .timeline-dot {
   position: absolute;
-  left: 12px;
+  inset-inline-start: 12px;
   top: 6px;
   width: 18px;
   height: 18px;
@@ -1101,6 +1101,42 @@ section {
 
 /* Responsive Breakpoints */
 @media (max-width: 992px) {
+  .nav-links {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: flex;
+  }
+
+  .nav-actions {
+    gap: 8px;
+  }
+
+  .resume-nav-link {
+    display: none;
+  }
+
+  .mobile-resume-link {
+    display: inline-flex;
+    width: fit-content;
+  }
+
+  .mobile-drawer {
+    position: fixed;
+    top: 72px;
+    left: 0;
+    right: 0;
+    background: var(--nav-bg);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--bg-card-border);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 99;
+  }
+
   .hero-grid {
     grid-template-columns: 1fr;
     text-align: center;
@@ -1131,42 +1167,55 @@ section {
 }
 
 @media (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
-
-  .mobile-menu-btn {
-    display: flex;
-  }
-
-  .mobile-drawer {
-    position: fixed;
-    top: 72px;
-    left: 0;
-    right: 0;
-    background: var(--nav-bg);
-    backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--bg-card-border);
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    z-index: 99;
-  }
-
   .projects-grid {
     grid-template-columns: 1fr;
   }
 
   .timeline::before {
-    left: 10px;
+    inset-inline-start: 10px;
   }
 
   .timeline-item {
-    padding-left: 40px;
+    padding-inline-start: 40px;
   }
 
   .timeline-dot {
-    left: 2px;
+    inset-inline-start: 2px;
   }
+}
+
+@media (min-width: 993px) {
+  .mobile-resume-link {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .container.nav-container {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .nav-logo {
+    gap: 8px;
+    font-size: 1rem;
+  }
+
+  .nav-actions {
+    gap: 6px;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav-logo > span {
+    display: none;
+  }
+}
+
+html[dir="rtl"] .form-input,
+html[dir="rtl"] .form-textarea,
+html[dir="rtl"] input[type="email"],
+html[dir="rtl"] input[type="tel"] {
+  direction: ltr;
+  text-align: left;
 }

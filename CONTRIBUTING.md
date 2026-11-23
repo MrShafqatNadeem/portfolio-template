@@ -16,7 +16,7 @@ feel free to propose changes to this document in a pull request.
 
 ## Steps to contribute
 
-- Raise a new issue [here](https://github.com/kaustubhai/portfolio-template/issues/new)
+- Raise a new issue [here](https://github.com/MrShafqatNadeem/portfolio-template/issues/new)
 - Wait for the maintainer to reach out and assign the issue to you
 - Fork the repo and clone it on your local machine
 - Get the issue solved
@@ -26,7 +26,7 @@ feel free to propose changes to this document in a pull request.
 
 ## Issues and Pull Requests
 
-- If you're not sure about adding something, [open an issue](https://github.com/kaustubhai/portfolio-template/issues/new) to discuss it.
+- If you're not sure about adding something, [open an issue](https://github.com/MrShafqatNadeem/portfolio-template/issues/new) to discuss it.
 - Feel free to open a Pull Request early so that a discussion can be had as changes are developed.
 - Include screenshots and animated gifs of your changes whenever possible.
 
@@ -48,5 +48,5 @@ Stylesheets are written in CSS but are in minified format, and they all live in 
 directory. You can prettify it using any document formatter, but you need to minify again before submitting pull requests
 
 If any of this information confusing, incorrect, or incomplete, feel free to
-[open an issue](https://github.com/kaustubhai/portfolio-template/issues/new)
+[open an issue](https://github.com/MrShafqatNadeem/portfolio-template/issues/new)
 for help.

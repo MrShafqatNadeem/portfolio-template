@@ -1,8 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Icon } from "./Icons";
 import { portfolioData } from "../data/portfolioData";
 
 export const Experience = () => {
+  const { t } = useTranslation();
   const { experiences } = portfolioData;
 
   return (
@@ -11,10 +13,10 @@ export const Experience = () => {
         <div className="section-header">
           <div className="section-tag">
             <Icon name="award" size={14} />
-            <span>Career Milestones</span>
+            <span>{t("nav.about")}</span>
           </div>
           <h2 className="section-title">
-            Professional <span className="section-title-gradient">Experience</span>
+            {t("about.experience.title")}
           </h2>
           <p className="section-subtitle">
             7+ years of engineering leadership, scalable mobile architecture, cloud integrations, and mentoring high-velocity engineering teams.

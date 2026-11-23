@@ -22,6 +22,14 @@
             "android": "Погледај на Google Play",
             "ios": "Погледај на App Store",
             "web": "Посети Веб Сајт"
+        },
+        "allProjects": "Сви пројекти",
+        "categories": {
+            "fitness": "Fitnes i zdravlje",
+            "onDemand": "Usluge na zahtev",
+            "utilities": "Alati",
+            "healthcare": "Zdravstvo",
+            "openSource": "Otvoreni kod"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Хајде Да Се Повежемо",
             "description": "Слободно ме контактирајте преко било које од ових платформи. Увек сам отворен за разговор о новим пројектима и могућностима.",
-            "downloadResume": "Преузми Резиме"
+            "downloadResume": "Преузми Резиме",
+            "phone": "Telefon / WhatsApp",
+            "location": "Lokacija",
+            "timezone": "Preklapanje vremenskih zona"
         },
         "copyright": "Сва Права Задржана"
     },
@@ -99,5 +110,13 @@
         "error": "Нешто није у реду",
         "retry": "Покушај Поново",
         "whatsappMessage": "Здраво Шафкат! Наишао сам на ваш портфолио и желео бих да разговарам о могућности пројекта са вама."
+    },
+    "metrics": {
+        "yearsExperience": "Godina iskustva",
+        "productionApps": "Objavljene aplikacije",
+        "appDownloads": "Preuzimanja aplikacija",
+        "zeroJankUi": "Interfejs bez zastajkivanja",
+        "apkReduction": "Smanjenje APK veličine",
+        "openSourceAuthor": "Autor otvorenog koda"
     }
 }

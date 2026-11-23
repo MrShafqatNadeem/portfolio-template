@@ -22,6 +22,14 @@
             "android": "Katso Google Playssa",
             "ios": "Katso App Storessa",
             "web": "Käy Verkkosivustolla"
+        },
+        "allProjects": "Kaikki projektit",
+        "categories": {
+            "fitness": "Kuntoilu ja terveys",
+            "onDemand": "On-demand-palvelut",
+            "utilities": "Apuohjelmat",
+            "healthcare": "Terveydenhuolto",
+            "openSource": "Avoin lähdekoodi"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Ollaan Yhteydessä",
             "description": "Älä epäröi ottaa yhteyttä minkä tahansa näistä alustoista kautta. Olen aina avoin keskustelemaan uusista projekteista ja mahdollisuuksista.",
-            "downloadResume": "Lataa Ansioluettelo"
+            "downloadResume": "Lataa Ansioluettelo",
+            "phone": "Puhelin / WhatsApp",
+            "location": "Sijainti",
+            "timezone": "Aikavyöhykkeiden yhteensopivuus"
         },
         "copyright": "Kaikki Oikeudet Pidätetään"
     },
@@ -99,5 +110,13 @@
         "error": "Jokin meni pieleen",
         "retry": "Yritä Uudelleen",
         "whatsappMessage": "Hei Shafqat! Löysin portfoliosi ja haluaisin keskustella projektimahdollisuudesta kanssasi."
+    },
+    "metrics": {
+        "yearsExperience": "Vuotta kokemusta",
+        "productionApps": "Tuotantosovellusta",
+        "appDownloads": "Sovelluslatausta",
+        "zeroJankUi": "Sulava käyttöliittymä",
+        "apkReduction": "APK-koon pienennys",
+        "openSourceAuthor": "Avoimen lähdekoodin tekijä"
     }
 }

@@ -22,6 +22,14 @@
             "android": "在Google Play上查看",
             "ios": "在App Store上查看",
             "web": "访问网站"
+        },
+        "allProjects": "所有项目",
+        "categories": {
+            "fitness": "健身与健康",
+            "onDemand": "按需服务",
+            "utilities": "实用工具",
+            "healthcare": "医疗保健",
+            "openSource": "开源"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "让我们联系",
             "description": "请随时通过这些平台中的任何一个与我联系。我始终愿意讨论新项目和机会。",
-            "downloadResume": "下载简历"
+            "downloadResume": "下载简历",
+            "phone": "电话 / WhatsApp",
+            "location": "地点",
+            "timezone": "时区重叠"
         },
         "copyright": "版权所有"
     },
@@ -99,5 +110,13 @@
         "error": "出了点问题",
         "retry": "重试",
         "whatsappMessage": "你好Shafqat！我看到了你的作品集，想和你讨论一个项目机会。"
+    },
+    "metrics": {
+        "yearsExperience": "年经验",
+        "productionApps": "上线应用",
+        "appDownloads": "应用下载量",
+        "zeroJankUi": "流畅界面",
+        "apkReduction": "APK体积缩减",
+        "openSourceAuthor": "开源作者"
     }
 }

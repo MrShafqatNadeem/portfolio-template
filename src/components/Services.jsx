@@ -1,8 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Icon } from "./Icons";
 import { portfolioData } from "../data/portfolioData";
+import { trackResumeDownload } from "../utils/analytics";
 
 export const Services = () => {
+  const { t } = useTranslation();
   const { services, personal } = portfolioData;
 
   return (
@@ -14,7 +17,7 @@ export const Services = () => {
             <span>Consulting & Engineering</span>
           </div>
           <h2 className="section-title">
-            How I Can <span className="section-title-gradient">Add Value</span>
+            <span className="section-title-gradient">{t("hire.services.title")}</span>
           </h2>
           <p className="section-subtitle">
             Whether architecting a greenfield Flutter mobile product, refactoring enterprise legacy code, or optimizing for 60 FPS zero-jank performance.
@@ -54,9 +57,11 @@ export const Services = () => {
                 href={personal.resumeUrl}
                 download={personal.resumeFilename}
                 className="btn btn-primary"
+                onClick={() => trackResumeDownload(personal.resumeFilename)}
+                data-analytics-event="true"
               >
                 <Icon name="download" size={18} />
-                <span>Download Resume (PDF)</span>
+                <span>{t("contact.info.downloadResume")}</span>
               </a>
               <a
                 href={personal.resumeUrl}

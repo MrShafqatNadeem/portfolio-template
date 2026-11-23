@@ -22,6 +22,14 @@
             "android": "Auf Google Play Ansehen",
             "ios": "Im App Store Ansehen",
             "web": "Website Besuchen"
+        },
+        "allProjects": "Alle Projekte",
+        "categories": {
+            "fitness": "Fitness & Gesundheit",
+            "onDemand": "On-Demand-Dienste",
+            "utilities": "Dienstprogramme",
+            "healthcare": "Gesundheitswesen",
+            "openSource": "Open Source"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Lassen Sie Uns Verbinden",
             "description": "Kontaktieren Sie mich gerne über eine dieser Plattformen. Ich bin immer offen für Gespräche über neue Projekte und Möglichkeiten.",
-            "downloadResume": "Lebenslauf Herunterladen"
+            "downloadResume": "Lebenslauf Herunterladen",
+            "phone": "Telefon / WhatsApp",
+            "location": "Standort",
+            "timezone": "Zeitzonen-Überschneidung"
         },
         "copyright": "Alle Rechte Vorbehalten"
     },
@@ -99,5 +110,13 @@
         "error": "Etwas ist schief gelaufen",
         "retry": "Erneut versuchen",
         "whatsappMessage": "Hallo Shafqat! Ich bin auf Ihr Portfolio gestoßen und würde gerne eine Projektmöglichkeit mit Ihnen besprechen."
+    },
+    "metrics": {
+        "yearsExperience": "Jahre Erfahrung",
+        "productionApps": "Produktive Apps",
+        "appDownloads": "App-Downloads",
+        "zeroJankUi": "Ruckelfreie Oberfläche",
+        "apkReduction": "APK-Größenreduzierung",
+        "openSourceAuthor": "Open-Source-Entwickler"
     }
 }

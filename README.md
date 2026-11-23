@@ -11,13 +11,15 @@
 
 ## 🚀 Key Highlights & Architectural Features
 
-- ⚡ **Ultra-Fast Performance**: Engineered with React + Vite, sub-100ms build times, 0 render-blocking CDNs, inline SVGs, and sub-100KB gzipped bundle.
+- ⚡ **Fast Builds**: React + Vite build, inline SVG icons, and no external font dependency.
 - 🎨 **Modern Aesthetics**: Dual-theme support (Sleek Glassmorphic Dark Mode & Crisp Light Mode) with smooth CSS transitions.
 - 📱 **Mobile & Cross-Platform Showcase**: Detailed technical highlights for flagship applications (**WithU**, **BikeFixup**, **Imamia Jantri**, **Emed Ghana**, **Hasbati**, **Irish Virtual DJ**).
 - 🏆 **Quantifiable Impact**: Highlights 100K+ downloads, 60 FPS zero-jank custom rendering, and 60% APK size reduction via AWS CloudFront CDN asset streaming.
 - 📦 **Open Source**: Direct links to published JazzCash payment gateway plugin on `pub.dev`.
 - 📄 **Direct Resume Access**: Includes latest PDF resume (`Shafqat_Nadeem_Resume.pdf`) available for instant download and browser preview.
 - 💬 **Interactive Contact & WhatsApp**: Embedded contact form, direct email, and instant WhatsApp chat integration.
+- 🌐 **27 Languages**: Language selection in the navigation, saved preference, and RTL layout for Arabic and Urdu.
+- 📊 **Analytics**: Optional GA4 page-view and interaction events, including resume downloads, project links, and contact actions.
 
 ---
 
@@ -50,6 +52,8 @@ npm run build
 # Preview production build locally
 npm run preview
 ```
+
+To enable GA4, set the `VITE_GA_ID` environment variable to your measurement ID in Netlify. Without an ID, analytics scripts are not loaded.
 
 ---
 

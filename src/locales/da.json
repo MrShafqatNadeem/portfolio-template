@@ -22,6 +22,14 @@
             "android": "Se på Google Play",
             "ios": "Se på App Store",
             "web": "Besøg Hjemmeside"
+        },
+        "allProjects": "Alle projekter",
+        "categories": {
+            "fitness": "Fitness og sundhed",
+            "onDemand": "On-demand-tjenester",
+            "utilities": "Værktøjer",
+            "healthcare": "Sundhedspleje",
+            "openSource": "Open source"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Lad Os Forbinde",
             "description": "Du er velkommen til at kontakte mig gennem en af disse platforme. Jeg er altid åben for at diskutere nye projekter og muligheder.",
-            "downloadResume": "Download CV"
+            "downloadResume": "Download CV",
+            "phone": "Telefon / WhatsApp",
+            "location": "Placering",
+            "timezone": "Tidszoneoverlap"
         },
         "copyright": "Alle Rettigheder Forbeholdes"
     },
@@ -99,5 +110,13 @@
         "error": "Noget gik galt",
         "retry": "Prøv Igen",
         "whatsappMessage": "Hej Shafqat! Jeg faldt over din portfolio og vil gerne diskutere en projektmulighed med dig."
+    },
+    "metrics": {
+        "yearsExperience": "Års erfaring",
+        "productionApps": "Produktionsapps",
+        "appDownloads": "App-downloads",
+        "zeroJankUi": "Jævn brugerflade",
+        "apkReduction": "Reduktion af APK-størrelse",
+        "openSourceAuthor": "Open source-udvikler"
     }
 }

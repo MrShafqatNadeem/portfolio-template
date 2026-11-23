@@ -22,6 +22,14 @@
             "android": "Google Playで表示",
             "ios": "App Storeで表示",
             "web": "ウェブサイトを訪問"
+        },
+        "allProjects": "すべてのプロジェクト",
+        "categories": {
+            "fitness": "フィットネスと健康",
+            "onDemand": "オンデマンドサービス",
+            "utilities": "ユーティリティ",
+            "healthcare": "ヘルスケア",
+            "openSource": "オープンソース"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "つながりましょう",
             "description": "これらのプラットフォームのいずれかを通じてお気軽にご連絡ください。新しいプロジェクトや機会について話し合うことは常に歓迎です。",
-            "downloadResume": "履歴書をダウンロード"
+            "downloadResume": "履歴書をダウンロード",
+            "phone": "電話 / WhatsApp",
+            "location": "所在地",
+            "timezone": "タイムゾーンの重なり"
         },
         "copyright": "著作権所有"
     },
@@ -99,5 +110,13 @@
         "error": "エラーが発生しました",
         "retry": "再試行",
         "whatsappMessage": "こんにちはShafqat！あなたのポートフォリオを拝見し、プロジェクトの機会について話し合いたいと思います。"
+    },
+    "metrics": {
+        "yearsExperience": "年の経験",
+        "productionApps": "本番アプリ",
+        "appDownloads": "アプリダウンロード数",
+        "zeroJankUi": "カクつきのないUI",
+        "apkReduction": "APKサイズ削減",
+        "openSourceAuthor": "オープンソース開発者"
     }
 }

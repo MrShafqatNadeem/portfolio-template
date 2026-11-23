@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Icon } from "./Icons";
 import { portfolioData } from "../data/portfolioData";
 
 export const Skills = () => {
+  const { t } = useTranslation();
   const { skillCategories } = portfolioData;
   const [activeTab, setActiveTab] = useState(skillCategories[0].id);
 
@@ -18,7 +20,7 @@ export const Skills = () => {
             <span>Technical Arsenal</span>
           </div>
           <h2 className="section-title">
-            Skills & <span className="section-title-gradient">Architecture Stack</span>
+            <span className="section-title-gradient">{t("nav.skills")}</span>
           </h2>
           <p className="section-subtitle">
             Engineered with deep specialization in Flutter cross-platform architecture, high-scale cloud integrations, and modern AI-augmented workflows.

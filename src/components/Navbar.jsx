@@ -1,18 +1,22 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Icon } from "./Icons";
 import { portfolioData } from "../data/portfolioData";
+import LanguageSwitcher from "./layouts/LanguageSwitcher";
+import { trackResumeDownload } from "../utils/analytics";
 
 export const Navbar = ({ theme, toggleTheme }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { t } = useTranslation();
   const { personal } = portfolioData;
 
   const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Experience", href: "#experience" },
-    { name: "Services", href: "#services" },
-    { name: "Contact", href: "#contact" },
+    { name: t("nav.about"), href: "#about" },
+    { name: t("nav.skills"), href: "#skills" },
+    { name: t("nav.works"), href: "#projects" },
+    { name: t("about.experience.title"), href: "#experience" },
+    { name: t("hire.services.title"), href: "#services" },
+    { name: t("nav.contact"), href: "#contact" },
   ];
 
   return (
@@ -38,11 +42,13 @@ export const Navbar = ({ theme, toggleTheme }) => {
 
         {/* Actions */}
         <div className="nav-actions">
+          <LanguageSwitcher />
           <button
             onClick={toggleTheme}
             className="btn-icon"
             aria-label="Toggle Theme"
             title={theme === "dark" ? "Switch to Light Mode" : "Switch to Dark Mode"}
+            data-analytics-event="true"
           >
             <Icon name={theme === "dark" ? "sun" : "moon"} size={18} />
           </button>
@@ -50,10 +56,12 @@ export const Navbar = ({ theme, toggleTheme }) => {
           <a
             href={personal.resumeUrl}
             download={personal.resumeFilename}
-            className="btn btn-primary btn-sm"
+            className="btn btn-primary btn-sm resume-nav-link"
+            onClick={() => trackResumeDownload(personal.resumeFilename)}
+            data-analytics-event="true"
           >
             <Icon name="download" size={15} />
-            <span>Resume</span>
+            <span>{t("contact.info.downloadResume")}</span>
           </a>
 
           {/* Mobile Menu Toggle */}
@@ -61,6 +69,7 @@ export const Navbar = ({ theme, toggleTheme }) => {
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="btn-icon mobile-menu-btn"
             aria-label="Toggle Navigation Menu"
+            aria-expanded={mobileMenuOpen}
           >
             <Icon name={mobileMenuOpen ? "x" : "menu"} size={20} />
           </button>
@@ -80,6 +89,15 @@ export const Navbar = ({ theme, toggleTheme }) => {
               {link.name}
             </a>
           ))}
+          <a
+            href={personal.resumeUrl}
+            download={personal.resumeFilename}
+            className="nav-link mobile-resume-link"
+            onClick={() => trackResumeDownload(personal.resumeFilename)}
+            data-analytics-event="true"
+          >
+            {t("contact.info.downloadResume")}
+          </a>
         </div>
       )}
     </nav>

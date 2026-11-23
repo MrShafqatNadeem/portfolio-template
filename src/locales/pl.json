@@ -22,6 +22,14 @@
             "android": "Zobacz w Google Play",
             "ios": "Zobacz w App Store",
             "web": "Odwiedź Stronę"
+        },
+        "allProjects": "Wszystkie projekty",
+        "categories": {
+            "fitness": "Fitness i zdrowie",
+            "onDemand": "Usługi na żądanie",
+            "utilities": "Narzędzia",
+            "healthcare": "Opieka zdrowotna",
+            "openSource": "Open source"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Nawiążmy Kontakt",
             "description": "Śmiało skontaktuj się ze mną przez którąkolwiek z tych platform. Zawsze jestem otwarty na rozmowy o nowych projektach i możliwościach.",
-            "downloadResume": "Pobierz CV"
+            "downloadResume": "Pobierz CV",
+            "phone": "Telefon / WhatsApp",
+            "location": "Lokalizacja",
+            "timezone": "Nakładanie się stref czasowych"
         },
         "copyright": "Wszelkie Prawa Zastrzeżone"
     },
@@ -99,5 +110,13 @@
         "error": "Coś poszło nie tak",
         "retry": "Spróbuj Ponownie",
         "whatsappMessage": "Cześć Shafqat! Trafiłem na Twoje portfolio i chciałbym omówić możliwość projektu z Tobą."
+    },
+    "metrics": {
+        "yearsExperience": "Lata doświadczenia",
+        "productionApps": "Aplikacje produkcyjne",
+        "appDownloads": "Pobrań aplikacji",
+        "zeroJankUi": "Płynny interfejs",
+        "apkReduction": "Zmniejszenie rozmiaru APK",
+        "openSourceAuthor": "Autor open source"
     }
 }

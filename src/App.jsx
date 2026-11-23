@@ -9,6 +9,7 @@ import { Services } from "./components/Services";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import { WhatsAppFloat } from "./components/WhatsAppFloat";
+import { initAnalytics, trackThemeToggle } from "./utils/analytics";
 import "./styles/modern.css";
 
 export function App() {
@@ -21,8 +22,14 @@ export function App() {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+  useEffect(() => {
+    initAnalytics();
+  }, []);
+
   const toggleTheme = () => {
-    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+    const nextTheme = theme === "dark" ? "light" : "dark";
+    trackThemeToggle(nextTheme);
+    setTheme(nextTheme);
   };
 
   return (

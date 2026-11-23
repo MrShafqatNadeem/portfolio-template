@@ -22,6 +22,14 @@
             "android": "Google Play'de Görüntüle",
             "ios": "App Store'da Görüntüle",
             "web": "Web Sitesini Ziyaret Et"
+        },
+        "allProjects": "Tüm Projeler",
+        "categories": {
+            "fitness": "Fitness ve Sağlık",
+            "onDemand": "İsteğe Bağlı Hizmetler",
+            "utilities": "Araçlar",
+            "healthcare": "Sağlık Hizmetleri",
+            "openSource": "Açık Kaynak"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Hadi Bağlanalım",
             "description": "Bu platformlardan herhangi biri üzerinden benimle iletişime geçmekten çekinmeyin. Yeni projeler ve fırsatları tartışmaya her zaman açığım.",
-            "downloadResume": "Özgeçmiş İndir"
+            "downloadResume": "Özgeçmiş İndir",
+            "phone": "Telefon / WhatsApp",
+            "location": "Konum",
+            "timezone": "Saat dilimi çakışması"
         },
         "copyright": "Tüm Hakları Saklıdır"
     },
@@ -99,5 +110,13 @@
         "error": "Bir şeyler yanlış gitti",
         "retry": "Tekrar Dene",
         "whatsappMessage": "Merhaba Shafqat! Portföyünüze rastladım ve sizinle bir proje fırsatı hakkında konuşmak istiyorum."
+    },
+    "metrics": {
+        "yearsExperience": "Yıl deneyim",
+        "productionApps": "Canlı uygulama",
+        "appDownloads": "Uygulama indirmeleri",
+        "zeroJankUi": "Takılmasız arayüz",
+        "apkReduction": "APK boyutunda azalma",
+        "openSourceAuthor": "Açık kaynak geliştirici"
     }
 }

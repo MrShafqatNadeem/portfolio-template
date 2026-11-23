@@ -22,6 +22,14 @@
             "android": "Zobrazit na Google Play",
             "ios": "Zobrazit v App Store",
             "web": "Navštívit Webovou Stránku"
+        },
+        "allProjects": "Všechny projekty",
+        "categories": {
+            "fitness": "Fitness a zdraví",
+            "onDemand": "Služby na vyžádání",
+            "utilities": "Nástroje",
+            "healthcare": "Zdravotnictví",
+            "openSource": "Open source"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Spojme Se",
             "description": "Neváhejte mě kontaktovat prostřednictvím kterékoli z těchto platforem. Jsem vždy otevřený diskusi o nových projektech a příležitostech.",
-            "downloadResume": "Stáhnout Životopis"
+            "downloadResume": "Stáhnout Životopis",
+            "phone": "Telefon / WhatsApp",
+            "location": "Umístění",
+            "timezone": "Překryv časových pásem"
         },
         "copyright": "Všechna Práva Vyhrazena"
     },
@@ -99,5 +110,13 @@
         "error": "Něco se pokazilo",
         "retry": "Zkusit Znovu",
         "whatsappMessage": "Ahoj Shafqate! Narazil jsem na tvé portfolio a rád bych s tebou projednal možnost projektu."
+    },
+    "metrics": {
+        "yearsExperience": "Let zkušeností",
+        "productionApps": "Produkční aplikace",
+        "appDownloads": "Stažení aplikací",
+        "zeroJankUi": "Plynulé rozhraní",
+        "apkReduction": "Zmenšení velikosti APK",
+        "openSourceAuthor": "Autor open-source"
     }
 }

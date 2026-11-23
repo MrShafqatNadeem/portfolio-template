@@ -22,6 +22,14 @@
             "android": "Vezi pe Google Play",
             "ios": "Vezi pe App Store",
             "web": "Vizitează Site-ul"
+        },
+        "allProjects": "Toate proiectele",
+        "categories": {
+            "fitness": "Fitness și sănătate",
+            "onDemand": "Servicii la cerere",
+            "utilities": "Utilitare",
+            "healthcare": "Sănătate",
+            "openSource": "Open source"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Să Ne Conectăm",
             "description": "Nu ezita să mă contactezi prin oricare dintre aceste platforme. Sunt întotdeauna deschis să discut despre proiecte și oportunități noi.",
-            "downloadResume": "Descarcă CV"
+            "downloadResume": "Descarcă CV",
+            "phone": "Telefon / WhatsApp",
+            "location": "Locație",
+            "timezone": "Suprapunere de fusuri orare"
         },
         "copyright": "Toate Drepturile Rezervate"
     },
@@ -99,5 +110,13 @@
         "error": "Ceva nu a mers bine",
         "retry": "Reîncearcă",
         "whatsappMessage": "Bună Shafqat! Am văzut portofoliul tău și aș dori să discut o oportunitate de proiect cu tine."
+    },
+    "metrics": {
+        "yearsExperience": "Ani de experiență",
+        "productionApps": "Aplicații lansate",
+        "appDownloads": "Descărcări de aplicații",
+        "zeroJankUi": "Interfață fără sacadări",
+        "apkReduction": "Reducerea dimensiunii APK",
+        "openSourceAuthor": "Autor open-source"
     }
 }

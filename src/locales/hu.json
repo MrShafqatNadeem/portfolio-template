@@ -22,6 +22,14 @@
             "android": "Megtekintés Google Play-en",
             "ios": "Megtekintés App Store-ban",
             "web": "Webhely Meglátogatása"
+        },
+        "allProjects": "Minden projekt",
+        "categories": {
+            "fitness": "Fitnesz és egészség",
+            "onDemand": "Igény szerinti szolgáltatások",
+            "utilities": "Segédprogramok",
+            "healthcare": "Egészségügy",
+            "openSource": "Nyílt forráskód"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Lépjünk Kapcsolatba",
             "description": "Bátran keressen meg ezen platformok bármelyikén keresztül. Mindig nyitott vagyok új projektek és lehetőségek megvitatására.",
-            "downloadResume": "Önéletrajz Letöltése"
+            "downloadResume": "Önéletrajz Letöltése",
+            "phone": "Telefon / WhatsApp",
+            "location": "Helyszín",
+            "timezone": "Időzóna-átfedés"
         },
         "copyright": "Minden Jog Fenntartva"
     },
@@ -99,5 +110,13 @@
         "error": "Valami elromlott",
         "retry": "Próbálja Újra",
         "whatsappMessage": "Szia Shafqat! Rátaláltam a portfoliódra és szeretnék megbeszélni veled egy projekt lehetőséget."
+    },
+    "metrics": {
+        "yearsExperience": "Év tapasztalat",
+        "productionApps": "Éles alkalmazás",
+        "appDownloads": "Alkalmazásletöltés",
+        "zeroJankUi": "Akadásmentes felület",
+        "apkReduction": "APK-méret csökkentése",
+        "openSourceAuthor": "Nyílt forráskódú szerző"
     }
 }

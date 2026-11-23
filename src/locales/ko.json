@@ -22,6 +22,14 @@
             "android": "Google Play에서 보기",
             "ios": "App Store에서 보기",
             "web": "웹사이트 방문"
+        },
+        "allProjects": "모든 프로젝트",
+        "categories": {
+            "fitness": "피트니스 및 건강",
+            "onDemand": "주문형 서비스",
+            "utilities": "유틸리티",
+            "healthcare": "헬스케어",
+            "openSource": "오픈 소스"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "연결해요",
             "description": "이러한 플랫폼 중 하나를 통해 편하게 연락해 주세요. 항상 새로운 프로젝트와 기회에 대해 논의할 준비가 되어 있습니다.",
-            "downloadResume": "이력서 다운로드"
+            "downloadResume": "이력서 다운로드",
+            "phone": "전화 / WhatsApp",
+            "location": "위치",
+            "timezone": "시간대 중첩"
         },
         "copyright": "모든 권리 보유"
     },
@@ -99,5 +110,13 @@
         "error": "문제가 발생했습니다",
         "retry": "다시 시도",
         "whatsappMessage": "안녕하세요 Shafqat! 포트폴리오를 보았고 프로젝트 기회에 대해 논의하고 싶습니다."
+    },
+    "metrics": {
+        "yearsExperience": "경력 연수",
+        "productionApps": "프로덕션 앱",
+        "appDownloads": "앱 다운로드",
+        "zeroJankUi": "끊김 없는 UI",
+        "apkReduction": "APK 크기 감소",
+        "openSourceAuthor": "오픈 소스 개발자"
     }
 }

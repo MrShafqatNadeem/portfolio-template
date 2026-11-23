@@ -22,6 +22,14 @@
             "android": "Se på Google Play",
             "ios": "Se på App Store",
             "web": "Besøk Nettside"
+        },
+        "allProjects": "Alle prosjekter",
+        "categories": {
+            "fitness": "Trening og helse",
+            "onDemand": "Behovsstyrte tjenester",
+            "utilities": "Verktøy",
+            "healthcare": "Helsetjenester",
+            "openSource": "Åpen kildekode"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "La Oss Koble",
             "description": "Ta gjerne kontakt via en av disse plattformene. Jeg er alltid åpen for å diskutere nye prosjekter og muligheter.",
-            "downloadResume": "Last Ned CV"
+            "downloadResume": "Last Ned CV",
+            "phone": "Telefon / WhatsApp",
+            "location": "Sted",
+            "timezone": "Tidssoneoverlapp"
         },
         "copyright": "Alle Rettigheter Reservert"
     },
@@ -99,5 +110,13 @@
         "error": "Noe gikk galt",
         "retry": "Prøv Igjen",
         "whatsappMessage": "Hei Shafqat! Jeg kom over porteføljen din og vil gjerne diskutere en prosjektmulighet med deg."
+    },
+    "metrics": {
+        "yearsExperience": "Års erfaring",
+        "productionApps": "Produksjonsapper",
+        "appDownloads": "Appnedlastinger",
+        "zeroJankUi": "Jevn brukeropplevelse",
+        "apkReduction": "Reduksjon av APK-størrelse",
+        "openSourceAuthor": "Åpen kildekode-utvikler"
     }
 }

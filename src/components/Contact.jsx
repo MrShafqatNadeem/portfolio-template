@@ -1,8 +1,11 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Icon } from "./Icons";
 import { portfolioData } from "../data/portfolioData";
+import { trackContactSubmit, trackSocialClick } from "../utils/analytics";
 
 export const Contact = () => {
+  const { t } = useTranslation();
   const { personal } = portfolioData;
   const [formData, setFormData] = useState({
     name: "",
@@ -21,7 +24,15 @@ export const Contact = () => {
     const mailtoBody = encodeURIComponent(
       `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     );
-    window.location.href = `mailto:${personal.email}?subject=${mailtoSubject}&body=${mailtoBody}`;
+    let hasOpenedMailClient = false;
+    const openMailClient = () => {
+      if (hasOpenedMailClient) return;
+      hasOpenedMailClient = true;
+      window.location.href = `mailto:${personal.email}?subject=${mailtoSubject}&body=${mailtoBody}`;
+    };
+
+    trackContactSubmit(openMailClient);
+    window.setTimeout(openMailClient, 300);
   };
 
   return (
@@ -30,13 +41,13 @@ export const Contact = () => {
         <div className="section-header">
           <div className="section-tag">
             <Icon name="mail" size={14} />
-            <span>Get In Touch</span>
+            <span>{t("nav.contact")}</span>
           </div>
           <h2 className="section-title">
-            Let's Build Something <span className="section-title-gradient">Exceptional</span>
+            <span className="section-title-gradient">{t("contact.title")}</span>
           </h2>
           <p className="section-subtitle">
-            Currently available for remote full-time engineering and contract mobile consulting roles. Reach out directly or send a message below.
+            {t("contact.info.description")}
           </p>
         </div>
 
@@ -44,7 +55,7 @@ export const Contact = () => {
           {/* Contact Details Card */}
           <div className="contact-info-card">
             <h3 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "24px" }}>
-              Direct Channels
+              {t("contact.info.title")}
             </h3>
 
             <div className="contact-item">
@@ -52,7 +63,7 @@ export const Contact = () => {
                 <Icon name="mail" size={20} />
               </div>
               <div>
-                <div className="contact-item-label">Email</div>
+                <div className="contact-item-label">{t("contact.form.email")}</div>
                 <a href={`mailto:${personal.email}`} className="contact-item-value">
                   {personal.email}
                 </a>
@@ -64,7 +75,7 @@ export const Contact = () => {
                 <Icon name="phone" size={20} />
               </div>
               <div>
-                <div className="contact-item-label">Phone / WhatsApp</div>
+                <div className="contact-item-label">{t("contact.info.phone")}</div>
                 <a href={`tel:${personal.phone}`} className="contact-item-value">
                   {personal.phoneDisplay}
                 </a>
@@ -76,7 +87,7 @@ export const Contact = () => {
                 <Icon name="map-pin" size={20} />
               </div>
               <div>
-                <div className="contact-item-label">Location</div>
+                <div className="contact-item-label">{t("contact.info.location")}</div>
                 <span className="contact-item-value">{personal.location}</span>
               </div>
             </div>
@@ -86,7 +97,7 @@ export const Contact = () => {
                 <Icon name="globe" size={20} />
               </div>
               <div>
-                <div className="contact-item-label">Timezone Overlap</div>
+                <div className="contact-item-label">{t("contact.info.timezone")}</div>
                 <span className="contact-item-value">{personal.timezoneOverlap}</span>
               </div>
             </div>
@@ -98,6 +109,8 @@ export const Contact = () => {
                 rel="noopener noreferrer"
                 className="btn-icon"
                 title="GitHub"
+                onClick={() => trackSocialClick("GitHub")}
+                data-analytics-event="true"
               >
                 <Icon name="github" size={20} />
               </a>
@@ -108,6 +121,8 @@ export const Contact = () => {
                 rel="noopener noreferrer"
                 className="btn-icon"
                 title="LinkedIn"
+                onClick={() => trackSocialClick("LinkedIn")}
+                data-analytics-event="true"
               >
                 <Icon name="linkedin" size={20} />
               </a>
@@ -119,6 +134,8 @@ export const Contact = () => {
                 className="btn-icon"
                 style={{ color: "#25D366" }}
                 title="WhatsApp Direct Message"
+                onClick={() => trackSocialClick("WhatsApp")}
+                data-analytics-event="true"
               >
                 <Icon name="whatsapp" size={20} />
               </a>
@@ -128,11 +145,11 @@ export const Contact = () => {
           {/* Quick Message Form */}
           <form onSubmit={handleMailSubmit} className="contact-form">
             <h3 style={{ fontSize: "1.5rem", fontWeight: 700, marginBottom: "8px" }}>
-              Send an Inquiry
+              {t("contact.info.title")}
             </h3>
 
             <div className="form-group">
-              <label className="form-label" htmlFor="name">Your Name</label>
+              <label className="form-label" htmlFor="name">{t("contact.form.name")}</label>
               <input
                 type="text"
                 id="name"
@@ -140,13 +157,13 @@ export const Contact = () => {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Jane Doe"
+                placeholder={t("contact.form.namePlaceholder")}
                 className="form-input"
               />
             </div>
 
             <div className="form-group">
-              <label className="form-label" htmlFor="email">Your Email</label>
+              <label className="form-label" htmlFor="email">{t("contact.form.email")}</label>
               <input
                 type="email"
                 id="email"
@@ -154,13 +171,13 @@ export const Contact = () => {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                placeholder="jane@company.com"
+                placeholder={t("contact.form.emailPlaceholder")}
                 className="form-input"
               />
             </div>
 
             <div className="form-group">
-              <label className="form-label" htmlFor="subject">Subject / Project Role</label>
+              <label className="form-label" htmlFor="subject">{t("contact.form.subject")}</label>
               <input
                 type="text"
                 id="subject"
@@ -168,13 +185,13 @@ export const Contact = () => {
                 required
                 value={formData.subject}
                 onChange={handleChange}
-                placeholder="Senior Flutter Role / MVP Development"
+                placeholder={t("contact.form.subjectPlaceholder")}
                 className="form-input"
               />
             </div>
 
             <div className="form-group">
-              <label className="form-label" htmlFor="message">Message</label>
+              <label className="form-label" htmlFor="message">{t("contact.form.message")}</label>
               <textarea
                 id="message"
                 name="message"
@@ -182,14 +199,14 @@ export const Contact = () => {
                 required
                 value={formData.message}
                 onChange={handleChange}
-                placeholder="Hi Shafqat, we're looking for an experienced Flutter engineer to lead..."
+                placeholder={t("contact.form.messagePlaceholder")}
                 className="form-textarea"
               ></textarea>
             </div>
 
-            <button type="submit" className="btn btn-primary" style={{ width: "100%" }}>
+            <button type="submit" className="btn btn-primary" style={{ width: "100%" }} data-analytics-event="true">
               <Icon name="mail" size={18} />
-              <span>Send Message</span>
+              <span>{t("contact.form.send")}</span>
             </button>
           </form>
         </div>

@@ -22,6 +22,14 @@
             "android": "Bekijk op Google Play",
             "ios": "Bekijk op App Store",
             "web": "Bezoek Website"
+        },
+        "allProjects": "Alle projecten",
+        "categories": {
+            "fitness": "Fitness & gezondheid",
+            "onDemand": "On-demanddiensten",
+            "utilities": "Hulpprogramma’s",
+            "healthcare": "Gezondheidszorg",
+            "openSource": "Open source"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Laten We Verbinden",
             "description": "Voel je vrij om contact op te nemen via een van deze platforms. Ik sta altijd open om nieuwe projecten en kansen te bespreken.",
-            "downloadResume": "Download CV"
+            "downloadResume": "Download CV",
+            "phone": "Telefoon / WhatsApp",
+            "location": "Locatie",
+            "timezone": "Tijdzone-overlap"
         },
         "copyright": "Alle Rechten Voorbehouden"
     },
@@ -99,5 +110,13 @@
         "error": "Er is iets misgegaan",
         "retry": "Probeer Opnieuw",
         "whatsappMessage": "Hoi Shafqat! Ik heb je portfolio gezien en zou graag een projectmogelijkheid met je willen bespreken."
+    },
+    "metrics": {
+        "yearsExperience": "Jaar ervaring",
+        "productionApps": "Apps in productie",
+        "appDownloads": "Appdownloads",
+        "zeroJankUi": "Schokvrije interface",
+        "apkReduction": "APK-groottereductie",
+        "openSourceAuthor": "Open-sourceauteur"
     }
 }

@@ -22,6 +22,14 @@
             "android": "عرض على Google Play",
             "ios": "عرض على App Store",
             "web": "زيارة الموقع"
+        },
+        "allProjects": "كل المشاريع",
+        "categories": {
+            "fitness": "اللياقة والصحة",
+            "onDemand": "خدمات حسب الطلب",
+            "utilities": "الأدوات",
+            "healthcare": "الرعاية الصحية",
+            "openSource": "مفتوح المصدر"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "لنتواصل",
             "description": "لا تتردد في التواصل عبر أي من هذه المنصات. أنا دائماً منفتح لمناقشة المشاريع والفرص الجديدة.",
-            "downloadResume": "تحميل السيرة الذاتية"
+            "downloadResume": "تحميل السيرة الذاتية",
+            "phone": "الهاتف / واتساب",
+            "location": "الموقع",
+            "timezone": "تداخل المنطقة الزمنية"
         },
         "copyright": "جميع الحقوق محفوظة"
     },
@@ -99,5 +110,13 @@
         "error": "حدث خطأ ما",
         "retry": "إعادة المحاولة",
         "whatsappMessage": "مرحباً شفقت! اطلعت على معرض أعمالك وأود مناقشة فرصة مشروع معك."
+    },
+    "metrics": {
+        "yearsExperience": "سنوات الخبرة",
+        "productionApps": "تطبيقات منشورة",
+        "appDownloads": "تنزيلات التطبيقات",
+        "zeroJankUi": "واجهة بلا تقطيع",
+        "apkReduction": "تقليل حجم APK",
+        "openSourceAuthor": "مطور مفتوح المصدر"
     }
 }

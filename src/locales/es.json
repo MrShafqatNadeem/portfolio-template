@@ -22,6 +22,14 @@
             "android": "Ver en Google Play",
             "ios": "Ver en App Store",
             "web": "Visitar Sitio Web"
+        },
+        "allProjects": "Todos los proyectos",
+        "categories": {
+            "fitness": "Fitness y salud",
+            "onDemand": "Servicios bajo demanda",
+            "utilities": "Utilidades",
+            "healthcare": "Salud",
+            "openSource": "Código abierto"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Conectemos",
             "description": "No dudes en comunicarte a través de cualquiera de estas plataformas. Siempre estoy abierto a discutir nuevos proyectos y oportunidades.",
-            "downloadResume": "Descargar Currículum"
+            "downloadResume": "Descargar Currículum",
+            "phone": "Teléfono / WhatsApp",
+            "location": "Ubicación",
+            "timezone": "Coincidencia de zona horaria"
         },
         "copyright": "Todos los Derechos Reservados"
     },
@@ -99,5 +110,13 @@
         "error": "Algo salió mal",
         "retry": "Reintentar",
         "whatsappMessage": "¡Hola Shafqat! Vi tu portafolio y me gustaría discutir una oportunidad de proyecto contigo."
+    },
+    "metrics": {
+        "yearsExperience": "Años de experiencia",
+        "productionApps": "Aplicaciones en producción",
+        "appDownloads": "Descargas de aplicaciones",
+        "zeroJankUi": "Interfaz sin tirones",
+        "apkReduction": "Reducción del tamaño del APK",
+        "openSourceAuthor": "Autor de código abierto"
     }
 }

@@ -1,18 +1,21 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Icon } from "./Icons";
 import { portfolioData } from "../data/portfolioData";
+import { trackProjectClick } from "../utils/analytics";
 
 export const Projects = () => {
+  const { t } = useTranslation();
   const { projects } = portfolioData;
   const [activeFilter, setActiveFilter] = useState("all");
 
   const categories = [
-    { label: "All Projects", value: "all" },
-    { label: "Fitness & Health", value: "fitness" },
-    { label: "On-Demand Services", value: "ondemand" },
-    { label: "Utilities", value: "utility" },
-    { label: "Healthcare", value: "healthcare" },
-    { label: "Open Source", value: "opensource" },
+    { label: t("works.allProjects"), value: "all" },
+    { label: t("works.categories.fitness"), value: "fitness" },
+    { label: t("works.categories.onDemand"), value: "ondemand" },
+    { label: t("works.categories.utilities"), value: "utility" },
+    { label: t("works.categories.healthcare"), value: "healthcare" },
+    { label: t("works.categories.openSource"), value: "opensource" },
   ];
 
   const filteredProjects =
@@ -26,10 +29,10 @@ export const Projects = () => {
         <div className="section-header">
           <div className="section-tag">
             <Icon name="smartphone" size={14} />
-            <span>Featured Portfolio</span>
+            <span>{t("works.moreTitle")}</span>
           </div>
           <h2 className="section-title">
-            Flagship & <span className="section-title-gradient">Deployed Applications</span>
+            <span className="section-title-gradient">{t("works.title")}</span>
           </h2>
           <p className="section-subtitle">
             A curated selection of 20+ mobile applications spanning enterprise fitness, on-demand logistics, telemedicine, and open-source packages.
@@ -94,9 +97,11 @@ export const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-secondary btn-sm"
+                      onClick={() => trackProjectClick(project.title, "Google Play", project.googlePlayUrl)}
+                      data-analytics-event="true"
                     >
                       <Icon name="playstore" size={14} />
-                      <span>Google Play</span>
+                      <span>{t("works.viewOn.android")}</span>
                     </a>
                   )}
 
@@ -106,9 +111,11 @@ export const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-secondary btn-sm"
+                      onClick={() => trackProjectClick(project.title, "App Store", project.appStoreUrl)}
+                      data-analytics-event="true"
                     >
                       <Icon name="appstore" size={14} />
-                      <span>App Store</span>
+                      <span>{t("works.viewOn.ios")}</span>
                     </a>
                   )}
 
@@ -118,9 +125,24 @@ export const Projects = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn btn-primary btn-sm"
+                      onClick={() => trackProjectClick(project.title, "GitHub", project.githubUrl)}
+                      data-analytics-event="true"
                     >
                       <Icon name="github" size={14} />
-                      <span>View Repo / pub.dev</span>
+                      <span>GitHub</span>
+                    </a>
+                  )}
+                  {project.pubUrl && (
+                    <a
+                      href={project.pubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-secondary btn-sm"
+                      onClick={() => trackProjectClick(project.title, "pub.dev", project.pubUrl)}
+                      data-analytics-event="true"
+                    >
+                      <Icon name="external-link" size={14} />
+                      <span>pub.dev</span>
                     </a>
                   )}
                 </div>

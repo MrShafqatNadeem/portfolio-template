@@ -1,8 +1,11 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { Icon } from "./Icons";
 import { portfolioData } from "../data/portfolioData";
+import { trackResumeDownload } from "../utils/analytics";
 
 export const Hero = () => {
+  const { t } = useTranslation();
   const { personal } = portfolioData;
 
   const quickHighlights = [
@@ -23,7 +26,7 @@ export const Hero = () => {
           </div>
 
           <h1 className="hero-title">
-            Hi, I'm <span className="section-title-gradient">{personal.name}</span>
+            {t("header.greeting")} <span className="section-title-gradient">{personal.name}</span>
           </h1>
 
           <div className="hero-role">
@@ -48,19 +51,21 @@ export const Hero = () => {
               href={personal.resumeUrl}
               download={personal.resumeFilename}
               className="btn btn-primary"
+              onClick={() => trackResumeDownload(personal.resumeFilename)}
+              data-analytics-event="true"
             >
               <Icon name="download" size={18} />
-              <span>Download Resume</span>
+              <span>{t("contact.info.downloadResume")}</span>
             </a>
 
             <a href="#projects" className="btn btn-secondary">
-              <span>View 20+ Apps</span>
+              <span>{t("nav.works")}</span>
               <Icon name="arrow-up-right" size={16} />
             </a>
 
             <a href="#contact" className="btn btn-secondary">
               <Icon name="mail" size={16} />
-              <span>Let's Talk</span>
+              <span>{t("nav.contact")}</span>
             </a>
           </div>
         </div>

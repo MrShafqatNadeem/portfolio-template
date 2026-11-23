@@ -1,19 +1,16 @@
 import React from "react";
-import { Icon } from "./Icons";
+import { useTranslation } from "react-i18next";
 import { portfolioData } from "../data/portfolioData";
 
 export const Footer = () => {
+  const { t } = useTranslation();
   const { personal } = portfolioData;
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
 
   return (
     <footer className="footer">
       <div className="container">
         <p className="footer-text">
-          © {new Date().getFullYear()} <strong>{personal.name}</strong> • Senior Flutter Software Engineer • All rights reserved.
+          © {new Date().getFullYear()} <strong>{personal.name}</strong> • {personal.role} • {t("contact.copyright")}.
         </p>
       </div>
     </footer>

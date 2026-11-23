@@ -22,6 +22,14 @@
             "android": "Visa på Google Play",
             "ios": "Visa på App Store",
             "web": "Besök Webbplats"
+        },
+        "allProjects": "Alla projekt",
+        "categories": {
+            "fitness": "Fitness och hälsa",
+            "onDemand": "Tjänster på begäran",
+            "utilities": "Verktyg",
+            "healthcare": "Hälso- och sjukvård",
+            "openSource": "Öppen källkod"
         }
     },
     "contact": {
@@ -41,7 +49,10 @@
         "info": {
             "title": "Låt Oss Ansluta",
             "description": "Tveka inte att höra av dig via någon av dessa plattformar. Jag är alltid öppen för att diskutera nya projekt och möjligheter.",
-            "downloadResume": "Ladda Ner CV"
+            "downloadResume": "Ladda Ner CV",
+            "phone": "Telefon / WhatsApp",
+            "location": "Plats",
+            "timezone": "Tidszonsöverlappning"
         },
         "copyright": "Alla Rättigheter Förbehållna"
     },
@@ -99,5 +110,13 @@
         "error": "Något gick fel",
         "retry": "Försök Igen",
         "whatsappMessage": "Hej Shafqat! Jag hittade din portfölj och skulle vilja diskutera en projektmöjlighet med dig."
+    },
+    "metrics": {
+        "yearsExperience": "Års erfarenhet",
+        "productionApps": "Produktionsappar",
+        "appDownloads": "Appnedladdningar",
+        "zeroJankUi": "Ryckfritt gränssnitt",
+        "apkReduction": "Minskad APK-storlek",
+        "openSourceAuthor": "Öppen källkodsutvecklare"
     }
 }
