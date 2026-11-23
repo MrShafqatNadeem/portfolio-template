@@ -19,7 +19,7 @@
 - 📄 **Direct Resume Access**: Includes latest PDF resume (`Shafqat_Nadeem_Resume.pdf`) available for instant download and browser preview.
 - 💬 **Interactive Contact & WhatsApp**: Embedded contact form, direct email, and instant WhatsApp chat integration.
 - 🌐 **27 Languages**: Language selection in the navigation, saved preference, and RTL layout for Arabic and Urdu.
-- 📊 **Analytics**: Optional GA4 page-view and interaction events, including resume downloads, project links, and contact actions.
+- 📊 **Analytics**: Google Tag Manager page views and custom interaction events, including resume downloads, project links, and contact actions.
 
 ---
 
@@ -53,7 +53,7 @@ npm run build
 npm run preview
 ```
 
-To enable GA4, set the `VITE_GA_ID` environment variable to your measurement ID in Netlify. Without an ID, analytics scripts are not loaded.
+The site loads the `GTM-TNM5R45V` container. In Google Tag Manager, configure a Google tag with the GA4 Measurement ID `G-0CX3H01X0M` on all pages; it handles page views. To send app interactions, add a GA4 Event tag using the built-in `{{Event}}` variable as the event name and a Custom Event trigger matching `interaction`, `resume_download`, `project_click`, `social_click`, `whatsapp_click`, `contact_submit`, `language_change`, and `theme_toggle`. Map any desired event parameters from the data layer, then publish the container for events to appear in GA4.
 
 ---
 

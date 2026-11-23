@@ -1,39 +1,25 @@
-const measurementId = import.meta.env.VITE_GA_ID?.trim() || '';
 let initialized = false;
 
-const isConfigured = () => /^G-[A-Z0-9]+$/i.test(measurementId);
-
 export const trackEvent = (eventName, params = {}, callback) => {
-  if (!isConfigured() || typeof window === 'undefined' || typeof window.gtag !== 'function') {
+  if (typeof window === 'undefined') {
     callback?.();
     return;
   }
 
-  const eventParams = callback
-    ? { ...params, event_callback: callback, event_timeout: 1000 }
-    : params;
-  window.gtag('event', eventName, eventParams);
+  window.dataLayer = window.dataLayer || [];
+  const eventData = { ...params, event: eventName };
+  if (callback) {
+    eventData.eventCallback = callback;
+    eventData.eventTimeout = 1000;
+  }
+  window.dataLayer.push(eventData);
 };
 
 export const initAnalytics = () => {
-  if (initialized || typeof window === 'undefined' || !isConfigured()) return;
+  if (initialized || typeof window === 'undefined') return;
   initialized = true;
 
   window.dataLayer = window.dataLayer || [];
-  window.gtag = window.gtag || function gtag() {
-    window.dataLayer.push(arguments);
-  };
-
-  if (!document.getElementById('google-analytics-script')) {
-    const script = document.createElement('script');
-    script.id = 'google-analytics-script';
-    script.async = true;
-    script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
-    document.head.appendChild(script);
-  }
-
-  window.gtag('js', new Date());
-  window.gtag('config', measurementId, { send_page_view: false });
 
   document.addEventListener('click', (event) => {
     if (!(event.target instanceof Element)) return;
@@ -61,15 +47,6 @@ export const initAnalytics = () => {
 
     trackEvent('interaction', params);
   }, { passive: true });
-
-  trackPageView();
-};
-
-export const trackPageView = () => {
-  trackEvent('page_view', {
-    page_path: window.location.pathname,
-    page_title: document.title,
-  });
 };
 
 export const trackResumeDownload = (fileName) => {
