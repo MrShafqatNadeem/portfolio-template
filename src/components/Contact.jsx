@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Icon } from "./Icons";
 import { portfolioData } from "../data/portfolioData";
-import { trackContactSubmit, trackSocialClick } from "../utils/analytics";
+import {
+  trackContactMethodClick,
+  trackContactSubmit,
+  trackSocialClick,
+} from "../utils/analytics";
 
 export const Contact = () => {
   const { t } = useTranslation();
@@ -64,7 +68,12 @@ export const Contact = () => {
               </div>
               <div>
                 <div className="contact-item-label">{t("contact.form.email")}</div>
-                <a href={`mailto:${personal.email}`} className="contact-item-value">
+                <a
+                  href={`mailto:${personal.email}`}
+                  className="contact-item-value"
+                  onClick={() => trackContactMethodClick("email")}
+                  data-analytics-event="true"
+                >
                   {personal.email}
                 </a>
               </div>
@@ -76,7 +85,12 @@ export const Contact = () => {
               </div>
               <div>
                 <div className="contact-item-label">{t("contact.info.phone")}</div>
-                <a href={`tel:${personal.phone}`} className="contact-item-value">
+                <a
+                  href={`tel:${personal.phone}`}
+                  className="contact-item-value"
+                  onClick={() => trackContactMethodClick("phone")}
+                  data-analytics-event="true"
+                >
                   {personal.phoneDisplay}
                 </a>
               </div>

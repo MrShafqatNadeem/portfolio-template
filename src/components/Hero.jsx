@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { Icon } from "./Icons";
 import { portfolioData } from "../data/portfolioData";
-import { trackResumeDownload } from "../utils/analytics";
+import { trackContactCta, trackResumeDownload } from "../utils/analytics";
 
 export const Hero = () => {
   const { t } = useTranslation();
@@ -63,7 +63,12 @@ export const Hero = () => {
               <Icon name="arrow-up-right" size={16} />
             </a>
 
-            <a href="#contact" className="btn btn-secondary">
+            <a
+              href="#contact"
+              className="btn btn-secondary"
+              onClick={() => trackContactCta("hero")}
+              data-analytics-event="true"
+            >
               <Icon name="mail" size={16} />
               <span>{t("nav.contact")}</span>
             </a>

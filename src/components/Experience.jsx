@@ -19,7 +19,7 @@ export const Experience = () => {
             {t("about.experience.title")}
           </h2>
           <p className="section-subtitle">
-            7+ years of engineering leadership, scalable mobile architecture, cloud integrations, and mentoring high-velocity engineering teams.
+            7+ years of Flutter software engineering, mobile app modernization, and cross-platform delivery, including freelance consulting since February 2025.
           </p>
         </div>
 

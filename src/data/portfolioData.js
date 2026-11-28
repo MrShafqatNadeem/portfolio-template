@@ -1,8 +1,8 @@
 export const portfolioData = {
   personal: {
     name: "Shafqat Nadeem",
-    role: "Senior Flutter Software Engineer",
-    shortRole: "Senior Flutter Engineer",
+    role: "Senior Flutter Software Engineer & Consultant",
+    shortRole: "Flutter Engineer & Consultant",
     experienceYears: "7+",
     appsCount: "20+",
     downloadsCount: "100K+",
@@ -16,10 +16,10 @@ export const portfolioData = {
     githubUrl: "https://github.com/MrShafqatNadeem",
     linkedinUrl: "https://www.linkedin.com/in/mistershafqatnadeem/",
     whatsappUrl: "https://wa.me/923417341950?text=Hi%20Shafqat,%20I%20reviewed%20your%20Flutter%20portfolio%20and%20would%20like%20to%20connect!",
-    availabilityStatus: "Open for Remote Roles (Full-Time & Contract)",
-    timezoneOverlap: "Flexible overlap for US, UK & EU timezones",
+    availabilityStatus: "Open to Remote Roles Worldwide",
+    timezoneOverlap: "US, UK, EU, Canada, Australia, New Zealand & Middle East",
     summary:
-      "High-performing Senior Flutter Engineer with 7+ years of experience architecting, developing, and successfully scaling 20+ mobile applications across fitness, healthcare, e-commerce, and utility domains. Proven track record of guiding startups and established businesses to production with high-impact optimizations, including 60 FPS zero-jank rendering and 60% APK reductions. Expert in cross-platform architectures (MVVM/Clean Architecture) with deep cloud and backend integration experience across AWS, GCP, and full-stack environments. Creator of a published JazzCash payment gateway package on pub.dev.",
+      "Senior Flutter software engineer and freelance consultant with 7+ years of experience building, modernizing, and scaling cross-platform mobile applications. Since February 2025, helping clients upgrade legacy Flutter codebases, resolve production crashes, and improve app stability and maintainability. Delivered 20+ apps across fitness, healthcare, e-commerce, and utility domains, with expertise in Dart, Clean Architecture, MVVM, Bloc, Firebase, AWS, and GCP. Open to remote full-time, contract, and consulting roles in the US, UK, EU, Canada, Australia, New Zealand, and Middle East.",
   },
 
   metrics: [
@@ -258,14 +258,21 @@ export const portfolioData = {
 
   experiences: [
     {
-      id: "career-break",
-      position: "Career Break (Family Circumstances)",
-      company: "Personal Sabbatical",
-      location: "Lahore, Pakistan",
-      period: "Dec 2025 – Present",
-      type: "Sabbatical",
-      description: "Stepped back temporarily from full-time commitments to care for family. Now available and actively interviewing for remote full-time and contract roles with flexible overlap across US, UK, and EU timezones.",
-      skills: ["Available for Remote Roles", "Continuous Learning", "Open Source"],
+      id: "independent-consultant",
+      position: "Flutter Engineer & Consultant (Freelance)",
+      company: "Independent Consultant",
+      location: "Remote · Worldwide",
+      period: "Feb 2025 – Present",
+      type: "Freelance Consultant",
+      description:
+        "Partnering with clients to modernize Flutter applications, improve production reliability, and deliver maintainable cross-platform mobile software.",
+      bulletPoints: [
+        "Upgraded legacy Flutter and Dart codebases, improving maintainability and compatibility with current SDKs.",
+        "Diagnosed and fixed crash-causing defects, strengthening app stability across supported devices.",
+        "Refactored fragile application flows and integrations to make ongoing development and maintenance more reliable.",
+        "Delivered targeted feature improvements and technical guidance tailored to each client's product and codebase.",
+      ],
+      skills: ["Flutter", "Dart", "Legacy Code Modernization", "Crash & Bug Fixing", "App Stability", "Technical Consulting"],
     },
     {
       id: "withu",
@@ -392,8 +399,8 @@ export const portfolioData = {
       id: "remote-roles",
       title: "Remote Full-Time / Contract Engineering",
       icon: "globe",
-      desc: "Available as a senior engineering contributor or technical lead for distributed teams. Seamless communication and flexible time overlap for US, UK, and EU timezones.",
-      tags: ["Full-Time Remote", "Contract Roles", "US/UK/EU Overlap", "Agile Teams"],
+      desc: "Available for remote full-time, contract, freelance, and consulting roles with distributed teams across the US, UK, EU, Canada, Australia, New Zealand, and Middle East.",
+      tags: ["Full-Time & Contract", "Freelance Consulting", "Worldwide Remote", "Flexible Timezones"],
     },
   ],
 };

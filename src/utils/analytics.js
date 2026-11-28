@@ -74,6 +74,17 @@ export const trackContactSubmit = (callback) => {
   trackEvent('contact_submit', {}, callback);
 };
 
+export const trackContactCta = (location) => {
+  trackEvent('contact_cta_click', { cta_location: location });
+};
+
+export const trackContactMethodClick = (method) => {
+  trackEvent('contact_method_click', {
+    contact_method: method,
+    contact_location: 'contact_section',
+  });
+};
+
 export const trackLanguageChange = (fromLanguage, toLanguage) => {
   trackEvent('language_change', {
     from_language: fromLanguage,
